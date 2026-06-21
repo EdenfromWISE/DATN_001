@@ -10,18 +10,21 @@ def load_df(conn):
 
 
 def query_pois(conn, categories=None, open_at=None, max_price=None,
-               limit=None, include_unknown_hours=True):
+               limit=None, include_unknown_hours=True, include_closed=False):
     """Trả về DataFrame ứng viên.
 
     categories            : list category cần lấy (None = tất cả).
     open_at               : datetime; lọc địa điểm mở cửa lúc đó.
     max_price             : mức giá tối đa (1..3).
     include_unknown_hours : True -> giữ cả địa điểm không rõ giờ mở cửa.
+    include_closed        : False -> loại quán Google báo CLOSED_PERMANENTLY.
     """
     df = load_df(conn)
     if df.empty:
         return df
 
+    if not include_closed and "business_status" in df.columns:
+        df = df[df["business_status"].fillna("") != "CLOSED_PERMANENTLY"]
     if categories:
         df = df[df["category"].isin(categories)]
     if max_price is not None:

@@ -13,10 +13,12 @@ CREATE TABLE IF NOT EXISTS pois (
     category               TEXT NOT NULL,      -- food | cafe | lodging | attraction
     subtype                TEXT,               -- tag OSM gốc, vd "amenity=restaurant"
     district               TEXT,               -- quận/phường từ tag addr:* (nếu có)
-    address                TEXT,               -- địa chỉ ghép từ addr:* (nếu có)
+    address                TEXT,               -- địa chỉ ghép từ addr:* OSM (nếu có)
+    address_google         TEXT,               -- formatted_address từ Google (nếu đã làm giàu)
     opening_hours          TEXT,               -- chuỗi opening_hours OSM (có thể NULL)
     hours_source           TEXT,               -- osm | google | heuristic | manual
     place_id               TEXT,               -- Google Place ID (nếu đã làm giàu)
+    business_status        TEXT,               -- OPERATIONAL|CLOSED_TEMPORARILY|CLOSED_PERMANENTLY (Google)
     price_level            INTEGER,            -- 1..3
     price_level_estimated  INTEGER NOT NULL DEFAULT 1,  -- 1=ước lượng, 0=suy từ dữ liệu
     est_duration_min       INTEGER,            -- thời lượng tham quan ước lượng (phút)
@@ -56,7 +58,8 @@ def init_db(conn):
     conn.executescript(SCHEMA)
     # Migration: thêm cột mới cho DB cũ chưa có (CREATE IF NOT EXISTS không tự thêm cột).
     cols = {row[1] for row in conn.execute("PRAGMA table_info(pois)")}
-    for col in ("hours_source", "district", "address", "place_id"):
+    for col in ("hours_source", "district", "address", "address_google",
+                "place_id", "business_status"):
         if col not in cols:
             conn.execute(f"ALTER TABLE pois ADD COLUMN {col} TEXT")
     conn.commit()

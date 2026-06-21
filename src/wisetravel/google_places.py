@@ -62,11 +62,30 @@ def _check_status(payload):
     raise GoogleApiError(f"Google trả status={status} {msg}".strip())
 
 
+def parse_textsearch(ts_json):
+    """Tách (place_id, address, business_status) từ kết quả Text Search.
+
+    Trả về None nếu không có kết quả (ZERO_RESULTS / rỗng).
+    business_status: OPERATIONAL | CLOSED_TEMPORARILY | CLOSED_PERMANENTLY | None.
+    """
+    if _check_status(ts_json) == "ZERO_RESULTS":
+        return None
+    results = ts_json.get("results") or []
+    if not results:
+        return None
+    top = results[0]
+    return {
+        "place_id": top.get("place_id"),
+        "address": top.get("formatted_address"),
+        "business_status": top.get("business_status"),
+    }
+
+
 def lookup(name, lat, lng, api_key, session=None):
     """Tra cứu 1 địa điểm trên Google Places.
 
-    Trả về dict {place_id, opening_hours, address} (giá trị có thể None),
-    hoặc None nếu không tìm thấy địa điểm nào.
+    Trả về dict {place_id, opening_hours, address, business_status} (có thể None),
+    hoặc None nếu không tìm thấy địa điểm nào trên Google.
     """
     sess = session or requests.Session()
 
@@ -77,17 +96,14 @@ def lookup(name, lat, lng, api_key, session=None):
         "key": api_key,
     })
     ts.raise_for_status()
-    ts_json = ts.json()
-    if _check_status(ts_json) == "ZERO_RESULTS":
+    base = parse_textsearch(ts.json())
+    if base is None:
         return None
-    results = ts_json.get("results") or []
-    if not results:
-        return None
-    top = results[0]
-    place_id = top.get("place_id")
-    address = top.get("formatted_address")
+    result = {**base, "opening_hours": None}
+
+    place_id = base.get("place_id")
     if not place_id:
-        return {"place_id": None, "opening_hours": None, "address": address}
+        return result
 
     det = sess.get(DETAILS_URL, timeout=30, params={
         "place_id": place_id,
@@ -98,8 +114,5 @@ def lookup(name, lat, lng, api_key, session=None):
     det_json = det.json()
     _check_status(det_json)
     oh = (det_json.get("result") or {}).get("opening_hours") or {}
-    return {
-        "place_id": place_id,
-        "opening_hours": periods_to_osm(oh.get("periods")),
-        "address": address,
-    }
+    result["opening_hours"] = periods_to_osm(oh.get("periods"))
+    return result

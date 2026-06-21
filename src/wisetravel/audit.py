@@ -15,7 +15,7 @@ REAL_HOURS_SOURCES = ("osm", "google", "manual")
 
 SAMPLE_COLS = [
     "id", "name", "category", "district", "address", "has_address",
-    "lat", "lng", "opening_hours", "hours_source",
+    "business_status", "lat", "lng", "opening_hours", "hours_source",
     "link_by_name",           # ghim theo tên + ĐỊA CHỈ + quận + "Hà Nội" (kèm place_id nếu có)
     "link_by_coord",          # ghim theo tọa độ lat,lng (xem business Google gắn tại điểm đó)
     "osm_link",               # đối tượng OSM gốc (ground-truth: xem đúng vật thể + vị trí nguồn)
@@ -58,6 +58,9 @@ def make_sample(conn, out_path, n=50, seed=None):
     if not rows:
         raise RuntimeError("DB rỗng — chạy 01_fetch_pois.py trước.")
 
+    # Loại quán Google báo đóng cửa vĩnh viễn khỏi mẫu (không kiểm quán đã chết).
+    rows = [r for r in rows
+            if (r.get("business_status") or "") != "CLOSED_PERMANENTLY"]
     real = [r for r in rows if r.get("hours_source") in REAL_HOURS_SOURCES]
     pool = real if len(real) >= n else rows  # đủ giờ thật thì lấy hẳn từ nhóm đó
     rng = random.Random(seed)
@@ -66,12 +69,14 @@ def make_sample(conn, out_path, n=50, seed=None):
     out = []
     for r in sample:
         district = r.get("district") or ""
-        address = r.get("address") or ""
+        # Ưu tiên địa chỉ Google (chuẩn, mở được trên Maps) hơn địa chỉ OSM.
+        address = r.get("address_google") or r.get("address") or ""
         place_id = r.get("place_id") or ""
         out.append({
             "id": r["id"], "name": r["name"], "category": r["category"],
             "district": district, "address": address,
             "has_address": "Y" if address else "N",
+            "business_status": r.get("business_status") or "",
             "lat": r["lat"], "lng": r["lng"],
             "opening_hours": r["opening_hours"] or "",
             "hours_source": r.get("hours_source") or "",

@@ -21,10 +21,12 @@ pip install -r requirements.txt
 # 1) Fetch POI từ OpenStreetMap -> chuẩn hóa -> dedup -> sample ~500 -> SQLite
 python scripts/01_fetch_pois.py
 
-# 2) Làm giàu giờ mở cửa: Google Places (nếu có key) -> heuristic cho phần còn thiếu
-#    (tùy chọn) khai báo key trước khi chạy:
+# 2) Làm giàu từ Google Places (nếu có key): place_id + địa chỉ chuẩn + business_status + giờ
+#    -> heuristic cho phần giờ còn thiếu. Tự phát hiện & loại quán đã đóng cửa.
 $env:GOOGLE_PLACES_API_KEY = "AIza..."     # không có key -> tự bỏ qua Google, vẫn chạy heuristic
 python scripts/02_enrich_hours.py
+#   (tùy chọn) xóa hẳn quán đóng cửa vĩnh viễn khỏi DB:
+#   python scripts/02_enrich_hours.py --drop-closed
 
 # 3) Sinh báo cáo chất lượng + bản đồ độ phủ (folium HTML)
 python scripts/03_build_reports.py
@@ -68,10 +70,20 @@ Mỗi dòng có ba link để đối chiếu:
 Script `05_score_audit.py` chấp nhận `Y/N` (và `1/0` cho file cũ), tự **loại bản ghi `heuristic`**
 khỏi phép đo giờ mở cửa, rồi xuất `reports/audit_result.md`.
 
-### Google Places (tùy chọn)
+### Google Places (tùy chọn nhưng khuyến nghị)
 Bước 2 đọc key từ biến môi trường `GOOGLE_PLACES_API_KEY` (hoặc `GOOGLE_MAPS_API_KEY`).
-Cần bật **Places API** trong Google Cloud. Không có key vẫn chạy được — chỉ thiếu nguồn `google`,
-phần còn lại được điền bằng heuristic (sửa bảng mặc định trong `config.HEURISTIC_OPENING_HOURS`).
+Cần bật **Places API** trong Google Cloud. Google cho **$200 credit/tháng miễn phí** → 500 quán
+gần như không tốn tiền. Khi có key, bước 2 sẽ:
+- Lấy **địa chỉ chuẩn** (`address_google`) + **`place_id`** → link audit mở **đúng 100%** địa điểm.
+- Lấy **`business_status`** → tự **loại quán đã đóng cửa** (`CLOSED_PERMANENTLY`) khỏi truy vấn & audit.
+- Bổ sung **giờ mở cửa** cho POI mà OSM còn thiếu.
+- Đánh dấu POI Google không tìm thấy (có thể OSM lỗi thời).
+
+Không có key vẫn chạy được — chỉ thiếu các trường Google, phần giờ được điền bằng heuristic
+(sửa bảng mặc định trong `config.HEURISTIC_OPENING_HOURS`).
+
+> Lưu ý ToS: dùng **Places API chính thức**, KHÔNG cào (scrape) Google Maps. Theo điều khoản Google,
+> chỉ `place_id` được lưu vô thời hạn; các trường khác nên coi là cache ngắn hạn (đủ cho demo học thuật).
 
 ## Cấu trúc thư mục
 ```

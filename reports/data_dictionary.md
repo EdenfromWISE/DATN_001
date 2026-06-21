@@ -11,8 +11,10 @@ Mô tả từng trường trong bảng địa điểm (SQLite `data/wisetravel.d
 | `category` | TEXT | ✔ | Loại hình WiseTravel: `food`, `cafe`, `lodging`, `attraction`. | Suy từ tag OSM theo bảng ánh xạ trong `config.CATEGORY_TAGS`. |
 | `subtype` | TEXT |  | Tag OSM gốc, vd `amenity=restaurant`, `tourism=hotel`. | Lưu lại để truy vết. |
 | `district` | TEXT |  | Quận/phường nếu OSM có tag địa chỉ. | `addr:district` / `addr:suburb` / `addr:quarter`. Thường thưa trong OSM. |
-| `address` | TEXT |  | Địa chỉ ghép (số nhà + đường, phường). | Các tag `addr:*` của OSM (nếu có). |
-| `place_id` | TEXT |  | Google Place ID — dùng dựng link kiểm chứng theo tên. | Lấy khi làm giàu Google Places. NULL nếu chưa làm giàu. |
+| `address` | TEXT |  | Địa chỉ ghép từ OSM (số nhà + đường, phường). | Các tag `addr:*` của OSM (nếu có). |
+| `address_google` | TEXT |  | Địa chỉ chuẩn của Google (`formatted_address`). | Lấy khi làm giàu Google Places. Ưu tiên dùng cho link audit. |
+| `place_id` | TEXT |  | Google Place ID — dựng link kiểm chứng mở đúng 100% địa điểm. | Lấy khi làm giàu Google Places. NULL nếu chưa làm giàu. |
+| `business_status` | TEXT |  | Trạng thái hoạt động: `OPERATIONAL` / `CLOSED_TEMPORARILY` / `CLOSED_PERMANENTLY`. | Google Places. Quán `CLOSED_PERMANENTLY` bị loại khỏi truy vấn & audit. |
 | `opening_hours` | TEXT |  | Chuỗi giờ mở cửa theo chuẩn OSM, vd `Mo-Su 08:00-22:00`. | Tag `opening_hours`; hoặc làm giàu từ Google; hoặc heuristic. |
 | `hours_source` | TEXT |  | Nguồn của `opening_hours`: `osm`, `google`, `heuristic`, `manual`. | OSM gốc → `osm`; làm giàu Google → `google`; điền mặc định theo loại hình → `heuristic`; sửa tay → `manual`. |
 | `price_level` | INTEGER |  | Mức giá 1 (rẻ) – 3 (cao). **Luôn có giá trị.** | Suy từ số sao khách sạn nếu có; còn lại = mặc định theo loại hình. |

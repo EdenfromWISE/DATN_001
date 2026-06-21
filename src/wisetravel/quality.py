@@ -78,6 +78,17 @@ def build_report(conn):
         "Bản ghi `heuristic` là giá trị mặc định theo loại hình nên bị loại khỏi phép đo độ chính xác.\n"
     )
 
+    # 2c) Trạng thái hoạt động (Google) — chỉ in nếu đã làm giàu Google
+    if "business_status" in df.columns and df["business_status"].notna().any():
+        lines.append("\n## 2c. Trạng thái hoạt động (`business_status`, nguồn Google)\n")
+        lines.append("| business_status | Số lượng | Tỷ lệ |")
+        lines.append("|---|---:|---:|")
+        for st, n in df["business_status"].value_counts(dropna=False).items():
+            label = st if isinstance(st, str) else "(chưa tra Google)"
+            lines.append(f"| {label} | {n} | {n / total:.1%} |")
+        lines.append(
+            "\n> `CLOSED_PERMANENTLY` = quán đã đóng cửa (Google) → bị loại khỏi truy vấn & audit.\n")
+
     # 3) Giá mức giá phân bố
     lines.append("\n## 3. Phân bố mức giá (ước lượng)\n")
     lines.append("| price_level | Số lượng |")

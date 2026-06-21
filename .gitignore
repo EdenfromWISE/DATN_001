@@ -19,6 +19,13 @@ reports/place_sentiment_demo.png
 # Tập gold do người dùng điền (giữ template, bỏ dữ liệu thật)
 data/gold/gold.csv
 
+# Bí mật / API key — TUYỆT ĐỐI không commit (đặt key vào biến môi trường thay vì file)
+.env
+.env.*
+*.key
+secrets.*
+**/credentials*.json
+
 # OS / IDE
 .DS_Store
 .idea/

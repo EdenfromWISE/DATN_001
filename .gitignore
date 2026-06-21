@@ -7,10 +7,17 @@ __pycache__/
 data/wisetravel.db
 data/audit/*.csv
 
-# Báo cáo sinh tự động (data_dictionary.md là tài liệu tĩnh -> vẫn commit)
+# Báo cáo sinh tự động (data_dictionary.md, labeling_guideline.md là tài liệu tĩnh -> vẫn commit)
 reports/quality_report.md
 reports/coverage_map.html
 reports/audit_result.md
+reports/kappa_result.md
+reports/model_comparison.md
+reports/confusion_*.png
+reports/place_sentiment_demo.png
+
+# Tập gold do người dùng điền (giữ template, bỏ dữ liệu thật)
+data/gold/gold.csv
 
 # OS / IDE
 .DS_Store

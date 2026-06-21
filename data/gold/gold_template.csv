@@ -1,0 +1,5 @@
+﻿id,text,label,annotator1,annotator2,source
+1,"Quán ngon, nhân viên thân thiện, sẽ quay lại!",POS,POS,POS,vd
+2,"Đồ ăn dở, đợi rất lâu mà phục vụ thái độ.",NEG,NEG,NEG,vd
+3,"Quán bình thường, không có gì đặc biệt.",NEU,NEU,NEU,vd
+4,"Giá hơi cao nhưng không gian đẹp, đồ uống ổn.",POS,POS,NEU,vd

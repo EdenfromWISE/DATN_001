@@ -44,6 +44,24 @@ EST_DURATION_MIN = {"food": 75, "cafe": 45, "lodging": 0, "attraction": 90}
 # --- Heuristic mức giá mặc định (1=rẻ, 2=trung bình, 3=cao) khi thiếu dữ liệu ---
 DEFAULT_PRICE_LEVEL = {"food": 2, "cafe": 1, "lodging": 2, "attraction": 1}
 
+# =====================================================================
+# PHASE 2 — Cảm xúc
+# =====================================================================
+# Nhãn chuẩn hóa nội bộ (canonical). Mọi model & người gán nhãn quy về 3 nhãn này.
+SENTIMENT_LABELS = ["NEG", "POS", "NEU"]
+SENTIMENT_LABELS_VI = {"NEG": "Tiêu cực", "POS": "Tích cực", "NEU": "Trung tính"}
+
+# Model ứng viên (đọc model card 6/2026):
+#   - ViSoBERT: text mạng xã hội, KHÔNG cần tách từ.
+#   - PhoBERT (wonrax): BẮT BUỘC tách từ trước khi đưa vào (segment=True).
+# Cả hai dùng id2label {0:NEG, 1:POS, 2:NEU}; code vẫn tự đọc id2label thực từ model.config.
+SENTIMENT_MODELS = [
+    {"name": "ViSoBERT",        "hf_id": "5CD-AI/Vietnamese-Sentiment-visobert", "segment": False},
+    {"name": "PhoBERT (wonrax)", "hf_id": "wonrax/phobert-base-vietnamese-sentiment", "segment": True},
+    # Thêm model thứ 3 ở đây nếu muốn, vd:
+    # {"name": "PhoBERT (mr4)", "hf_id": "mr4/phobert-base-vi-sentiment-analysis", "segment": True},
+]
+
 # --- Heuristic giờ mở cửa mặc định theo loại hình ---
 # Dùng cho POI vẫn thiếu opening_hours sau khi đã thử OSM + Google.
 # Bản ghi điền theo bảng này sẽ mang hours_source='heuristic' và bị LOẠI khỏi accuracy audit.

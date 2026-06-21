@@ -1,0 +1,18 @@
+# Môi trường Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dữ liệu sinh tự động (chạy pipeline để tạo lại)
+data/wisetravel.db
+data/audit/*.csv
+
+# Báo cáo sinh tự động (data_dictionary.md là tài liệu tĩnh -> vẫn commit)
+reports/quality_report.md
+reports/coverage_map.html
+reports/audit_result.md
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/

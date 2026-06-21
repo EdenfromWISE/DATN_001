@@ -1,0 +1,6 @@
+# WiseTravel demo — Phase 1 (pipeline dữ liệu địa điểm)
+# Phase 2 (cảm xúc) và Phase 3 (planner) sẽ bổ sung deps khi tới phase đó.
+requests>=2.31
+pandas>=2.0
+folium>=0.15
+streamlit>=1.30

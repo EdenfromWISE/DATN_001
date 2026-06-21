@@ -110,6 +110,12 @@ python scripts/07_make_gold_template.py
 #   -> reports/labeling_guideline.md  (định nghĩa nhãn + ca biên tiếng Việt)
 #   Lưu file đã điền thành data/gold/gold.csv
 
+# 7b) (tùy chọn) Kéo sẵn review từ HuggingFace / CSV Foody để khỏi copy tay
+python scripts/07b_seed_reviews.py --csv foody.csv --text-col review --n 400
+#   -> data/gold/gold_seed.csv  (cột text điền sẵn, nhãn để trống cho 2 người gán)
+#   Khuyến nghị nguồn nhà hàng: Foody.vn reviews (Kaggle) -> dùng --csv.
+#   Dataset HF dạng script (UIT-VSFC/ViSFD) KHÔNG load được với datasets>=3 -> tải CSV rồi --csv.
+
 # 8) Cohen's Kappa giữa annotator1 & annotator2
 python scripts/08_compute_kappa.py        # -> reports/kappa_result.md
 

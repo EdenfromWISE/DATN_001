@@ -72,8 +72,11 @@ khỏi phép đo giờ mở cửa, rồi xuất `reports/audit_result.md`.
 
 ### Google Places (tùy chọn nhưng khuyến nghị)
 Bước 2 đọc key từ biến môi trường `GOOGLE_PLACES_API_KEY` (hoặc `GOOGLE_MAPS_API_KEY`).
-Cần bật **Places API** trong Google Cloud. Google cho **$200 credit/tháng miễn phí** → 500 quán
-gần như không tốn tiền. Khi có key, bước 2 sẽ:
+Cần bật **Places API (New)** (`places.googleapis.com`) trong Google Cloud **và bật Billing**
+(gắn thẻ, pay-as-you-go — bắt buộc kể cả khi dùng miễn phí). Code dùng endpoint mới
+`v1/places:searchText` vì Google đã khóa Places API **legacy** với project tạo mới.
+Mỗi POI chỉ tốn **1 request**; với hạn mức miễn phí hằng tháng theo SKU, 500 quán gần như
+không tốn tiền. Khi có key, bước 2 sẽ:
 - Lấy **địa chỉ chuẩn** (`address_google`) + **`place_id`** → link audit mở **đúng 100%** địa điểm.
 - Lấy **`business_status`** → tự **loại quán đã đóng cửa** (`CLOSED_PERMANENTLY`) khỏi truy vấn & audit.
 - Bổ sung **giờ mở cửa** cho POI mà OSM còn thiếu.

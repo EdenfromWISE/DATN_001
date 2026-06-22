@@ -1,41 +1,55 @@
-"""Làm giàu giờ mở cửa từ Google Places API (tùy chọn — chỉ chạy khi có API key).
+"""Làm giàu dữ liệu từ Google Places API (New) — tùy chọn, chỉ chạy khi có API key.
+
+Dùng **Places API (New)** (`places.googleapis.com/v1`) vì Google đã khóa Places API
+legacy với các project tạo mới. Một lần gọi `places:searchText` trả về luôn
+place_id + địa chỉ + business_status + giờ mở cửa (field mask), nên mỗi POI chỉ tốn
+1 request (rẻ & nhanh hơn legacy 2 request).
 
 Đọc key từ biến môi trường GOOGLE_PLACES_API_KEY (hoặc GOOGLE_MAPS_API_KEY).
-Luồng: Text Search (name + tọa độ) -> lấy place_id -> Place Details (opening_hours)
--> chuyển periods của Google sang chuỗi opening_hours kiểu OSM để parser oh.py dùng được.
+Cần bật **"Places API (New)"** trong Google Cloud (service `places.googleapis.com`).
 """
 import os
 
 import requests
 
-TEXTSEARCH_URL = "https://maps.googleapis.com/maps/api/place/textsearch/json"
-DETAILS_URL = "https://maps.googleapis.com/maps/api/place/details/json"
+SEARCHTEXT_URL = "https://places.googleapis.com/v1/places:searchText"
+
+# Field mask: chỉ xin đúng các trường cần -> rẻ hơn (tính tiền theo SKU theo field).
+FIELD_MASK = ",".join([
+    "places.id",
+    "places.formattedAddress",
+    "places.businessStatus",
+    "places.regularOpeningHours.periods",
+])
 
 # Google: 0=Chủ nhật .. 6=Thứ bảy  ->  ký hiệu ngày OSM
 GOOGLE_DAY_TO_OSM = {0: "Su", 1: "Mo", 2: "Tu", 3: "We", 4: "Th", 5: "Fr", 6: "Sa"}
 
 
 class GoogleApiError(RuntimeError):
-    """Lỗi cấu hình/khóa Google (REQUEST_DENIED, OVER_QUERY_LIMIT, ...)."""
+    """Lỗi cấu hình/khóa Google (PERMISSION_DENIED, API chưa bật, billing, ...)."""
 
 
 def get_api_key():
     return os.environ.get("GOOGLE_PLACES_API_KEY") or os.environ.get("GOOGLE_MAPS_API_KEY")
 
 
-def _fmt_time(hhmm):
-    """'0900' -> '09:00'."""
-    hhmm = (hhmm or "").zfill(4)
-    return f"{hhmm[:2]}:{hhmm[2:]}"
+def _fmt(part):
+    """{'hour':9,'minute':0} -> '09:00'."""
+    return f"{int(part.get('hour', 0)):02d}:{int(part.get('minute', 0)):02d}"
 
 
 def periods_to_osm(periods):
-    """Chuyển danh sách periods của Google -> chuỗi opening_hours kiểu OSM (hoặc None)."""
+    """Chuyển danh sách periods (Places API New) -> chuỗi opening_hours kiểu OSM (hoặc None).
+
+    Mỗi period: {'open': {'day','hour','minute'}, 'close': {'day','hour','minute'}}.
+    Mở 24/24: đúng 1 period, open Chủ nhật 00:00, không có 'close'.
+    """
     if not periods:
         return None
-    # Mở 24/7: đúng 1 period, open ngày 0 lúc 0000, không có close.
     if len(periods) == 1 and "close" not in periods[0]:
-        if periods[0].get("open", {}).get("time") in ("0000", "", None):
+        o = periods[0].get("open", {})
+        if int(o.get("hour", 0)) == 0 and int(o.get("minute", 0)) == 0:
             return "24/7"
     rules = []
     for p in periods:
@@ -46,73 +60,68 @@ def periods_to_osm(periods):
         if not day:
             continue
         c = p.get("close")
-        if c is None:
-            rng = "00:00-24:00"
-        else:
-            rng = f"{_fmt_time(o.get('time'))}-{_fmt_time(c.get('time'))}"
+        rng = "00:00-24:00" if c is None else f"{_fmt(o)}-{_fmt(c)}"
         rules.append(f"{day} {rng}")
     return "; ".join(rules) if rules else None
 
 
-def _check_status(payload):
-    status = payload.get("status")
-    if status in ("OK", "ZERO_RESULTS"):
-        return status
-    msg = payload.get("error_message", "")
+def _raise_for_error(resp):
+    """API New báo lỗi qua HTTP status + body {'error': {...}}. Ném GoogleApiError nếu lỗi cấu hình."""
+    if resp.status_code == 200:
+        return
+    try:
+        err = resp.json().get("error", {})
+    except ValueError:
+        err = {}
+    status = err.get("status") or resp.status_code
+    msg = err.get("message", "")
     raise GoogleApiError(f"Google trả status={status} {msg}".strip())
 
 
-def parse_textsearch(ts_json):
-    """Tách (place_id, address, business_status) từ kết quả Text Search.
+def parse_response(data):
+    """Tách (place_id, address, business_status, opening_hours) từ kết quả searchText.
 
-    Trả về None nếu không có kết quả (ZERO_RESULTS / rỗng).
-    business_status: OPERATIONAL | CLOSED_TEMPORARILY | CLOSED_PERMANENTLY | None.
+    Trả về None nếu không có địa điểm nào (Google không tìm thấy).
     """
-    if _check_status(ts_json) == "ZERO_RESULTS":
+    places = data.get("places") or []
+    if not places:
         return None
-    results = ts_json.get("results") or []
-    if not results:
-        return None
-    top = results[0]
+    top = places[0]
+    oh = top.get("regularOpeningHours") or {}
     return {
-        "place_id": top.get("place_id"),
-        "address": top.get("formatted_address"),
-        "business_status": top.get("business_status"),
+        "place_id": top.get("id"),
+        "address": top.get("formattedAddress"),
+        "business_status": top.get("businessStatus"),
+        "opening_hours": periods_to_osm(oh.get("periods")),
     }
 
 
 def lookup(name, lat, lng, api_key, session=None):
-    """Tra cứu 1 địa điểm trên Google Places.
+    """Tra cứu 1 địa điểm trên Google Places (New).
 
-    Trả về dict {place_id, opening_hours, address, business_status} (có thể None),
-    hoặc None nếu không tìm thấy địa điểm nào trên Google.
+    Trả về dict {place_id, address, business_status, opening_hours} (giá trị có thể None),
+    hoặc None nếu Google không tìm thấy địa điểm nào.
     """
     sess = session or requests.Session()
-
-    ts = sess.get(TEXTSEARCH_URL, timeout=30, params={
-        "query": name,
-        "location": f"{lat},{lng}",
-        "radius": 150,           # ưu tiên kết quả gần tọa độ OSM
-        "key": api_key,
-    })
-    ts.raise_for_status()
-    base = parse_textsearch(ts.json())
-    if base is None:
-        return None
-    result = {**base, "opening_hours": None}
-
-    place_id = base.get("place_id")
-    if not place_id:
-        return result
-
-    det = sess.get(DETAILS_URL, timeout=30, params={
-        "place_id": place_id,
-        "fields": "opening_hours",
-        "key": api_key,
-    })
-    det.raise_for_status()
-    det_json = det.json()
-    _check_status(det_json)
-    oh = (det_json.get("result") or {}).get("opening_hours") or {}
-    result["opening_hours"] = periods_to_osm(oh.get("periods"))
-    return result
+    resp = sess.post(
+        SEARCHTEXT_URL,
+        timeout=30,
+        headers={
+            "Content-Type": "application/json",
+            "X-Goog-Api-Key": api_key,
+            "X-Goog-FieldMask": FIELD_MASK,
+        },
+        json={
+            "textQuery": name,
+            "locationBias": {
+                "circle": {
+                    "center": {"latitude": lat, "longitude": lng},
+                    "radius": 150.0,  # ưu tiên kết quả gần tọa độ OSM
+                }
+            },
+            "maxResultCount": 1,
+            "languageCode": "vi",
+        },
+    )
+    _raise_for_error(resp)
+    return parse_response(resp.json())

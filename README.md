@@ -142,6 +142,29 @@ python scripts/09_eval_models.py
 python scripts/10_aggregate_reviews.py    # -> reports/place_sentiment_demo.png
 ```
 
+### 📋 Quy trình gán nhãn cho cả nhóm (bàn giao teammate)
+Phần này dành cho **2 người gán nhãn** (annotator1 + annotator2) để tạo tập gold chất lượng.
+
+**B1 — Lấy review thật vào file (chọn 1 trong 2):**
+- **Cách A (khuyến nghị, đúng chủ đề ăn uống):** tải CSV review **Foody.vn** từ Kaggle
+  (tìm "Foody Vietnamese reviews" / "Vietnamese restaurant reviews"), đặt vào thư mục dự án,
+  rồi điền sẵn cột text:
+  ```powershell
+  python scripts/07b_seed_reviews.py --csv foody.csv --text-col review --n 400
+  #   -> data/gold/gold_seed.csv  (cột text đã có, nhãn để TRỐNG)
+  ```
+  > Lưu ý: các bộ HF dạng "loading script" (UIT-VSFC, UIT-ViSFD, SEACrowd) **không** tải được
+  > với `datasets>=3` ("Dataset scripts are no longer supported") → phải tải CSV rồi dùng `--csv`.
+- **Cách B (tự thu thập):** chép tay 300–500 review thật từ Foody/Google Maps về các quán
+  ở Hà Nội vào `data/gold/gold_template.csv` (cột `text`).
+
+**B2 — Hai người gán nhãn ĐỘC LẬP** (đọc kỹ `reports/labeling_guideline.md`):
+- `annotator1` và `annotator2` mỗi người điền cột của mình, **không bàn trước** (để Kappa khách quan).
+- Nhãn: `POS` / `NEG` / `NEU` (hoặc tiếng Việt — script tự chuẩn hóa). Mỗi dòng một nhãn.
+- Cột `label` = nhãn **chốt** (đồng thuận; lệch thì thống nhất hoặc nhờ người thứ 3).
+
+**B3 — Lưu thành `data/gold/gold.csv`** rồi chạy `08` → `09` → `10` như trên.
+
 **Model ứng viên** (khai báo trong `config.SENTIMENT_MODELS`):
 - `5CD-AI/Vietnamese-Sentiment-visobert` — text mạng xã hội, **không cần tách từ**.
 - `wonrax/phobert-base-vietnamese-sentiment` — **bắt buộc tách từ** (pyvi, vd `mô_hình`).

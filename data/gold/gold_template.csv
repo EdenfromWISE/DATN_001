@@ -1,5 +1,1102 @@
 ﻿id,text,label,annotator1,annotator2,source
-1,"Quán ngon, nhân viên thân thiện, sẽ quay lại!",POS,POS,POS,vd
-2,"Đồ ăn dở, đợi rất lâu mà phục vụ thái độ.",NEG,NEG,NEG,vd
-3,"Quán bình thường, không có gì đặc biệt.",NEU,NEU,NEU,vd
-4,"Giá hơi cao nhưng không gian đẹp, đồ uống ổn.",POS,POS,NEU,vd
+1,"Có thể đây là cốc trà sữa cốm lạ nhất mà mình từng được uống, ko biết do dùng trà hương hoa hay sao mà cốc này thơm kiểu rất dễ chịu. Không bị nồng mùi sữa. Cốm dẻo, topping nhãn ngon nha",POS,POS,POS,
+2,"Bán hàng không đúng với đơn đặt, không phản hồi. Coi thường khách hàng.",NEG,NEG,NEG,
+3,"Lần nào cũng phải ăn xuất đầy đủ nó mới vừa cái bụng mình ,ăn sạch sẽ ko sót miếng nào luôn ,rất thích bún đậu của quán",NEU,NEU,POS,
+4,"Ăn ổn nha mấy ***,đặt trên app có mã nên giá cũng hợp lý",POS,POS,POS,
+5,"Ngon thía ,ăn ko còn miếng nào luôn ,bún đậu nhớ phải mua kèm trà tắc ăn cho đỡ ngán nhé",POS,POS,POS,
+6,"Nắng nóng quá trời ăn tạm xuất bún đậu cho qua bữa ,may mà gọi đc quán ngon ăn đỡ ngán",POS,POS,POS,
+7,"Ăn 1 xuất đầy đủ no đến tối luôn ,rất ngon nha mn nên ăn thử quán này",POS,POS,POS,
+8,"Ngon ,đóng hộp cẩn thận ,mn nên ăn thử ạ",POS,POS,POS,
+9,"Cty mình chuyên đặt bún ở đây ,ăn khá ổn ,mn ai cũng khen",NEU,NEU,POS,
+10,"Thấy trên app có mã giảm ăn thử mà ngon nha ,thích nhất mắm tôm quán pha ngon quá trời luôn",POS,POS,POS,
+11,"Ăn bao nhiêu lần mà hnay mới cho quán 5* được ,ngon lắm ạ ,chất lượng rất đều ,đóng hộp cẩn thận ,ăn 1 lần là nghiện",POS,POS,POS,
+12,"Ăn lần đầu đc 1 quán bún đậu ưng như này ,ngon lắm ạ",POS,POS,POS,
+13,"Đậu rán chấm mắm tôm đúng là tuyệt phẩm ,ăn nó cuốn thật khó tả ***có nhiều món ngon thật sự",POS,POS,POS,
+14,"Ngon ,ăn nhẵn ko chừa miếng nào ,rất hợp khẩu vị của tôi",POS,POS,POS,
+15,"Chả cốm của quán ngon cực ,ăn béo béo ngậy ngậy rất hợp với bún mắm tôm",POS,POS,POS,
+16,"Cty mình hay gọi bún đậu của quán này ,chất lượng đều lần nào đặt cũng ngon",POS,POS,POS,
+17,"Tuyệt đối ngon ,đậu phụ quán rán kiểu j nhức néc thế chấm với mắm tôm nó cuốn rì đâu à ,thi thoảng lại phải ăn vì thèm",POS,POS,POS,
+18,"Ngon quá phải review liền ,đây là lần thứ 5 ăn của quán này rồi ,vẫn rất ưng ko có j để chê",POS,POS,POS,
+19,"Ăn quen quán này là ko muốn đổi quán khác ,đóng gói đầy đủ cẩn thận ,thích nhất món đậu rán quán rán kiểu gì rất ngon",POS,POS,POS,
+20,"Ngon nhắm nhuôn ấy ,ăn ko xót miếng nào ,thi thoảng lại phải ăn vì quán có chất gây nghiện cho khách",POS,POS,POS,
+21,"Ăn quen quán bún này là ko muốn đổi luôn ,hợp khẩu vị vô cùng",POS,POS,POS,
+22,"Đề xuất cho mn 1 quán bún đậu ngon nhức néc nè ,sạch sẽ vô cùng tự tin ăn thử đi mn ơi",POS,POS,POS,
+23,"Ngon xỉu luôn ,làm khách ruột của quán luôn rồi ,ko có gì để chê",POS,POS,POS,
+25,Bao năm chỉ nghiện ăn ở đây . Siêu ngon,POS,POS,POS,
+26,"Quán làm càng ngày càng ko ngon ko tươi, trước ăn mỳ tôm rất ngon hôm nay ăn tôm như ăn đậu.",NEG,NEG,NEG,
+27,"Mình thấy đồ ăn ở đây khá ngon, hợp khẩu vị. Nhân viên phục vụ và các anh bảo vệ nhanh nhẹn, hoạt bát, thân thiên với khách. Rất muốn đến đây nhiều lần nữa.",POS,POS,POS,
+28,"Quán dimsum giá tầm trung ~150-200k/ người là no phủ phê. Chất lượng thì tuỳ theo món gọi nhưng nhìn chung các món đều chấp nhận được Mình chỉ chưa ưng phong cách phục vụ ở đây: đồ được đưa lên hết cùng một lúc nên rất nhanh nguội, nếu tinh tế hơn thì nên đưa 2 món từng lần để khách kịp thưởng thức đồ ăn nóng hổi Trước làm gần đây mình hay ghé qua ăn trưa, lâu lâu quay lại ăn tối, no phè phỡn mà chả hỉu sao sáng hôm sau đau bụng hic hic, chả lẽ do ăn nhèo, hay là do...😑",POS,POS,NEG,
+29,"Quán ngay gần nhà mà ít đi ăn quá, mãi vẫn chưa thử hết các vị. Menu tầm 8 9 loại mì khác nhau như hoành thánh, tim cật, bò kho, vịt hầm.... giá cả tầm 50-60k/ bát, ăn ngon ngon rất là oki.",POS,POS,POS,
+30,Gọi mỳ vịt tiềm. Trong quán có điều hoà ngồi mát. Ngoài quán không có mái che để xe nóng. Ăn được. 1 bát mỳ hơi nhiều. Để đi 2 người rồi gọi thêm 1 đĩa gì đó cả 2 cùng ăn sẽ hợp hơn.,NEU,NEU,POS,
+31,"Thất vọng, xem review hy vọg tràn trề đc ăn bát hủ tiếu đúg kiểu sài gòn, đợi 1 tiếg đồg hồ đến 5h mở cửa cuối cùg ra hai bát 1 mì 1 hủ tíu bát nào cũg nhạt nhách, nhạt kih khủg. Và lèo tèo vô cùg, bát 5-60k thì cũg phải nên đầy đặn chứ, đã dỡ còn ít, đến phần bánh cuốn tôm, thì mih cũg ko hỉu đc sau bìh luận toàn khen nữa, nuớc sốt bánh cuốn như mùi chất hoá học, chưa bao giờ ăn gì khiến mih có cảm giác buồn nôn đến như vậy",NEG,NEG,NEG,
+32,"Mì vằn thắn ngon tuyệt vời, có sủi cảo, tóp mỡ, thịt mềm mỡ nạc vừa phải.Dimsum cũng ngon Mùa hè điều hoà mát lạnh.
+Mì 9,5/10đ",POS,POS,POS,
+33,"Cảm quan mình thấy mì ở đây nước dùng rất ngon, ngọt xương, đậm đà, một bát mì không nhiều ú ụ nhưng vừa vặn đủ no. Gợi nhớ cảm giác đang ăn mì/hủ tiếu trong Sài Gòn. Mình mê nhất là mì cật heo vì mỗi bát cho nguyên cả cái cật heo trần vừa tới, cực kỳ chất lượng. Nước sâm và nước quýt cũng ngon, thanh mát. Nhân viên nhanh nhẹn lễ phép. Cứ khi nào không nghĩ ra ăn gì là y như rằng hai vợ chồng phi ngay đến đây ăn!",POS,POS,POS,
+34,"Ngon ngoài sức tưởng tượng ❤️❤️😭😭 Đồ ăn cực tươi và mới, thịt ngọt, tôm cũng ngọt và bánh bao thì tan chảy trong miệng luôn ấy 😭❤️❤️",POS,POS,POS,
+35,Hôm nay mình đi ăn sinh nhật ở đây mình đi 3 nguo ì Mình gọi bánh cuốn tôm khô là ngon tôm tươi bánh mềm mình rất thi Rong biển cuốn khá ngon mình như bên trong có thanh cua hay sao ý Bánh bao kim sa trứng muối ăn cũng ngon có trứng chay hẳn Nước sâm hoi ngọt mình không thik lắm Sườn khá ngon có khoai vụn nước ngọt ngọt Chân gà thì hơi nhạt nên mình không thik lắm chân gà khá mềm Nói chung là đồ ăn khá ngon tôm tươi Quán thường xuyên đông nhưng mà phục vụ rất nhanh mà giá cũng khá rõ mình đi 3 người hết có 490k thôi Quán khá dễ tìm cũng rộng,POS,POS,POS,
+36,"- 2 người cminh gọi 2 tô mì vịt tiềm đùi (nguyên đùi). Ở đây họ còn có loại mì vịt tiềm với thịt (họ đã chặt), giá rẻ hơn, và mì xá xíu, mì bò hầm,.. .v..v.. Nhưng mình muốn a thử mì Vịt ở đây xem thế nào. So với bên Mì gia Chợ Lớn ở TVV thì mì ở đây k có hẳn cái xương đùi, mà vì đc chặt ra bỏ cái xương cắm đi rồi :))) Với đc cái là mì ở đây cũng ngọt nước, chứ k bị đắng như nước dùng của bên kia. Nhưng bù lại, ở đây lại k có rau (mà rõ ràng trong menu chụp có rau cải cơ mà ))) 🤣🤣) Lừa đảo ahh ))) Mà 1 bát mì to tướng, mình ăn mãi k hết, fai chia cho bạn bên cạnh mấy đũa mì chứ k con gái sức yếu k ăn đc 😣",POS,POS,POS,
+37,"Ăn chơi khu vực này suốt mà ko để ý quán này. Quán be bé nằm khu vực hơi tối tối :)) phía trong thì ko rộng lắm nên đi đông nên đặt bàn trước. Menu khá đa dạng, các món be bé ăn thưởng thức, bánh cuốn tôm ngon ơi là ngon, há cảo và bánh bao okie. Ăn linh tinh xong làm 1 suất mỳ vịt tần nữa là no ú ụ lun. Sẽ quay lại hiiii Giá thì ko rẻ, mỗi ng tầm trên 200k hihiii",NEU,NEU,POS,
+38,"Được hôm se lạnh mà đi ăn dimsum các thứ là bét cuộc đời đi :3 Quán nằm ở đoạn phố hơi khuất, không phải trục đường chính nên cũng hơi thưa người qua lại. Ai thích yên tĩnh nhẹ nhàng hẳn sẽ hợp. Không gian chỉ có 1 tầng mở thoáng, khách không đông quá nên vẫn ổn. Menu chỉ có các món phổ biến dễ thấy, không có được đa dạng cho lắm. Cơ mà ăn món nào cũng khá chất, mùi vị không chê được. Thích nhất chân gà tàu xì, mình bị nghiện em này, đi quán tàu không ăn là phí đời người. Các xưởng cảo có tầm 3-4 miếng tuỳ loại, đồ ăn nóng hổi thích mê. No bụng hẳn thì mình gọi mỳ thập cẩm nhưng có vẻ nước dùng không đúng gu mình lắm. Nhân viên phục vụ mặt mũi hơi lạnh lẽo, giá trung bình 45-50k/món.",NEU,NEU,POS,
+39,"Mình ít đi ăn dimsum nhưng hôm nay ăn ở đây thực sự hài lòng. Chân gà tàu xì ngon vị vừa, sườn mềm, xíu mại ngon, bánh xếp tôm vỏ giòn, tôm bên trong tươi ngon . Sẽ quay lại",POS,POS,POS,
+40,"Mình gọi qua delivery , đồ ship đến vẫn còn nóng . Thấy mn khen xíu mại của quán ngon lắm nên mình gọi thử cùng vs bánh bao xá xíu và hoành thánh , món nào cũng ngon nhé , vị ăn rất khác các chỗ khác , ấn tượng hơn",POS,POS,POS,
+41,Một ngày ăn cả trưa và tối tại quán :)) Quán có xíu mại cua và há cảo tôm rất ngon và vừa miệng. Ăn xong làm bát mỳ vịt tiềm là đúng chuẩn luôn.,POS,POS,POS,
+42,"Quán ngay gần nhà mình mà giờ mới để ý. Quán có bán các loại mì và đồ tàu, k nhiều món lắm. Hoành thánh ăn cũng ok, nhưng rau cải kiểu này mình k thích lắm, đương nhiên so với hàng chuyên bán mì vằn thắn thì k bằng được. Há cảo cũng khá ngon, vỏ mềm, nhân đầy đặn, thực sự khá bất ngờ vì chất lượng này. Quán nhỏ nhưng nhân viên cũng có đồng phục nhìn rất có cảm tình 👍🏻",POS,POS,POS,
+43,"Đã gọi ăn mấy lần nay mới trồi lên đánh giá. Về chất lượng: xôi dẻo thơm, không bị khô cứng. Chả cua trông hơi ít nhưng ăn rõ vị cua, lại thơm tiêu, ngon thật sự. Hành phi ok, dưa chuột chua thêm tí nữa thì ngon. Hành phi, dưa chuột sẽ để riêng nhưng mình để chung vào xôi cho ngon mắt :))). Giá cả hơi cao nên gọi nhiều sẽ đau ví 😭, nhưng bù lại suất xôi đầy đặn, ăn no căng, chất lượng ưng miệng, cảm giác không phí tiền.",POS,POS,POS,
+44,"Giữa trưa nắng, mình mò ra đường tìm mua quẩy đùi gà. Google Map chỉ cửa hàng nằm ở trước nút giao Thái Thịnh - Yên Lãng nếu đi từ*** nhưng hoá ra nó nằm ở gần đoạn giao với Láng Hạ cơ. Quẩy đùi gà ở đây nghe nói đã từng có mức giá 500đ, 800đ và bây giờ thì là 1000đ/chiếc. Chắc trên Now lấy thêm 200đ :))) Ngồi trông hàng có vẻ là cô chủ và con trai, có tới hai rổ quẩy đầu ụ rán sẵn bày ở đó rồi. Quẩy nhìn chung là dễ ăn, ăn lúc nóng càng dễ ăn hơn vì khi nguội sẽ nhanh ngán vị dầu mỡ. Bột ngòn ngọt, có rắc vừng phía trên rất thơm. Mình lấy 10 chiếc, quẩy được gắp rất nhanh cho vào gói giấy và mình đem về. Cứ nghĩ là ít thôi nhưng đến khi ăn mới biết là quá nhiều :))) ăn chơi chơi chắc chỉ tầm 5 cái là no bụng rồi, uống ít nước thì sẽ ăn được nhiều hơn nhưng mình không thể không uống. Mình sẽ quay lại lần khác và mua ít hơn :)))",POS,POS,POS,
+45,"Mình đặt 5 gói bánh nhúng mà lại giao 30 bánh đùi gà là sao nhỉ, trên now ghi là bánh nhúng mà shipper đến lại bảo quán ấy chỉ có quẩy đùi gà thôi?/?",NEG,NEG,NEG,
+46,"Đặt đồ trên now ship giao đến đúng giờ, đựng trong gói túi cũng khá cần thận. 1k/ cho 1 em quẩy xinh xắn nhỏ nhắn như này, ăn cũng vui miệng. Quẩy chiên thơm, tuy có cái cũng hơi ngấm dầu quá, Nếu như so với ăn quẩy truyền thống hoặc quẩy chấm giấm thì quẩy đùi gà lại có 1 vị khác hẳn bởi ruột cảm tưởng phần ruột được nhào đặc bột hơn thì phải Nói chung mình thấy ok, cơ mà now dạo này tính thêm cả phí dịch vụ nữa nên cộng vào hơi buồn :)",POS,POS,POS,
+47,Bánh tôm vỏ dày nhg ko xốp. Ko ngon như bánh tôm hồ tây đâu. Nước chấm ko ngon,NEG,NEG,NEG,
+48,"Quán bún chả lâu năm nay có thêm cả các loại bánh chiên nữa. Vốn thích nem rán ở đây r nên khá tin vào chất lượng của quán. Bánh gối và há cảo cực đầy đặn vs phần nhân đầy ắp thịt, vỏ mỏng dzòn chấm quyện nc chấm chua ngọt ưng lun. Bánh tôm vs thịt tôm tươi ngập phần bánh dzòn rụm cắn đã. Bún chả ở đây cx ngon phết nha, nên thử cả nem rán nữa nhá. Bên cạnh có cả rau sống ăn kèm cho healthy nữa nạ.",POS,POS,POS,
+49,Quán giao thiếu nem,NEG,NEG,NEG,
+50,"Nem ngon, khoai tây chiên bơ tỏi ngon lắm, tương ớt ngon nữa mà hơi giá hơi mắc xíu. Nhưng đúng tiền nào của nấy. Lâu lâu nghiến răng làm bữa cũng được.",POS,POS,POS,
+51,"Bạn tuyệt đối ko nên gọi đồ ở quán này, đồ mình gọi 10 món thì giao thiếu 2, shipper đi rồi mới biết, tìm sđt để gọi phản ánh thì ko có. Nem thì vừa bé vừa ko ngon, ăn vào vừa dai lại còn vị như miếng chả để tủ lạnh lâu ngày chứ ko thấy vị nem chua đâu cả. Mình cảm thấy quán cố tình lấy tên “36 tạm thương” để lừa mọi người nhầm lẫn với nem chua rán tạm thương nổi tiếng thì phải, còn nếu là chi nhánh # của nem chua rán tạm thương thật thì chất lượng quá kém. Tốt nhất bạn nên chọn quán đàng hoàng ăn, vừa đỡ mất tiền oan vừa đỡ bực mình!!!",NEG,NEG,NEG,
+52,"Ship khoai tây rán ở đây về. Khoai đen xì, kiểu dc chiên đi chiên lại quá nhiều lần. Mình cắn 1 miếng bỏ cả hộp khoai luôn. Quá tệ",NEG,NEG,NEG,
+53,"Mọi người tránh quán ăn này ngay nhé, đặt khoai thì ỉu và đen xì, nem rán thì kinh khủng luôn. Vote 1* còn thấy nhiều quá. Tránh xa và report đề nghị quán đóng cửa ạ",NEG,NEG,NEG,
+54,"Nem bé bằng ngón tay út. Cắn 1 miếng hết luôn. Khoai tây lắc phômai thì k có tí phomai nào, bé tẹo, đen xì.",NEG,NEG,NEG,
+55,"Mình order 28 nem chua rán, 5 pho mai que và 1 trà chanh từ quán qua ứng dụng nhưng kết quả khi nhận lại quá thất vọng. Quán trả 28 cái nem bị cắt đôi ra để rán cho có lời và 2 pho mai que, gọi trà chanh thì pha nestle trà đào 🤬🤬🤬🤬🤬. Khi được hỏi thì quán đáp ntn là chuyện bt và to tiếng với khách và bên vận chuyển. Quán ntn mà còn bán hàng và liên kết với các app được thì cũng đến chịu. Không bao giờ quay lại và khuyên mng đừng bao giờ ăn ở đây để mua bực vào người",NEG,NEG,NEG,
+56,"Mình có đặt nem khoai qua công ty thì chỉ có nem rán ăn còn tạm ổn dù rán hơi già quá. Khoai tây và khoai lang thì ăn vừa cứng vừa khô như rán lại mấy chục lần vậy. Thêm 1 điểm trừ là túi tương ớt bung bét đầy túi dù đi có 700m, cái này chắc có cả 1 phần lỗi ship nữa.",NEU,NEU,NEG,
+57,"chè khúc bạch ăn ổn, thiếu mất long nhãn á😭Khúc bạch cắt vuông này thì ko đẹp bằng cắt hình sống lắm.",NEU,NEU,NEG,
+58,"Mình biết tiệm chè này cơ sở trên Hàng Giấy rồi, trước có ăn thử nhưng không ấn tượng lắm. Đợt này thấy Chè Xoan ở Chùa Láng có chè bơ nên mình tạt vào mua ăn, mình không có nhớ là ngày xưa có chè bơ. Bất ngờ là chè bơ ở đây khá ngon. Một cốc chè bơ ngoài miếng pudding bơ thì có thạch lá nếp, nhiều phết, rồi một ít thạch sương sa, thạch sợi với trân châu nữa. Mình để trong tủ lạnh một lát mới lôi ra ăn, ăn ngon phết. Pudding bơ ở đây khá nhạt, không ngậy lắm, tương đối nhiều vị bơ, mình thích ngậy hơn một chút như ở một tiệm online mình từng ăn. Giá 30k/cốc, so ra thì hơi cao một chút với chất lượng. Ở tiệm có kha khá các loại chè khác, cũng có trên mấy app giao hàng, giá cả loang quanh 15-35k thui nên cũng tạm gọi là hợp lý ạ. Món này ăn mùa hè thì ngon lắm lun.",NEU,NEU,POS,
+59,Mình có order 1 hộp sữa chua từ chè Xoan. Dù hạn ghi 30/7/2020 nhưng sữa chua đã lên mùi,NEG,NEG,NEG,
+60,"Lại là một buổi tối ham đồ ngọt và các chị em lại khám phá trên foody một hồi. Có 1 số hàng chè có giá khá ổn áp thì lại không có chè sầu thái mà mẹ mình lại đang muốn ăn chè sầu. Xem một hồi rồi lại đặt tạm chè Xoan cơ sở Cầu Giấy, chả biết nếu ship về nhà mình thì có gần hơn bên Hàng Giấy không :)) Caramel thập cẩm vẫn là chân ái, vẫn hay gọi nhất, mỗi lần đến cũng chả biết gọi gì thì gọi tạm caramel vậy. Chè thái sầu riêng họ để riêng sầu bên ngoài để giữ được nguyên vị. Để vào chè luôn rồi mang đi ship nó hoà tan mất.",NEU,NEU,POS,
+61,"Chè thơm, ngon giá hợp lí Giao hàng nhanh Nem chua rán ok",POS,POS,POS,
+62,"Mình gọi ship và cực ưng cách đóng gói của quán. Mọi thứ đều để gọn gàng và sạch sẽ, túi xách logo quán nhìn hịn luôn 😁. Chè ăn được chứ không ấn tượng như mình nghĩ. Vẫn sạch sẽ và đáng để ăn nếu thèm chè bưởi nha.",POS,POS,POS,
+63,"Nước cốt chè ngon, bùi. Chè bưởi siêu ngon, cùi dẻo dao, bùi. Ngon vừa miệng. Chè thập cẩm ổn. Còn caramel thì hơi bị ngậy và khác với caramel bình thường hay ăn. Ở đây công thức nghe vẻ có sữa bột nên hơi ngậy. Nhưng ngon. Thái độ phục vụ tốt dù họ làm việc liên tục. Quán sạch sẽ.",POS,POS,POS,
+64,"Chè rất ngon ạ. Lâu lắm rồi mới gặp được quán chè ngon thế này. Caramel mềm ẩm và rất thơm, ngọt vừa phải. Chè thập cẩm cũng rất ngon, ngon từ topping tới nước chè luôn ấy ạ. Highly recommend ạ.",POS,POS,POS,
+65,"Quán ít khách nhưng nhân viên và chủ rất lề mề , làm ăn chậm chạp , quán nóng như cái lò , đi ăn mà ăn nguyên cái cục tức , k bao h quay lại ok.",POS,POS,NEG,
+66,Chất lượng và sang trọng miễn chê👍,POS,POS,POS,
+67,"hôm nay mưa gió , mình chạy ra quán mua bánh , lúc về mới thấy thiếu mất 2 phần sữa chua. Gọi điện thì nhân viên bảo lỗi do khách không chú ý, trong khi thanh toán xong xuôi ko dặn khách đợi lấy sữa chua, đưa hoá đơn và để túi bánh trên bàn, lúc mình gọi còn đổ lỗi a phải tự nhớ để lấy chứ đã gọi ship đến cho mình và bảo mình trả tiền, cực kì thất vọng về thái độ nv ở chi nhánh này, bánh của cửa hàng vẫn rất ngon nhưng hnay ăn tụt hết cảm xúc",NEG,NEG,NEG,
+68,"Không gian gồm 2 tầng, tầng 1 là khu bán bánh, tầng 2 ăn tại chỗ, không gian hơi bé và hẹp Ở cơ sở này bánh hết rất nhanh nên buổi tối không còn nhiều lựa chọn, nhưng bánh xúc xích dài khá ngon",POS,POS,POS,
+69,Một ngày được ăn bánh ngàn lớp việt quất chua chua ngọt ngọt. Thêm ly latte nữa quá xá đã ~^^~.,POS,POS,POS,
+70,"TLJ dạo này xuất hiện rầm rộ trên grabfood nên mfinh cũng thường xuyên gọi bánh về ăn sáng. Ngoài các loại quen thuộc thì còn có croquette vị mới là nhân kimchi, ăn cũng khá độc đáo nhưng mình k ăn được cay nên k thích lắm, nhân chỉ có mỗi kim chi nên hình như có vẻ nhiều nhân hơn các loại vị khác, tuy nhiên cái vỏ bánh này thì vị gì ăn cũng ngấy như nhau.",NEU,NEU,NEG,
+71,"Mình đặt bánh gato sinh nhật qua Now rất nhiều lần hết bánh cần đặt, đc nhân viên cửa hàng giới thiệu bánh khác cùng giá tiền, thường là loại mình k thích nhưng vẫn chấp nhận nhưng hôm nay là trải nghiệm tồi tệ nhất. BÁNH cacao (caramel). Bánh gato cứng thậm chí k thể cắt được, được nhân viên giải thích là bánh mất 1 tiếng để ngoài mới mềm dần nhưng từ lúc order đến khi ăn gần hai tiếng bánh vẫn cứng đơ như kiểu bánh cũ. Thực sự thất vọng!",NEG,NEG,NEG,
+72,"Mình gọi 2 Potatoes Bacon Cheese để ăn sáng. Hí hửng tưởng ngon. Ai dè nhận được hàng, vỏ ngoài thì giống bánh rán. Nhân còn ko bằng bánh rán. Trong giới thiệu là có bacon mà mình tìm muốn rơi con mắt ko thấy đâu. Thật sự thất vọng .",NEG,NEG,NEG,
+73,"Hôm nay minh gọi món nhưng lại hết món mình thích, phải chọn lại 2 lần mới còn . Chẳng hiểu nhà hành phục vụ kiểu gì mà lại hết . Mình đã thấy thất vọng lắm rồi. Quán xác nhận rất chậm . Một điểm trừ nữa . Đến lúc chú shipper giao hàng tới nơi thì bánh nguội ngắt như kiểu để từ sáng rồi ý . Đã thế cách gói hàng còn không đẹp mắt làm cho sốt trên bánh dính tung toé lên giấy bọc. Lúc mở bánh ra thì thấy chẳng còn bao nhiêu sốt vì đã dính hết lên giấy bọc rồi. Ngoài ra bánh làm có vẻ bị vội nên sơ sài, chẳng giống hình tí nào. Mình chỉ kịp chụp lại egg tart và so sánh với hình thì đã thấy không giống rồi. ",NEG,NEG,NEG,
+74,Mình là khách quen rất hay mua bánh melting ở đây nhưng mà bánh hay hết sớm qá Mong TLJ tăng lượng bánh này lên để phù hợp nhu cầu khách hàng,NEU,NEU,NEU,
+75,Bánh nướng thì k ngon nhưng bánh chiên thì cx tàm tạm,NEU,NEU,NEU,
+76,"Bánh ngon Nước bình thường, gọi đồ nóng mà lạnh tanh. Hơi ngọt. Mình thấy đắt so với chất lượng. Mình ngồi ở tầng 2. Ngồi 1 lúc thì có 1 bạn nhân viên lên để lau dọn thùng rác gì đó. Bạn ý ngồi trong nhà vệ sinh vừa cọ vừa nói chuyện điện thoại rất TO, cười đùa rồi đôi khi còn nói tục. Ở ngoài chỉ có 2 bàn là có khách (bàn của mình và 1 bàn nữa). Bạn nhân viên nói chuyện đt mà cả cái tầng 2 đều nghe rõ rội dung bạn ý nói gì )) Mất lịch sự vô cùng Mong TLJ nhắc nhở nhân viên.",NEU,NEU,NEG,
+77,"Lần đầu tiên đến quán mình đã vote cho quán gần 8 sao vì rất ưng đồ ăn ở đây. Nhưng càng ngày lui tới mình lại càng thấy chất lượng đồ ăn của quán rất phập phù. Có hôm ngon, có hôm lại rất tệ. Hai hôm mình mua bún trộn mang về thì đều bị đau bụng. Giá cả cũng tăng vù vù trong khi chất lượng đồ ăn không được cải thiện. Ví dụ như 45k/ bát bún riêu hoặc bún chay thì giờ chủ yếu là rau, giò chay hoặc tôm chay đều k có nữa. Sau khoảng hơn chục lần đến quán thì mình sẽ không quay lại đây nữa vì đồ ăn ngày càng giảm sút mà giá lại tăng không tương xứng với chất lượng.",NEG,NEG,NEG,
+78,"Ngày rằm xa nhà nên tự gọi về suất cơm chay ăn cho thanh tịnh 😂 Cơm đóng hộp cẩn thận. Đồ ăn đầy đặn khá ngon, sạch sẽ. 9 điểm ❤️❤️",POS,POS,POS,
+79,55k/xuất. Ko biết đây là gỏi nấm hay gỏi dưa chuột? Nhận hàng mà thấy quá chán đời luôn,NEG,NEG,NEG,
+80,Hôm mình đến ko phải rằm hay mùng 1 nên quán khá vắng vẻ. Lúc order mấy món ko có vì ko phải ngày làm chính. Sau một hồi thì cũng tìm đc món ăn thích hợp Cũng ko phải đợi lâu lắm Nhân viên cũng vui vẻ nhiệt tình Các món ăn đều ngon và thơm vị ngọt của nấm Giá cả cũng hợp lý. Ăn chay mình cứ tưởng ko no mà lại no ko tưởng Tuy có món cơm hơi bị mặn một chút Thấy ở đây còn có buffet 100k ngày rằm. Hôm nào mình sẽ thử ra ăn xem sao,POS,POS,POS,
+81,"""CHÁN"" Gọi 2 xuất miến trộn 2 người ăn thì cho chung một hộp, chẳng hiểu là bảo vệ môi trường hay là nhà hết hộp nữa. Mà 2 xuất gộp lại thì chưa đến 1,5 xuất bình thường, ăn xong như chưa ăn, giá thì vẫn thế, chất lượng thì cũng bình thường. Thôi lần sau cạch. Chúc các bạn may mắn với những khách hàng kế tiếp. :)",NEG,NEG,NEG,
+82,"Đây là quán công ty mình lui tới thường xuyên. Vịt nướng ở đây rất ngon, thịt mềm, thơm, tẩm ướp chuẩn vị. Quán mới có thêm món salad vịt ăn lạ miệng và rất ngon. Giá cả phải chăng, phục vụ nhanh nhẹn.",POS,POS,POS,
+83,Phù hợp cho dân văn phòng ăn trưa và tụ tập nhóm.,NEU,NEU,POS,
+84,"quán này là quán chị mình thích nên rủ mình ra đây ăn, mình cũng khá thích đồ ăn ở đây quán khá đông khách nên mở rộng quán có 2 phía, nhưng vẫn phải xếp chỗ nhân viên ok, cũng thân thiện phết thường đến đây bọn mình thường gọi 1 con vịt hoặc ngan nửa luộc nửa quay, 1 bát canh mang ăn kèm bún với hôm trước mình cũng mới thử tiết canh ở đây nữa nói chung thịt vịt chắc, vị ăn vừa nhưng có điểm trừ là hơi lắm mỡ, canh măng ăn cũng khá ngon, tiết canh ăn ok, nhiều nhân, khá tươi nữa giá cả khoảng 100k mỗi người",POS,POS,POS,
+85,"Vịt không ngon,nướng khô mà luộc lại mỡ.mình ăn được một lần mà thấy thất vọng.quảng cáo dữ lắm mà đến thấy chỗ nấu nướng các thứ trông bẩn bẩn chả sạch sẽ,đồ ăn mang ra cũng không được tử tế,lịch sự...nchung là ăn một lần cho biết thôi",NEG,NEG,NEG,
+86,"Đối diện nét huế, hoá ra là cùng hệ thống luôn, ngồi bên nét huế gọi đồ vẫn được và ngược lại. Không gian cũng rộng rãi cơ mà không có khách mấy nền thành ra ngồi nó bị ảm đạm. Chủ định ăn bánh canh nên không ngó nghiêng gì các món khác, nhìn menu hình ảnh hấp dẫn mà mạnh dạn bỏ qua. Đồ ăn làm hơi lâu xiu xiu, tô bánh to đầy đặn nóng hổi hấp dẫn nè. Nước dùng sánh đậm đà khá ok, topping đầy đủ nào tôm, chả, trứng cút, tiết,... Cá nhân mình thấy hợp miệng, ai rủ vẫn đi.",NEU,NEU,POS,
+87,"Mình quê Vũng Tàu, sống ở Sài Gòn và ra Hà Nội lấy chồng. Bánh khọt ăn lạ lùng, dở. Gỏi cuốn ăn chán, tôm khô quắt queo. Bánh canh cua cũng không ngon. Mỗi món hủ tíu Nam vang ăn còn tàm tạm. Mình tìm quán món miền nam cho đỡ nhớ nhà nhưng ăn mấy món ở đây thấy hương vị kỳ cục sao á. Nước tương đen quá mặn, không béo. Quán nên xem lại hết, đặc biệt là tại sao các món có tôm tươi nhưng lại để cho khô quắt queo đến nỗi ăn như tôm khô? Sẽ không bao giờ quay lại.",NEG,NEG,NEG,
+88, Chua ăn ở đâu dở như quán này ! Dm như đấm vào mồm bát hủ tiếu nam vang .. mui vị lợt lạt ko ra thể loại gì .. ăn từ nam ra bắc mà cái quán này tsu thấy thất vọng .. vào quán thì có cái mùi ôi ôi xong tanh tanh .. đéo thể tả nổi cái nỗi bức xúc !,NEG,NEG,NEG,
+89,"NV vì đông khách quá đói ăn hay sao ấy mà thái độ ra mặt luôn. Gọi 5 lần 7 lượt mới ra đến nơi. Ra đến nơi mình chưa nói xong đã nguẩy đít đi mất rồi 🙄🙄 Còn không ""Vâng/ Đc rồi/ Ok/.."" để mình biết đường (K NÓI 1 LỜi LUÔN, lạnh lùng hơn cả Mỹ Tâm vậy nè) 🤷🏻‍♀️ Xong NV đi dọn bàn khác, va vào khách đang ngồi (mình đang ngồi) cũng k nói xin lỗi 1 câu ))) Bị gì vậy??! Ông chủ bà chủ k training cho NV trước về những cái xin lỗi cám ơn tối thiểu này, khiến thực khách cảm giác ăn cũng k đc ngon miệng ấy! 🤬🤬🤬",NEG,NEG,NEG,
+90,"Mình qua đây đúng một hôm trời nắng vỡ đầu, với một cô em, định ăn ở Tài Kí nhưng đang đóng cửa nên chọn đại 1 quán để vào ăn Mình gọi hủ tiếu bò một bát siêu to như hình 48k khá nhiều đồ ăn bò viên tiết, trứng, tôm, thịt băm nhiều lắm, mình ăn hủ tiếu nước thấy khá ngon mà em mình bảo hủ tiếu trộn thì không ngon tẹo nào, thực đơn cũng khá nhiều món ăn kiểu miền trung giá cả cũng khá hợp lý so với chất lượng Sẽ quay lại vào một ngày không xa",NEG,NEG,NEG,
+91,"Shop làm ăn rất chán . Mình vừa nhờ e mình đặt 3 xuất miến ngan trộn và 1 miến nước thì thiếu nước dùng 3 xuất trộn , thiếu măng*** rau thì ít lại còn héo . Chả hiểu shop đông khách hay vội bàng gì mà thiếu toàn cái cơ bản vậy ?hơn nữa xuất bún trộn của mình còn có tóc ở trong . Rồi sao mình dám ăn hả shop ? Mìmh đợi phản hồi từ phía các bạn nhé. Tks",NEG,NEG,NEG,
+92,Nói chung là shop làm ăn k sạch sẽ . Bạn t đang ăn thì trong hộp miến trộn của nó có cọng rơm khô dài 3cm ở bên trong . Chán shop thật sự ,NEG,NEG,NEG,
+93,Mãi mới tìm được hàng gần nhà bán ngan cháy tỏi đỡ phải vòng lên tít hàng lược😆😆😆😆 Ngan ngon mềm nhiều tỏi nước chấm chua ngọt ngon ngon sẽ ủng hộ dàii dàiiiiii,POS,POS,POS,
+94,Mùi vị tuyệt vời mềm và ngọt,POS,POS,POS,
+95,"Mình ăn sương sương nên chỉ gọi 2 chân ngan với 1 bán bún ngan. Chân 5k/ea bún 35k. Chân ngan hơi gầy so với chân gà mà ăn ngọt hơn, giòn giòn chấm nc chấm chua cay của quán, chế thêm quất với ớt bao ngon nha. Bún ngan nước dùng ngọt tự nhiên, chắc có cho mì chính mà mình thấy cũng ko lợ vị mì chính đâu, thịt ngan đến quán mình mới thấy chủ quán đứng xé xé mấy miếng cục cục to to chứ ko phải thái mỏng mỏng nên trông ít nhưng ăn cũng đc nhiều. Ăn xong qua đối diện ăn chè sữa chua các kiểu cũng ổn áp lắm :))",NEU,NEU,POS,
+96,"Ngan quá ngon.,thật sự nước dùng quá ngon và đậm đà. Chuẩn ngan dé luôn. Cá nhân mình thấy quá xứng đáng",POS,POS,POS,
+97,"Quán ngan nhưng mình đặt phở bò. Ship hàng khá nhanh. Mình hay đặt qua app và add mã giảm nên giá cả cũng bình dân, không quá đắt. Hình thức hộp xốp bình dân luôn, nước dùng đựng vào ly nhựa mỏng hơi bị bình dân quá. Về mùi vị, đối với người ăn nhạt như mình thì thấy ổn với nước dùng, mình chỉ cho thêm ít chanh để ăn cùng phở. Thịt bò thì bình thường không ngọt lắm. Đối với mình thì bình thường nhưng có thể sẽ hơi nhạt so với vị người bình thường. Không có gì quá đặc sắc hay nổi bật.",POS,POS,NEU,
+98,"Vừa gọi xuất bún trộn về nói chung là cũng chán không biết diễn tả như thế nào, gia vị quá nhạt @@ thịt ngan thì hơi ít nhưng cái vấn đề ở đây là gia vị không hiểu sao lại nhạt như thế, giống như chỉ có ít dầu và mì chính vậy @@ mình vừa phải tự trộn lại. Cảm giác vừa tự làm vừa phải mua về.",NEU,NEU,NEG,
+99,Như 1 trò đùa ý các bác ạ. Nhận đc xuất Ngan cháy tỏi 180k giảm giá 126k mà sốc Hẳn là miéng thịt dày mình nên thái mỏng nhìn bản thịt cho nó to đấy 😂😂😂 cân nhắc khi mua hàng kmai giảm giá,NEG,NEG,NEG,
+100,"Vâng hôm nay tối mồng 6 Tết rồi thì cũng xem như là hết Tết rồi. Làm dịch vụ quán ăn này nọ thì ngày nào cũng phải như nhau, làm có cái tâm chút. Gọi suất bún ngan đùi 40k mà shipper bảo chỉ còn loại thường 35k. Không trả lại người ta tiền thừa thì thôi chứ, lại còn suất như dưới hình, 4 miếng ngan bằng ngón tay út, k có nước chấm, xin thêm măng không cho. Ship ngày lễ giá tối thiểu 26k đi có 1km, thế cũng phải có tâm mà bảo merchant trả lại khách 5k chứ",NEG,NEG,NEG,
+101,"Lần đầu tiên ăn món này do xem trên clip ""Stream đến bao giờ"" của Độ Mixi và clip review nhà Độ của Linh Ngọc Đàm nên cũng tò mò ăn thử xem thế nào và thấy đúng là với lời ""cảnh báo"" của Độ trong clip của Linh là món này đúng là có vị nhạt nên cần phải thêm mắm với ớt bởi do khác cách làm với bánh cuốn ở đồng bằng bởi món này là bánh cuốn ăn với nước xương. Ngoài ra mọi thứ ổn trong tầm giá. Mọi người nên ăn thử xem thế nào",POS,POS,POS,
+102,"Mình đặt 3 xuất thêm 2 giò mà giao cho mình có 4 giò, thiếu 1 giò rồi T_T.",NEU,NEU,NEG,
+103,"Bánh ở đây không ăn với thịt nấm hương mộc nhĩ mà nhân là thịt xay nhỏ dim mắm. Nước chấm ăn kèm không phải là nước mắm pha giấm mà là nước xương (gần giống nước dùng của phở). Trong bát nước chấm gồm 1 quả trứng hấp (có thể gọi trứng lòng đào) và 1 miếng giò lụa. Một suất bánh có 3 miếng nhìn tưởng ít nhưng mà vỏ bánh kiểu ngàn lớp vậy, dày lắm. ",NEU,NEU,NEU,
+104,"Đợi khá là lâu vì quán nổi tiếng, 1 suất được 3 cuốn có thịt băm ở trong, nước dùng nhiều, vừa miệng, cho thêm măng trong hộp càng ngon. ",NEU,NEU,POS,
+105,"Quán gần nhà order bằng grabfood, ship đến còn nóng hổi 👌 t đang ốm mà ăn nước chấm vẫn thấy ngon chứng tỏ ngon thật. Nhiều hàng đang khỏe mà ăn thấy toàn mùi mì chính 🤣🤣🤣 nói chung là giống bánh cuốn ở nhà, ăn xong nhớ quê vãi",NEU,NEU,POS,
+106,"Mình ăn BCCB ở đây rất ngon, nhân bánh thơm ngậy nên chỉ cần 1-2 đĩa là no. No vừa phải, đủ sức cho một buổi sáng hứng khởi. Nước thịt rất vừa, có rau mùi vào là hết ý. Trứng mình thấy còn được tráng trong nhân bánh cuốn, nên ăn rất ngon và ngọt thơm. ",POS,POS,POS,
+107,"Mình order 4 suất đầy đủ 35k như nhau. Mà khi mở ra ăn thì thấy 3 hộp có 3 cuốn, còn 1 hộp chỉ có 2 cuốn (mở đầu tiên nữa chứ). Quán làm hơi bất cẩn, mặc dù lúc đặt hàng có dòng nhắc kiểm tra kỹ trước khi nhận hàng nhưng đứng ngoài đường lại trước cửa cơ quan không lẽ mở từng hộp ra coi. Đề nghị lần sau quán check hàng cẩn thận trước khi giao hàng cho khách.",NEU,NEU,NEG,
+108,"Mua đc 2 hộp chân gà hí hửng mở ra ăn thì cả 2 bị mùi nồng nặc. Gọi điện cho chủ quán thì thái độ với khách, loằng ngoằng để đổ lỗi cho khách. Vô cùng hl. Sẽ kbg mua lần 2",NEG,NEG,NEG,
+109,M rất hay mua chân gà hấp ĐK về gặm. Tuy có hơi đắt hơn các chỗ khác nhưng hợp khẩu vị hơn là chân gà ngâm nên m vẫn hay mua. Nc chấm ngon mỗi lần ăn 1 hộp phải xin 2 lọ nc chấm. Hộp 100k 2 ng choén no D.c xa quá ship qua foody vè Mai Dịch cỡ 80 90k ship... nên chỉ khi nào ở LĐam m mới đặt ship 20k :),POS,POS,POS,
+110,Kém,NEG,NEG,NEG,
+111,"Lâu lắm mới quay lại đây, may quá chất lượng vẫn ổn áp, mặc dù quán đông khách kinh khủng, đi cuối tuần mà tầm tối là xác định may thì có bàn, không may thì ngồi chờ như thường nha. Món mình thích nhất ở đây là chân gà ngâm sả ớt, ngon cực kì ấy chân gà giòn, chân to, thơm mùi xả, nước ngâm thì vừa vặn, chấm với cái sốt chấm quất ở đây hợp cực kì. Nem chua rán 50K một đĩa hình như bây giờ ít hơn hồi xưa ấy, được cái tương ớt tỏi chấm đỉnh vãi ạ.",NEU,NEU,POS,
+112,Quán nằm ở phố đi bộ nè. Ngon bá cháy lun. Chân gà ngâm sả ớt chấm sốt mặn cay giá 50k 5 chân và chân gà chiên mắm ớt chấm sốt chua ngọt giòn tan luôn giá 50k 4 chân. Nhân viên phục vụ nhiệt tình thoải mái Rất phù hơph tụ tập bạn bè anh chị em bạn dì đi nhậu tám chuyện hết xảy lunn. Có dịp vào phố đi bộ kiểu gì cũng phải ghé quán ạ,POS,POS,POS,
+113,"Nghe nhãn dầm sữa lạ lạ hay hay nhưng thật ra cũng là nhãn bóc vỏ và thả vào bát sữa thôi ý. Được cái nhãn ở đây cùi dầy nên ăn giòn ngọt, kèm sữa ngậy ngậy nữa thêm đá là vừa, không quá ngọt. Bát này 35k nha. Nem vỏ xù ăn ổn, ngô chiên giòn nhưng hơi cứng chút. Giá cũng hợp lý với vị trí. Mỗi tỗi ăn mất thêm 10k gửi xe đó",POS,POS,POS,
+114,"Mình hay lên lương ngọc quyến để uống bia, quán này thì nổi tiếng rồi, cực đông. Chân gà của quán thì bao cả khu tạ hiện và lương ngọc quyến, vị ướp ngon, chân to giòn. Còn các món còn lại thì ăn ok, nhậu rất vào :))",POS,POS,POS,
+115,"Mặc dù quán ở xa nhà mình nhưng lần nào muốn ăn chân gà sả ớt cũng phải lên đây bằng được. Chân gà to, gặm thích, nhưng mà cũng siêu cay. 2 đứa ăn hết hai đĩa chân gà thì cũng uống hết được cả ca nước. Khoai tây lắc và phở cuốn ngon. Mình chưa thử quá nhiều món ở quán, chủ yếu đến ăn chân với cánh gà là chính thôi, nhưng thấy menu khá phong phú. ",POS,POS,POS,
+116,Mình thích chè phomai ở đây và chân gà xả ớt. Chè khúc bạch vị ko rõ như ăn thạch. Chân gà chua chua ngon ngon. Chè phomai rất đansg để thử ❤️,POS,POS,POS,
+117,"Nhân viên cầm nắm nem mang vào, lúc sau đi ra cầm theo nắm nem đã được xới ra trộn lên. Mình vẫn nhìn mấy cái lá mốc đen ở dưới. Không hiểu sao có thể làm như vậy với khách hàng. Bạn mình nói với chị chủ quán là nhân viên kiểu gì đã bảo đổi cái khác mà lại mang vào trộn lên như bọn em không biết thế. Sau đó nhân viên lại đi ra bảo bọn e chỉ có nem thế thôi. Và bọn mình k ăn nữa.",NEG,NEG,NEG,
+118,"Lần nào ăn ở đây cũng phải ăn 2-3 cái. Mỗi bánh có một vị và kiểu dáng khác nhau. Bánh tầm 39k/1 cái. Vị matcha đậm vị trà xanh, hơi đắng nhg nếu ai nghiện trà xanh sẽ thấy đúng vị. Socola ngọt vừa phải. Mình có gọi 1 cái có kèm hạnh nhân, hạt giòn tan, kem socola phủ đầy bánh. Lúc trước mình ăn có vị lá phong hay gì đó nhg h không thấy bán nữa. Nói chung mỗi vị có 1 cái ngon riêng. Nên thử hết tất cả các loại.",POS,POS,POS,
+119,"Bán hàng không đúng với đơn đặt, không phản hồi. Coi thường khách hàng.",NEG,NEG,NEG,
+120,"Sao rau lại toàn dưa khú thế quán ơi, đổi ngay nhé. Mình ăn rất nhiều hôm rồi mà hôm nào cũng vậy à",NEU,NEU,NEG,
+121,"Mình đặt ""Cơm tấm sườn bì"", mình thấy ăn bình thường, chưa phải là dạng ngon. Đc cái quán trang trí đồ ăn đẹp mắt và rất sạch sẽ.",NEU,NEU,NEU,
+122,"Ở đây đông khách nhưng không chất, không biết có phải đông không mà lần nào mình ăn cũng có cảm giác đồ tủ lạnh, phục vụ nhiệt tình nhưng vẫn bị chậm vì đông nhiều lúc phải ra tận nơi đợi thái xong lấy luôn",POS,POS,NEG,
+123,Bát bún khá đầy đặn! Nước dùng thanh! Phục vụ tốt!,POS,POS,POS,
+124,"Đây chắc là qán bún đông kh nhất ở cái khu ngọc lâm này luôn r, kh ra vào nườm nượp từ sáng cho đến tới tận tối muộn. Quán này cũng khá là rộng bán bún dọc mùng, bún đậu, mì vằn thắn. Nhà mình hay vào đây ăn bún dọc mùng, 1 bát đầy đủ có giá là 40k. Đồ ở đây bán hơi đắt nhưng công nhận là ngon thật, nc dùng ok. Tuy nhiên thì thái độ phục vụ ở qán này k dc ok cho lắm, đúng kiểu bán đắt hàng nên k cần kh luôn ý",POS,POS,POS,
+125,"Quán đông, phục vụ chuyên nghiệp, nước dùng tạm được. Nhưng dọc mùng ko làm kỹ nên ăn hay bị ngứa. Ở khu vực xung quanh ăn đổi món thì được.",POS,POS,NEU,
+126,Nói chung là uống ở đây 1 lần rồi. Vị khá ngon nhưng chỏ tội ko gian bên trong thì hẹp quá. Ra ngài thì nóng ko chịu dk,NEU,NEU,NEU,
+127,Kinh khủng tệ. Bạn cảm giác như nào khi phát hiện cốc nước mình uống có ruồi chết trong đó trôi lềnh phềnh 😊😊😊,NEG,NEG,NEG,
+128,Giao thiếu đồ nhưng chỉ xin lỗi k hoàn tiền 🤣 giao sai giao thiếu rất nhiều,NEG,NEG,NEG,
+129,Mình thấy có vật thể lạ trong cốc nước chanh. Một con j đó nhỏ nhỏ 🥹. Trong khi đó đặt lô hội lại giao nước chanh cho mình. Mn cẩn thận ạ 🥹🥹🥹,NEG,NEG,NEG,
+130,"""Đồ ăn hợp khẩu vị, sạch sẽ, đóng gói cẩn thận. Giao hàng đúng giờ, sẽ tiếp tục đặt những lần sau.” 🍻🍻🍻",POS,POS,POS,
+131,Hnay gọi now ship về không thấy có gân và thấy thịt đc có tí không đầy đặn như mọi hôm. Không hiểu làm ăn kiều gì. Từ sau không bao giờ mua đồ bên này nữa Ăn suốt chứ có phải giờ mới ăn đâu😡,NEU,NEU,NEG,
+132,Mình đặt hàng trên Now nem chua rán quán ship nem thường. Mình đặt cho cơ quan quán làm vậy mất uy tín quá. Sẽ không đặt lại.,NEG,NEG,NEG,
+133,"Chè ngon , thơm, giao hàng nhanh",POS,POS,POS,
+134,"Ăn đc. Rẻ. Quẩy ăn giòn. Bát 25k khá đủ. Bát 30k có thêm móng, mình cũng ko thích ăn móng.",POS,POS,POS,
+135,"Đặt hàng trên Now ship về suất đặc biệt 40k gồm thịt bò, giò lát, chả bò, trứng cút, chả cua (như hình) vì mình note ko ăn móng và tiết. Điểm cộng đầu tiên là quán đóng gói rất gọn gàng, đầy đủ. Nước dùng riêng, nhân riêng, rau sống, ớt chưng riêng. Tiếp đến các đồ ăn kèm đều ở mức vừa vị, ăn hợp với bún bò. Có trứng cút là không liên quan lắm 😂 nước dùng theo mình là bình thường, không dậy mùi bún huế như mắm ruốc. Suất gọi về được giảm giá còn 15k cả ship, khá hài lòng không đòi hỏi gì thêm. Nếu ăn bún bò đầy đặn và đậm đà hơn thì 40k ở đây chưa thực sự ấn tượng, còn rất nhiều sự lựa chọn tốt hơn như bún bò Đại Cồ Việt hoặc Nguyễn Ngọc Vũ.",NEU,NEU,NEU,
+136,"Hôm nay mưa lười đi ra ngoài nên thử oder bún bò huế xem sao. Mà trời ơi không phụ kì vọng luôn đó, ngon ghê. ",POS,POS,POS,
+137,Mình gọi suất nhỏ mà được nhiều cực kì ý. Cái gì cũng ngon hết không chê vào đâu được. Đây là lần thứ 2 mình đặt của quán và chắc chắn sẽ còn lần thứ n nữa 😍😍,POS,POS,POS,
+138,"Bún ngon chị ạ, chị chủ hiền lành nhé. Mải chém gió với em mà suýt nhầm đồ",POS,POS,POS,
+139,Nay mưa gió ngại ra ngoài ăn nên đặt qua now bún bò thì thấy quán này gần mà nhiều feedback nói ngon lại còn được giảm giá 50% nữa quá tuyệt vời ,POS,POS,POS,
+140,"Ngay từ cái nhìn đầu tiên đã có thiện cảm khi ship kèm cả bát nhựa cả đũa luôn. Rau sống, gia vị quất, tương ớt và ớt xào đầy đủ. Chủ quán thì chiều khách cực kỳ. Mình có ghi chú không ăn chân giò và muốn thêm bún. Ôi giời ơi cả 1 bầu trời bún thêm luôn. Bình thường ăn ở các quán bún bò khác mà gọi thêm bún là lơ thơ vài cọng mà ở đây thì chắc tính ra là được thêm hẳn 1 bát bún nữa mất :)). Sức ăn của mình khá tốt mà ăn hết bát bún của quán no không thở đc luôn. Tiếp theo là về độ ngon thì không cần đánh giá nhiều, nhiều bún như vậy mà ăn hết cả nước lẫn cái thì các bạn biết rồi đấy. Nói chung sẽ đặt ship dài dài ❤️",POS,POS,POS,
+141,"Lần thứ 2 đặt hàng qua now. Mình là đứa ít khi review cho dù đồ ăn ngon hay dở. Thực sự là ko có gì chê trách cả. Có trách là trách quán sale 50% lại còn freeship qua airpay làm mình lại phải đặt. Nước dùng vừa ko bị mặn giống nhiều quán mình ăn. Gọi 2 bát nhỏ mà 2 đứa ăn ko hết vì quá nhiều đồ. Đầy đủ rau giá đũa bát thìa, kèm thêm ớt chưng, tương ớt. Đồ ăn đến nơi nóng hổi. Tóm lại là quá hài lòng. Sẽ còn oder dài dài.",POS,POS,POS,
+142,"Mình đến gọi 2 suất phở chiên, nước dùng không có gì đặc biệt, được thịt thì được 2, 3 miếng bé xíu, không gian thì cũng xập xệ, vệ sinh cũng không được sạch sẽ ",NEG,NEG,NEG,
+143,"Nhà này phở chiên ăn ok , còn cái bát súp chấm phở thì lm ăn điêu toa qá. Khua 3 đũa đã k còn miếg thịt nào. Bán cũg có rẻ đâu 55k 60k 1 phần. Bán hàg thế này chắc phải mua dc 3,4 cái nhà mặt đườg.",NEG,NEG,NEG,
+144,"Nhóm m vào ăn gọi phở bò lẫn tim cật theo như lời chủ quán, nhưng bát soup mang ra nhìn toàn gan lợn nhiều với bầu giục. Thịt bò bọn m tìm mỏi mắt đc đúng 1 miếng bé bé với mấy tí vụn bò. Tim được 1-2 lát mỏng. M có phản ảnh với cô chủ, cô bảo m k ăn gan thì gắp ra bát rồi cô đổi cho bầu giục với 1,2 miếng tim. Nói chung là món ăn k có gì đặc biệt, 55k/ suất là tương đối cao nếu bát soup chỉ toàn gan lợn và bầu giục.",NEU,NEU,NEU,
+145,"Thằng đầu bếp nhé, 2 lần tao gọi cơm rang Dưa Trứng thì 2 lần cho trứng không, tiền nong không phải vấn đề nhưng làm ăn thì phải chuẩn !!!",NEG,NEG,NEG,
+146,Thái độ phục vụ nhân viên quá tệ!!!,NEG,NEG,NEG,
+147,Vãi. Cả hộp xốt có đúng 5 miếng thịt bò làm hàng để phủ lên trên bề mặt. Không có lần thứ 2 luôn.,NEG,NEG,NEG,
+148,Chờ hơn tiếng đồng hồ vẫn k thấy đồ ra. Nhân viên im ỉm. Cực kỳ khó chịu. Sẽ k có lần sau.,NEG,NEG,NEG,
+149,"Quán này quá nổi tiếng về phở chiên mì chiên các thứ rồi, tuy nhiên mình thì không đánh giá cao cho lắm. ",NEU,NEU,NEU,
+150,"Mình biết đến quán nhờ google search, đi từ bộ từ quận Hai Bà Trưng đến đây, có lẽ do đi bộ xa nên khá mỏi, đến ăn càng thấy ngon hơn. Mình ăn phở chiên giòn bò, miếng phở có lớp ngoài khá giòn, màu sắc hấp dẫn, lớp trong mềm và dẻo. Nước dùng là thịt bò xào với hành, rau cải, cà chua, hành tây, nấm hương, rau cần, ... vị khá ngọt. Nói chung đây là món ăn nên thử một lần nếu bạn là người Việt.",POS,POS,POS,
+151,"Mình đến quán gọi thử phở chiên và mỳ chiên, mì chiên ăn thực sự giống ăn mì sống, phở chiên mình thấy okie hơn. Địa chỉ 206 khâm thiên khá dễ tìm, bên tay trái tính từ láng hạ rẽ vào. Tiện đường nên rẽ vào ăn nhưng thực sự mình k đánh giá cao lắm :( dc cái nước ngô đóng chai nhìn vệ sinh, uống được. Giá tầm 40k/ người cũng không nhớ rõ lắm. Có thể sẽ quay lại nếu lại tiền đường tiếp :)) Mọi người nên gọi phở chiên chứ mình thấy gọi mì chiên này ăn không khác gì mì sống luôn :(",NEU,NEU,NEU,
+152,"Đây là quán ruột của mình hồi vẫn sống ở khâm thiên. Quán khá đa dạng các món như phở mì xào, phở mì chiên giòn. Không gian quán khá bé, mới đây thuê được cái nhà bên cạnh thì đỡ hơn, cơ mà vẫn sẽ nóng vào mùa hè vì đông người. Món yêu thích của mình là phở xào, phở mềm, sốt bò/tim cật đều đậm đà, nhiều rau. Bây giờ thì ăn ít hơn rồi vì thấy béo quá )) bạn nào thích đồ chiên thì phở giòn ở đây cũng rất ngon nhá, cơ mà hơi nhiều mỡ",POS,POS,POS,
+153,"Tháng này qua quán ăn 2 lần ùi, phở chiên giòn ngon lắm, chấm với nước sốt tim cật ^^. Mì tôm chiên giong thì cứ như mì tôm sống ấy. Nước ngô đây còn đóng chai cơ, xịn vãi",POS,POS,POS,
+154,"Phở ở đây nổi tiếng lẫm ko ai ở Khâm Thiên mà ko biết trừ một số người . Phở ở đây ngon , chuyen bán pho xao , và phở chien giòn , dù ko nổi tieng bang pho Bát Đần nhưng thế cũng ok rùi",POS,POS,POS,
+155,Phở chiên Khâm Thiên lâu đời lắm rồi hay sao í. Mình gọi xuất phở chiên tim bồ dục. Tối đến ăn nên hơi đông. Bát tim bồ dục ra rồi ngồi đợi mãi bánh phở mới ra. Nhân viên cũng nhiệt tình. Quán kiểu bình dân. Theo cá nhân thì thây ăn không ngon như phở chiên phồng ngũ xã.,NEU,NEU,NEU,
+156,"Mình ăn quán này cũng phải hơn 30 năm nay. Bánh mỳ cũng bình thường , tuy nhiên quán có tương ớt trưng rất ngon . Gần đây quán liên tục tăng giá. Giờ là 36k/1 chiếc. Nó quá đắt so với chất lượng . Hơn nữa ở Hà Nội giờ đã có rất nhiều quán bánh mỳ khác cũng rất ngon. Đã gạch tên quán ra khỏi list món ngon của mình",NEG,NEG,NEG,
+157,Bánh mì phố huế vẫn rất classic và ngon miệng. Nay giá 30k. Cũng khá ổn cho 1 bữa ăn nhanh ngon miệng,NEU,NEU,POS,
+158,"Bánh mì ăn thật tệ bánh mì ko giòn, nhân nguội , giá lại đắt 30k một ổ bánh thập cẩm thái độ ng bán hàng như kiểu mình đi ăn xin. Lần sau ko quay lại. Ăn bánh mì Vũ ở***ngon hơn vs rẻ hơn nhiều",NEG,NEG,NEG,
+159,"Bánh ăn tại chỗ OK nhưng đúng là thái độ phục vụ không tốt, giá thành cao, chỗ ngồi chật chội, nóng, mỗi người 1 cái ghế, ăn xong không đứng dậy nhanh là bị đuổi hjhj",NEG,NEG,NEG,
+160,Lần nào ra Hà Nội cũng ghé qua quán! Có lẽ thứ đang nhớ nhất quãng thời gian ở HN chính là món bánh mì này :),POS,POS,POS,
+161,"Con mụ bán hàng hãm nhất trong tất cả các loại hãm, nta mua mất tiền chứ có xin của nó đâu, mình mua 1 bánh mì pate trứng, cơ bản ko nhìn kỹ hỏi lại là mình gọi pate trứng, mụ già gào mồm lên soi ko kỹ ko nhìn thấy pate à, mặt sưng như kiểu bị đòi nợ mùng 1 ấy, lần cuối cùng mua bánh mì ở đây, ăn thì có phải cái loại bánh mì hạng nhất đâu mà thái độ😒😒",NEG,NEG,NEG,
+162,"Có 1 lần nọ đang đi bộ đói meo cả bụng, thấy quán bánh mì này mình rẽ vào ăn thử. Trời ơi, vừa ngon, bổ, rẻ, anh chị nhân viên còn nhiệt tình, chu đáo nữa! Đúng là quán bánh mì kẹp số 1 Hà Nội <3",POS,POS,POS,
+163,"Lâu lâu quay lại thử xem sau khi bị nhiều người phản ảnh quán có khá khẩm lên tí nào không. Nhưng đ. Bánh vẫn ít nhân như thế, gian dối như thế. Hồi xưa tuy nhân ít nhưng ăn là biết hương vị này là của bánh mỳ 118 phố Huế. Giờ ăn xong còn đ hiểu mình vừa cho cái gì vào mồm. Thực sự là cái bánh 10-15k còn ngon và rõ vị hơn. Pate signature của quán giờ ăn không khác gì pate lợn vét phản vì độ nhạt nhẽo kinh dị của nó. Nói chung vĩnh biệt. Mãi nhớ bánh mỳ 118 cũ :[",NEG,NEG,NEG,
+164,Mình nghi 2 nick này là nick spam của chủ quán. Mong foody xoá 2 nick này. 2 nick này còn spam review cho chuỗi bánh mì phố (đến 90% review của chuỗi này là spam). Lần trước mình có comment ở chỗ bánh mì phố là toàn review kiểu spam nhưng không biết ai xoá của mình :v mong không phải foody,NEG,NEG,NEG,
+165,"Mình rất thích ăn bánh mỳ ở đây chuẩn vị bánh hà nội xưa . Ăn tại quán bánh nhiều nhân hơn , gọi về ít nhân . Foody cần góp ý với quán .",NEU,NEU,NEU,
+166,"Chất lượng bánh đã giảm so với vài năm trc, nhưng nói chung về pate vẫn là dạng ngon. Cái khó chịu nhất ở quán này là thái độ bà chủ quán, cmnói chuyện vs khách mặt câng câng như kiểu ko cần khách, nếu có yêu cầu đặc biệt 1 tí thì y như rằng lườm nguýt, chửi thầm khách. Nói chung là vô học",NEG,NEG,NEG,
+167,"Không hiểu sao nhiều người khen quán này ngon lừm mình cũng muốn thử. Nhưng thật sự là quá chán, bánh mì ăn khô nên hơi khó nuốt, pate và bơ cũng ko có gì đặc biệt, thái độ phục vụ thì ko niềm nở. So với giá 25k thì thật sự quá đắt",NEG,NEG,NEG,
+168,"Mất vệ sinh khi nhìn thấy bánh mỳ chuẩn bị bằng tay không. Bánh mì ko ngon, So với 25k bỏ ra thì quá tệ. 10k cũng ko đáng",NEG,NEG,NEG,
+169,"không hiểu sao cửa hàng này có thể đông trong khi bánh mỳ thì quá chán, 25k chỉ có ruốc thì mặn chát, pate, ít thịt mỡ với vài lát dưa chuột. bánh mỳ vỉa hè còn ngon hơn!",NEG,NEG,NEG,
+170,Bánh đồng giá 25k đầy đủ pate thịt chả dưa chuột. Ai muốn ăn thêm ớt thì tự lấy vì có 1 bát ớt to đùng để trên bàn luôn 😂 ,NEG,NEG,NEG,
+171,"Mình bị nghiện bánh mì. Mình ăn nhiều hàng lắm, nhưng không đâu ngon như ở đây luôn ý, lúc bị nghén lại càng thèm, ngày nào cũng phải mua về ăn. ",POS,POS,POS,
+172,"Cháo lươn Nghệ An đúng chuẩn với lươn mềm không xương, ăn vào hôm trời lành lạnh thiệt hợp hết ý. Bát cháo nóng hổi, thêm chút cay nồng từ hạt tiêu kết hợp với vị thơm thơm của hành răm đỉnh lắm nha. Lươn ăn không tanh đâu mà mềm mịn nhưng thịt không bị nát đâu nhé.",POS,POS,POS,
+173,"Quán nấu khá ngon, móp súp và lươn nấu chuối đậu thì không ấn tượng lắm. Còn lại ổn.",NEU,NEU,NEU,
+174,"Mình là dân nghệ an nên thấy súp lươn quán này ngon, 2 đứa đi ăn gọi súp lươn và miến lươn xào. Sau lại gọi thêm súp vì ngon quá :)) Tuy k bằng nghệ an nhưng ở hà nội thế này là ok. Giá thì mất rẻ hơn giá đăng trên foody, 2 súp 1 miến xào hết 120k",POS,POS,POS,
+175,"Trời lạnh lạnh chút thì cứ phải kiếm mấy món nóng sực, thêm phần cay nóng như này mới thêm phần thỏa mãn. Quán chuyên các món về lươn nấu kiểu Nghệ An, đủ cá món từ miến nước, miến xào, cháo lươn, súp lươn, lươn om chuối đậu, lươn xúc bánh đa... Có cả lươn mềm và lươn khô nhưng lươn khô phải đặt trước mới có. Miến lươn xào siêu ngon, thịt lươn mềm mướt, vị tiêu cay nồng ăn phát mê, mỗi cái là đĩa hơi ít. ",POS,POS,POS,
+176,"Quán hơi khuất, nhưng không khó tìm. Quán khá đông khách. Mình gọi một súp lươn và 1 lươn om chuối đậu. Súp lươn cay ngon, lươn mềm và khá nhiều. Ăn kèm với bánh mỳ. Điểm trừ là bánh mỳ siêu ỉu 🙄. Lươn om chuối đậu thật sự rất ngon. Ăn với bún rất hợp, lươn không hề có xương 👏🏻👏🏻👏🏻. Chắc chắn sẽ quay lại để thử các món khác 👍🏻",POS,POS,POS,
+177,Nói chung mấy món ở đây đều thấy ổn hết đó,POS,POS,POS,
+178,"Cái thời tiết như mấy hôm nay, mưa rả rích rùi lành lạnh thì m hay chọn những món đồ nước, nóng hổi để ăn😍 ",POS,POS,POS,
+179,Chắc chắn sẽ quay lại.,POS,POS,POS,
+180,Nói chung ăn miến lươn xào mềm thì mình chỉ tin tưởng ở đây thui. Lươn giòn cũng có nhưg k bằng mềm đâu ạ. ,POS,POS,POS,
+181,"Nửa năm trước mua về ăn còn thấy tạm ổn. Hôm nay gọi ship 1 vịt nướng, thịt nhão, đỏ, nhiều mỡ. Cảm giác hơi phí tiền.",NEG,NEG,NEG,
+182,Những lời review có cánh đã làm tôi đến đây. THỰC SỰ THẤT VỌNG. Cảm thấy phí tiền nhất trong chục năm cuộc đời đi ăn ở cái đất Hà Thành này :))) ,NEG,NEG,NEG,
+183,"Mình đi ăn cùng 2 người bạn, gọi nửa con nướng, nửa con rang giềng, 1 canh măng và 1 đĩa chân cổ cánh chiên mè. Quán quá đông nên chắc nướng vội, nửa con nướng bị đỏ gần 1/3 đĩa, mình phải bỏ k dám ăn, đĩa rang giềng thì gia vị đậm đà nhưng ngấy. Canh măng k có gì đặc biệt. Riêng đĩa chân cổ cánh chiên mè có 4 cái chân vịt, 2 cái đầu cánh và 1 cái đầu mà quán tính 100k thì đắt thật. ",NEG,NEG,NEG,
+184,Ship về nên ăn cũng bình thường . Nửa con mà thấy ship về hơi ít so với mọi chỗ mà giá tương đương,NEU,NEU,NEG,
+185,Đặt 2 xuất quẩy tính tiền 2 xuất mà ship có 1 xuất,NEG,NEG,NEG,
+186,"Bún bò Huế ăn khá ngon. Đông khách. Tuy nhiên thời gian phục vụ và tính tiền hơi chậm. Mọi người chủ yếu ăn bún bò Huế. Món bánh bèo, bánh xèo không nên chọn",NEU,NEU,NEU,
+187,2 vợ chồng vào ăn gọi 1 bát thập cẩm xương nạc và 1 bát thập cẩm gân và 2 trà đá. nv bê ra ck mình ăn vài miếng mình mới hỏi ơ sao k có gân chỉ có 3 -4 miếng thịt và 1 bò viên.. hỏi nv họ bảo nhầm với em mới làm. k thấy bù trả gì cả vẫn tính tiền như thường. trà đá gọi tận 2 lần mà k mang ra mặc dù vắng khách. quá đắt cho giá 55k/bát. đây là lần thứ 3 bị như vậy rồi. gọi ship lần trc thì k có miếng thịt nào. sáng ra mua bực vào mình. không bg quay lại nữa . mọi ng cân nhắc nhé. chất lượng quá kém,NEG,NEG,NEG,
+188,"Trưa nay ko kịp nấu ăn nên mình ra quán gọi một bán bún bò huế. So với lần ăn cách đây vài tháng thì chất lượng ngày càng tệ đi nhiều, nước dùng thì ngọt lớ, quá nhiều mỳ chính, và ít thịt so với giá 50k/bát. Mình có gọi thêm ít tiết ăn thêm thì khi tính tiền khá là sốc: 20k cho một bát tiết được lèo tèo 6 hay 7 miếng gì đấy bé bằng đốt ngón tay cái. Ăn xong đã chán rồi, lúc tính tiền còn chán hơn. Tự nhủ là sẽ không bao giờ quay lại!",NEG,NEG,NEG,
+189,"Vào đến nơi nhìn menu toàn 50 60k đã thấy cao rồi. Mình gọi thử 1 bát bún chỉ bò và bò viên thì thực sự khá ít thịt, bát bún cũng chẳng phải đầy đặn nếu so với giá. Được cái nước dùng thì đậm đà vừa phải. Nói chung sẽ ko quay lại vì vừa đắt lại ko no",NEG,NEG,NEG,
+190,"Nếu ko xét giá thì phải gọi là quá quá tuyệtt, bát bún đầy ú ụ mà mình ăn mãi k thấy chán. Nước dùng đậm đà thơm ngon. Tóm lại là rất ngon, must try các bạn ạ 😭",POS,POS,POS,
+191,"Mình ăn thử một suất thấy hơi nước dùng không đặc sắc mấy, nhiều thịt thì chắc ai ăn khoẻ sẽ thích nhưng mình thấy hơi mất cân bằng, bò viên khá ngon, tiết heo thì mặn với lại màu sắc bên trong với bên ngoài không đều nhau. Quán Khải Phong mới mở bên cạnh ăn coi bộ ổn hơn.",POS,POS,NEG,
+192,Bát bún khá đầy đặn! Nước dùng thanh! Phục vụ tốt!,POS,POS,POS,
+193,"Quán đông, phục vụ chuyên nghiệp, nước dùng tạm được. Nhưng dọc mùng ko làm kỹ nên ăn hay bị ngứa. Ở khu vực xung quanh ăn đổi món thì được.",NEU,NEU,NEU,
+194,Đây có lẽ là quán bún to và chuyên nghiệp nhất quận Long biên ,POS,POS,POS,
+195,"Trà táo 35k
+Cookie socola 38k 
+Nước ở đây bình thường, nhưng giá hơi chát ạ 
+Không gian quán giống với nhiều quán khác 
+Phục bình thường, chỉ có 2 người phục vụ.
+Đợi nước hơi bị lâu í 
+Nói chung là delio ở nơi khác thì mình không biết thế nào nhưng ở Hồ Đắc Di thì nhạt quá ạ 😭😭",POS,POS,NEU,
+196,"Hôm rồi trung tâm mình tổ chức noel party ở đây vì mua được voucher 150k/người suất buffet lẩu ạ. Nhà hàng nằm trên đầu đường Thái Thịnh rất to, nhìn có vẻ chuyên về hội nghị tiệc cưới hơn. Bởi vậy nên buffet ở đây là kêu nhân viên đem ra chứ không tự lấy ạ. Nước lẩu khá nhạt, không có gì đặc sắc, mình phải xin thêm sa tế bỏ vào mới có tí vị. Đồ nhúng lẩu gồm có thịt bò, cá viên, tôm, chả cá... Mang tiếng buffet nhưng tôm không được gọi thêm đâu ạ :))) chỉ được đúng vài con mang ra đĩa đầu tiên thôi. Gầu bò ăn khô và chán lắm nên mình chỉ gọi ba chỉ bò, nhưng khi gọi thêm những lần sau thì nhân viên đem ra cực kì lâu, nói chung là không nhiệt tình, còn nhăn nhó khó chịu nữa. Hôm đó mấy chị em mình ăn đã không ngon rồi còn không no :)) Nhưng vì cty tổ chức nên đi ăn thôi chứ không có sự lựa chọn",POS,POS,NEG,
+197,"Thịt gà của quán là nhất đấy. Đi ăn gọi liền 4 món chân gà, cánh gà chiên, chim quay với 2 đĩa phở xào mềm ăn no căng luôn, thanh toán hóa đơn hết tròn 420k, thực sự giá quá rẻ mà ngon nữa. Cô bạn mình đi ăn xong cứ khen mãi thôi, hẹn hôm nào lên đây công tác lại qua quán ăn tiếp bữa nữa. Thích nhất là hôm ấy trời oi mà phòng lạnh ngồi ăn rất dễ chịu, thái độ nhân viên cũng nhẹ nhàng, phục vụ nhanh nhẹn.
+Tuy nhiên điểm mình không vừa ý là  mấy dãy bàn nhỏ ấy, khoảng cách giữa hai bàn hơi sát nên ngồi cảm giác rất chật vì chân mình hơi dài, ngồi hơi tốn chiều ngang xíu. Nói chung là ngoại trừ điểm này ra thì mọi thứ đều ổn, hẹn sẽ quay lại quán một ngày không xa.",POS,POS,POS,
+198,"Hai đứa ăn xong đau bụng cả ngày
+Chân gà ok nhưng nước ko ngon",NEG,NEG,NEG,
+199,"Mình vừa thử trưa nay. Điểm cộng đầu tiên là bát bún đầy đặn, rất nhiều cá rán, chả cá, chả tôm. Bề bề cũng to và chắc thịt hơn các quán khác. Giá cả rất hợp lý. 40k/bát bún hải sản. Tuy nhiên nước dùng chưa đậm đà lắm. Nhưng có thể coi là tạm ổn, và gần cơ quan mình. Sẽ quay lại",POS,POS,POS,
+200,"Trước đi qua khu BK thì thấy quán nên bọn mình vào thử xem sao. Quán mới mở ngay trong khuôn viên căng-tin của Bách Khoa, nên dễ tìm lắm, ở đây mình thấy ngon nhất là món bún cá Thái Bình (như trong ảnh) ăn như bún trộn ăn thích lắm luôn, sợi bún to, nước sốt cũng ngon nữa, cá ăn giòn giòn nữa.
+
+Quán sạch sẽ, phục vụ nhiệt tình, à còn điều hòa nữa, nên khỏi lo bị nóng ha
+1 suất trong hình có giá tầm 30k ha, 1 giá hợp lí cho giá 1 bữa trưa/sáng phải không :D",NEU,NEU,POS,
+201,"Đi ăn thịt nướng với ông bạn ngày mưa gió ở nhà hàng King Plus BBQ. Dẻ sườn bò mỹ mềm và thơm nức. Nhân viên phục vụ chu đáo nhiệt tình, đông khách mà vẫn phục vụ nướng tại bàn cho bọn mình. Xứng đáng 5* 😆😆😆
+Mọi người ở khu vực Hà Đông, Thanh Xuân nên qua thử, quán cũng dễ tìm lắm nè 💯",POS,POS,POS,
+202,"hú hú ưng quá là ưng ✌ nghe danh Vinh Tẩm đã lâu giờ mới có dịp thử )) đúng là bánh vẽ chân dung k đâu qua nổi Vinh Tẩm, nét vẽ max đẹp ❤ bánh gồm 3 lớp bánh 3 lớp kem khá dày dặn, cốt bình thường của quán là cốt vani kem socola, mình thì k thích vani nên đặt cốt cacao ít ngọt kem socola cho dễ ăn, thêm có 20k thôi mà chất lượng dã man ý 😍 nhân viên full nữ, bạn nào cũng nhiệt tình cả thân thiện 
+nói chung là chym ưng 😆 😆😆",POS,POS,POS,
+203,"Nói chung là ngon nhưng mấy bạn đi ăn lần đầu thì chú ý tí :v 
+- Quán chỉ mở từ 2h chiều. Lần đầu tiên đi giữa trưa ra đến nơi chả thấy có gì luôn 😒
+- Bánh bột lọc 5k, nộm 25k bát, cuốn 5k giá khá rẻ
+- Hàng quán sạch sẽ
+- Trải nghiệm nhớ đời của mình: lần thứ 2 ra để ăn thử lúc 5h thì cũng may là ông vẫn đang bán. Con em đi cùng lớ ngớ thế nào lại gọi bát bánh bột lọc chứ k gọi nộm. 2 đứa biết nhầm nên quyết định gọi 1 bát bột lọc thôi, khi ông hỏi mấy bát mình còn giơ cả ngón tay lên đề phòng ông k nghe thấy mà ông vẫn cứ làm cho 2 bát :(( thôi trót rồi nên k gọi nộm nữa để còn dành bụng đi ăn bánh tráng gần đấy 🙁🙁🙁 Ờ, xong 2 chị em vật vã ăn hết 2 bát bánh bột lọc, nghĩ bụng chắc bát này 30k :v Bánh cũng okie, ngon hơn hàng cột điện quán ở gần đấy. Đến khi trả tiền mới ớ người ra là ông cắt 8 bánh 1 bát 😂😂 tại các cháu k dặn mà 2 đứa cũng chẳng để ý 😤 Tộng thiệt hại 90k 2 bats bột lọc với 2 cái nộm cuốn. No căng mỗi tội k đúng như dự định ban đầu 😭😭😭Bác nào đi ăn lần đầu nhớ chú ý nhé :((( 
+- Ấn tượng đầu khá cay đắng cơ mà vẫn muốn quay lại ăn nộm 🤣🤣🤣",POS,POS,POS,
+204,"Quá trưa định đi thử Phở Thìn ở Lò Đúc cơ, nhưng mà đường xa mỏi gối, thế quái nào lại sà vào cái quán này.
+Gà tần 55k (không nhớ 55k hay 65k gì đấy), thêm mì gói trần nước sôi  +10k.
+Được cái là Gà Ác, nhưng tần rất ít vị thuốc, ngải cứu cũng chỉ được 1 tẹo, nước cũng chỉ được 1 tí. Có lẽ vì con gà đã chiếm hết diện tích ống bơ.
+
+Gà đã tần sẵn để trong ống bơ, khách gọi mới trần lại cho âm ấm. Xong đổ ra bát 1 đống trông rất mất cảm tình. Cá nhân mình thấy vị dở vô cùng dở.",NEU,NEU,NEU,
+205,"Bát bún siêu to khổng lồ, món nem lụi ngon ngon
+Rất hài lòng luôn ý",POS,POS,POS,
+206,"Bình thường ko hay ăn phở Lý quốc sư đâu nhưng hôm mình qua khu văn phú này, chả biết ăn gì, tiện thì vào.
+Bát phở to, nhiều thịt. Trên hình là phở tái gàu. Nước trong, k bị mỡ quá. Nói chung ăn được.
+Giá khá hạt dẻ so vs 1 bát to thế. 32k
+Giá dao động từ 25-35k thôi.
+Chỗ ngồi rộng rãi, cũng sạch sẽ, quán có điều hòa nữa.",POS,POS,POS,
+207,Tôi vừa đặt 1 xuất cơm vịt mất 70 trên now nhưng cửa hàng lại quên ko cho vịt vào,NEG,NEG,NEG,
+208,"Có cô quen cho văn phòng mình voucher giảm giá nên ăn thử pizza ở đây
+Pizza hải sản rất ngon, món sườn ướp đặc biệt ngon và vừa miệng, mình lấy khoai tây chiên chấm cùng nước sốt này ngon nhức nhối luôn
+Văn phòng mình gọi ship về nên thấy rất ngon và nóng vì vp mình gần đây
+Món pizza bò mình không thích lắm vì không thích vì hơi không hợp vị, ngược lại pizza hải sản thì lại rất ngon theo đa số mọi người trong văn phòng
+Có tặng kèm coka, giao hàng thần tốc
+Nhất định sẽ còn ủng hộ dài",NEU,NEU,POS,
+209,"Quán dễ tìm lắm. Lần đầu ăn bánh đúc nóng, ngon, lạ, dễ ăn. Gía bình dân, 20k 1 bát",POS,POS,POS,
+210,"Đồ uống ngon
+Không gian đẹp
+😍😍😍",POS,POS,POS,
+211,"Cũng giống như các cơ sở Fresh Garden khác, bánh mỳ ở đây khá tươi, bánh gateux, bánh kem ăn ok, không bị ngấy. Cảm giác cũng khá sạch sẽ nên yên tâm. Có cả caramen, sữa chua nữa, ngon, ngầy ngậy thơm thơm.
+Nhân viên lễ phép, nhiệt tình.
+Điểm trừ ở đây là giá cao so với các chỗ khác mà chất lượng bánh không có gì nổi bật, chỉ được trang trí đẹp.",POS,POS,NEU,
+212,"Ngon bổ rẻ , ấn tượng tương ớt chấm rất ngon, mỗi tội hơi ít món, cần nâng thêm vài món nhậu nữa",NEU,NEU,NEU,
+213,"Bít tết ăn ngon, không gian quán đơn giản, ấm cúng, nhân viên nhiệt tình, thân thiện. Sẽ còn quay lại ủng hộ quán",POS,POS,POS,
+214,"Chỗ này 2 suất đầy đủ với 1 giả cầy 105k quá ngon quá rẻ cho 1 món ăn vỉa hè, mắm tôm ngon, nấu nướng làm đồ sạch sẽ còn được free trà đá. Đi ăn bún đậu chỉ mong về k bị đau bụng mà về chả làm sao
+5 sao cho quán",POS,POS,POS,
+215,"Biết là quán xa nhà. Mà lại k có time đi lên quán ăn. Đành phải order giao về. 12km tưởng món sẽ lạnh ngụi lun rồi.
+Ai ngờ còn âm ấm. Vẫn ngon tuyệt vời cú mèo.",NEU,NEU,POS,
+216,"Trước ở gần nên ăn ở đây suốt. Ngay đối diện trường cấp 1-2 dịch vọng hay sao cũng ko nhớ rõ. Mình chuyên gọi bánh đa cá, thích nước dùng ở đây cực đậm đà, mình ăn thử nhiều quán bún cá mà chưa ưng quán nào như quán này. Bây giờ chuyển nhà rồi vẫn thừm thỉnh thoảng quay lại ăn. Quán mới sơn lại nhìn sạch sẽ hơn, mùa hè mái tôn vẫn nóng. Quán cafe bên cạnh thì nước cực đắt nhé",POS,POS,POS,
+217,"Không gian quán nhiều góc nhỏ xinh, Ban công mùa hè rất tuyệt vời. Mùa Noel có nhiều góc checkin sống ảo cực kì chất!
+ Quán ở đối diện 124 Lê Lai hà Đông. Có chỗ đỗ oto rthoair mái các bạn nha",POS,POS,POS,
+218,"Hôm trước ghé qua chợ nghĩa tân mình vào đây mua thử mang về xem sao. Giá khá rẻ. Tào phớ mua về 7k, chè thái 12k. Bọn mình mang về đến nơi thì tan hết đá nên ăn chè thái và tào phớ khá ngọt. Phục vụ nhanh nhẹn. Tào phớ có cả thạch gang và chân trâu. Còn chè thái ngọt quá. Nếu ăn ở đấy có lẽ sẽ ngon hơn.",POS,POS,POS,
+219,"Thơm, sạch sẽ",POS,POS,POS,
+220,"Quá ngon và rẻ cho một cuộc tình chỉ 45k chỗ này ai mà tin được ạ, mỗi tội về ko ai ăn cùng 😂 mọi người vào shopee đặt ngay nhé, đang có giảm 100% tối đa 60k",POS,POS,POS,
+221,"Mình mua hôm nay 10 nem khá to, giòn và rất ngon, tươi nữa!",POS,POS,POS,
+222,Vị oreo kem cheese khá béo uống cũng ok trân châu hơi nát,POS,POS,NEU,
+229,"Mon men đi vào con ngõ nhỏ xíu là khoảng sân rộng, leo lên bậc cầu thang nho nhỏ của ngôi nhà cổ, tới căn gác tầng cao là khoảng không rộng nhìn ra bờ hồ. Gió mát rượi. Cà phê trứng không xuất sắc ngon nhưng được cái view ra bờ hồ hóng gió mát rất thích. Dưới sân nhà có em mèo nhà ai to đùng luôn vuốt ve thích lắm mà không thèm mở mắt ra...",POS,POS,POS,
+231,"Nước lẩu ngọt đậm đà, miến dai dai cùng thịt bò tươi ngon. 
+10/10 cho chất lượng 👍🏻
+
+P/s: Có ai biết miến trong lẩu bull ở đâu bán ko nhỉ?",POS,POS,POS,
+232,"Quán ramen ngon mỗi khi đến Hà Nội mình đều ghé quán. 
+Chủ và nhân viên đều tận tình lịch sự tư vấn món, bước vào bước ra đều nghe câu chào bằng tiếng Nhật.
+Giá thành từ 160/1 tô chất lượng và đậm chất ramen, thực khách đa số là người nước ngoài, rất khó để chiếm được lòng tin từ họ nhưng quán đã làm được vì lần nào mình vào cũng thấy đông.
+Âm nhạc hay nhẹ nhàng tăng cảm giác ngon miệng",POS,POS,POS,
+233,"Quán ăn là một điểm vô cùng đặc biệt cho những ai mê món dê núi và gà đồi. Với nhiều món ăn được chế biến từ dê núi từ Ninh Bình, thực khách có thể thưởng thức tất cả những hương vị từ món dê. 
+
+Đặc biệt món dê hấp luôn mang lại mùi vị đặc trưng mà chỉ có ở Dê núi Ninh Bình mà thôi.
+
+Quán nằm ngay mặt tiền đường, rất dễ tìm và có đội ngũ nhân viên phục vụ tận tình. Quán luôn được trang bị điều hoà tạo cảm giác thoải mái mỗi khi ghé thăm. Đây quả thực là một điểm hẹn lý tưởng cho bữa trưa cùng đồng nghiệp hoặc bữa tối cùng gia đình.",POS,POS,POS,
+234,"nơi khá đẹp để ở và gần mọi thứ chúng tôi cần khi khách du lịch bên cạnh tháp bidv và vietcombank hq gần phố cổ hồ
+đồ ăn sáng không như mong đợi không chất lượng cho khách sạn khá là xấu hổ",POS,POS,NEU,
+235,"Bánh khúc ngon, nhân thịt đậu bên trong
+Kèm cả chả cốm, chả thịt
+Gần ks nên sáng mua ăn đi đường",POS,POS,POS,
+236,"Hoa quả dầm ở đây rất đầy đặn, nhiều loại quả, giá rẻ mà cốc rất to. Mình gọi ship Now, cốc được đóng chắc chắn, không đổ chảy gì. Nhất định sẽ còn mua nhiều lần nữa. Các bạn nên ăn thử đi ạ. Không thất vọng đâu. Good!!!!!",POS,POS,POS,
+237,"Một quán trà ngon phụ thuộc vào rất nhiều yếu tố:
+- Không gian
+- Người đi cùng
+- Âm nhạc
+- Vị của trà
+
+Quàn này Không gian: vứt vì nhiều hôm rất rất xô bồ.
+Âm nhạc cũng không có gì
+Vị của trà bình thường
+
+Nói chung quán này thuộc thể loại tiện ở khu đấy thì có thể ghé vào. Tuy nhiên đi thì đi nhóm đông hợp lý hơn đi 2 người, vì rất đông cho nên hơi ồn ào, không có sự thư thái của nghệ thuật thưởng trà đúng nghĩa mang lại",NEU,NEU,NEG,
+238,Ghi 250g/suất sụn lợn nhưng nhận được hơn 200g như ảnh tính cả hộp đựng cũng tới 20g rồi (cân nhà mình đã còn chỉnh tươi lên cả 1-2 vạch từ trc luôn). Chất lượng dịch vụ quá tệ. Gian dối.,NEG,NEG,NEG,
+239,"Nước dùng phở thơm, đậm đà vừa miệng rất hợp khẩu vị với mình. Cơm rang thì đĩa to bự nóng hổi thơm ngon lại còn có cả đồ ăn kèm là dưa chuột chua ngọt và nước canh nữa nên chẳng sợ ngán. Chắc chắn sẽ rủ người thân và bạn bè đến đây ăn dài dài 😊",POS,POS,POS,
+240,"Quán nằm ngay đối diện văn miếu với quả biển đỏ chói lọi chữ ""kem"" nhìn là thấy.
+Nhưng quán khá nhỏ nên phải sang ngồi bên vườn hoa đối diện khá mát dù thời tiết lên tới 40°C.
+Cô chủ quán và anh trong quán nhiệt tính thân thiện.
+Có kem,.. dừa lạnh, ..mía đá... ( thực sự nước mía quá ngọt như độn đường) mặc dù anh ở quán có bảo quán anh không cho đường.
+Giá cả: khu này thì độn giá từ 5k so với chỗ khác, m gọi 2 dừa, 2 kem, 6- 7 cốc nước mía giá 203k chỉ lấy 200k thôi.
+Tuy độn nhưng còn rẻ hơn trong Văn Miếu.",POS,POS,NEU,
+241,"Quán không gian rộng rãi , sạch sẽ, yên tĩnh
+Đồ uống cực ngon luôn nhé các bạn❤️
+Trà sữa Mango Matcha Latte nghiện ngất nhây luôn ạ",POS,POS,POS,
+242,"Hôm đó 2 đứa thèm bánh cuốn dã man mà không biết ăn ở đâu nên vào đây. Quán ngay gần ngã 4 Huỳnh Thúc Kháng cắt Nguyễn Chí Thanh. Quán vắng tanh chỉ có 2 đứa, thật ngại ngùng :)) Bọn mình 2 đứa phải gọi 3 lần như này mới no. Bánh mình ord không nóng, chỉ hơi ấm thui. Thịt nhìn thật mất cảm xúc :(
+Dù khách vắng nhưng nhân viên không quá niềm nở. 
+Nói chung bánh cuốn sang choảnh này không hợp nhắm với chúng mềnh hehe",NEU,NEU,NEG,
+243,"trời ơi đồ uống ở đây vừa ngon mà giá lại hợp lí quá trời lun :3 mỗi lần mình mua đều mua trên 10 cốc dù ở hơi xa nhưng mê trà đào cam sả, sữa tươi trân châu đường đen với trà sữa xoài ở đây lắm nhé nên vẫn đặt đều. trân châu đen ở đây dẻo và ngon lắm có lần mình lỡ ăn không hết cất tủ mà hôm sau ăn trân châu vẫn dẻo ngon. cô chủ ở đây cũng teen và tâm lí lắm . Quán dù mới mở nhưng sẽ vừa thử đã mê thế này rồi",POS,POS,POS,
+244,"Mực viên chiên lèo tèo có vài miếng mà 45k 
+Chè ăn cũng bt
+K giảm giá 35% thì đúng là k nên ăn",NEG,NEG,NEG,
+245,"Chỉ là một buổi tối đi về muộn mà nhà hết thức ănn nên ghé qua gặp bừa tiệm nào thì vào ăn thôi đóoo.
+Quán nằm trên đường Khương Thượng đối diện với trường mầm non gì gì đó. Cũng khá là vắng khách chắc do muộn nữa.
+Anh chủ làm khá là nhanh, vị phở bò cũng khá là đậm đà. Cơ mà thấy thịt bò cứ sao sao ấy không ngon lắm đâuu hx.
+Ăn cũng đầy đặn lắm, mình ăn cố mãi mới hết được. Giá cả cũng bình dân vì là quán bình dân mà 30k/bát.
+Ngoài ra ở đây còn có cả cơm rang nhaa",NEU,NEU,POS,
+246,"Hôm nay đẹp zời anh chồng đọc trên zing cái quán này có món mới nên rủ vợ đi ăn vì biết vợ thích ăn lẩu. 
+Cơ mà lần sau chắc ko nghe anh chồng đọc báo nữa .
+Quán này mình đến 1 lần rồi nhưng lúc ý chưa có lẩu bò nhúng nếp ả với chưa tham gian foody hehe..
+🔸 Vị trí : số 8 ngõ 97 Phạm Ngọc Thạch, quán cạnh siêu thị Uni mart, đi thăng vào là thấy.. Cũng dễ tìm
+🔸 không gian : thì cũng đầu tư bàn ghế hơn mấy hàng lẩu bt thôi ko có j đặc sắc. 
+🔸 nhân viên : kiểu chán ko muốn làm việc ý, đợi đồ ăn lâu mút chỉ xuyên thế kỷ. 
+🔸 đồ ăn : lúc bê cái mẹt ra mình thất vọng toàn tập, đúng kiểu bôi ra cho lắm thôi chứ đc 1 nhúm thịt dứoi lại còn độn rau với đậu... 
+Lẩu thì cũng ngọt nước vị bò đấy nhưng về lượng thây ko ok lắm nên ko thể thấy chất tốt nổi. Chế biến nc lẩu kiểu j mà vừa bê lên đã bao nhiêu váng rồi..
+Nói chung ko bao giờ quay lại.
+Cảm giác đắt nhưng ko xứng đáng với đồng tiền bỏ ra.",POS,POS,NEG,
+247,"Coffee Club ở tầng 4 view cực đẹp, đồ uống bình thường mà giá cả đắt hơn 1 tí so với bên ngoài, muốn ngồi được chỗ đẹp phải đợi mới có chỗ, nhưng bõ công. Đi chơi với gấu mà ngồi đây thì tuyệt",POS,POS,POS,
+248,"Quán này ở đầu Lê Thanh Nghị gần giải phóng hơn ấy. Mặt tiền rộng to đẹp mà chs siêu vắng )) chắc khu này ít người thích hoặc không quảng bá mạnh. Nội thất ok, có 2 tầng mát mẻ sáng sủa, decor đẹp, wifi không mạnh lắm, wc sạch sẽ.
+Mình vào đây là vì trời nắng quá ngại đi xa )) đồ uống  giá khá là cao, uống ok. Tên với slogan thì kêu tàn bạo luôn )) tên topping toàn hán việt nghe xoắn cả quẩy. Hàn thiên  trân châu trắng )) còn ái ngọc với tiên thảo là thạch hay j ấy )) váng sữa  kem sữa mình uống thấy cũng được, còn phomai thì đắt hơn mấy ngàn mà uống ngậy hơn tí thui :v topping bình thường, riêng thạch mình thấy thơm khá là thích. Cốc nhựa cứng cầm khá là xinh, chắc chắn.
+Nhân viên khá là thoải mái )) bọn mình nhây ở đấy lâu lắm ý. Lúc order còn trêu các bạn ý vụ tên topping mãi ))
+Nói chung là ổn, nên thử.",POS,POS,POS,
+249,"Theo mình thì phần vỏ hơi bị cứng, sốt teriyaki ko ngon. Củ cải ăn kèm thì nhạt.",NEG,NEG,NEG,
+250,"Đã gọi ship 3 lần, quan nhìu món phết, mới thử được mấy món, thấy ăn cũng đươc, gần chỗ mình nên sẽ ủng hộ dài dài",POS,POS,POS,
+251,Đặt đơn từ 14h38. Tới hơn 3h gọi xác nhận đơn? 🙄 và nhận đc đồ lúc hơn 4h chiều. Thật sự k thể chịu nổi vì cái sự lề mề này! Xong còn giao sai đồ nữa. Khó chịu!,NEG,NEG,NEG,
+252,"Trà sữa nhái, uống lợm. Mng mua nên tránh quán này ra kẻo mất tiền oan",NEG,NEG,NEG,
+253,ăn được,NEU,NEU,NEU,
+254,"Thức uống quá ngon và tuyệt vời
+Tôi thích nhất món này",POS,POS,POS,
+255,"Lần đầu ăn thử bánh này mình thấy bánh giòn, nhân vừa vặn khá ngon
+Quán bán online nên k có chỗ ngồi ăn mà fai mua mang về.",POS,POS,POS,
+256,"Mình đã đặt 35 cốc trà sữa cho lớp 
+Ai cũng cảm thấy rất ngon tuyệt vời
+Nhân viên vui tính hoà đồng 
+Giá thành hợp lý , view nếu ngồi ở ngoài rất thoải mái
+Cốc và trang trí rất đẹp 😍
+Cảm ơn ManCha về những cố trà sữa",POS,POS,POS,
+257,"- Quán này ngay mặt đường Trần Đại Nghĩa này. Trông cũng có vẻ to rộng, thoáng mát phết. Quán bình dân thôi nên có vài bộ bàn, ghế nhựa để ngồi cơ mà không gian quán thoáng nên cũng không bị tù túng cho lắm
+- Quán chuyên bán các món về lòng như dồi, cháo lòng và có cả bún đậu nữa. Quán còn có cả máy lạnh luôn nhé
+- Qua ăn thử bát cháo lòng thì trông tô cháo cũng nhiều, hơi loãng quá và trông hơi dơ do chan bị dây ra ngoài bát mà không lau đi. Ăn cũng tạm được thôi, không phải xuất sắc
+- Giá cả rẻ",POS,POS,POS,
+258,"Nghe các bạn nói đã lâu mà hôm nay mới có dịp ăn thử. Pizza đế mỏng, nhân đầy đặn lắm nhé. Mình vốn khoái pizza rồi. Ăn thử thấy ok phết. Bánh giao đến nơi vẫn nóng. Sz M mà chắc 2 đứa k ăn hết luôn. Đặt ship trên Now cũng tận tình và chu đáo.",POS,POS,POS,
+259,"Hộp đựng sạch sẽ, bún đầy đặn. Vừa miệng.",POS,POS,POS,
+260,"Bánh cuốn ngon , mềm dẻo và mướt bánh. Mang về được gói giấy bạc rất cẩn thận , hành phi quán tự làm nên rất thơm . Bánh khoái thì tuỳ ng ăn sẽ yêu cầu làm cùng bắp cải+ thì là hay bắp cải + rau cần. lần đầu m ăn bánh tráng còn hơi dày bột một chút , lần này ăn lại thì thấy bánh tráng mỏng nên ăn ngon hơn . Chả tôm đúng kiểu kẹp que tre nướng than hoa nên thơm và đúng vị , vỏ bánh vừa phải ko bị dày quá như 1 số nơi khác . 1 xuất được 5 gắp - 20 miếng . Nước chấm vừa miệng nhưng nếu có thêm 1 ít sung nữa thì chuẩn luôn . Quán sạch sẽ nhưng nếu đông khách có thể phải chờ hơi lâu một chút , vì quán cứ có khách gọi mới làm .",POS,POS,POS,
+261,"🍉 nằm ngay ngoài mặt đường và gần quán bánh canh ghẹ nên cũng dễ tìm. Tuy nhiên biển mỳ quảng lại khá bé,biển to lại chỉ đề cơm bình dân nên mình thấy khách chủ yếu đến ăn cơm @@
+🍉quán có cả chỗ ngồi ngoài đường và trong nhà nhưng ngồi trog nhà khá nóng @@
+🍉 mỳ quảng đầy đủ là 30k/bát có thịt gà,tôm,thịt lơn.,nửa quả trứng. Btrc thì cũng đc đủ ăn nhưng h đc ít lắm,mỳ cũng ít luôn,tôm thì ko tươi lại còn suy dinh dưỡng :(( ăn xog mà thấy như chưa ăn.
+🍉 bù lại thì đc bánh đa ngon,giòn chỉ có 3k/chiếc.",NEU,NEU,NEU,
+262,"Quán bán bún chả, bánh đa, nem chua đủ thể loại ở khu đại học thương mại. Hnay về muộn nên mình ra quán ăn bún chả 20k/1 suất. Giá rất sinh viên nên chất lượng cũng sinh viên luôn. Ít chả nhưng được cái nước chấm cũng ổn, ăn chữa cháy lúc đói được.",NEU,NEU,NEU,
+263,"Bánh mì và cửa hàng, lẫn nhiên viên đều đáng bị tố cáo vì làm ăn coi rẻ mạng người, coi rẻ khách hàng. Coi tiền là trên hết. 
+Tôi có đến chỗ cửa hàng bánh mì phố trên đường gần hồ Hoàn kiếm. Tôi gọi bánh mì nướng mà lúc cầm bánh nóng giòn mà khi gặm thì thịt lạnh ngắt như thịt sống. Tôi nói nhân vien thịt lạnh ngắt, chưa kịp đòi bồi thường vì ăn là thịt sống thì bạn nữ nhân viên bảo đổi bánh mì khác mà không bồi thường cho đồ ăn bẩn, mà chỉ đổi bánh thôi? Còn tiền tôi bỏ ra thì sao?
+Bạn nhân vien đổi bánh mì cho mạng sống của khách hàng, tôi muốn yêu cầu đủ phomai thì phomai ít hơn trước nãy, tôi có yêu cầu thêm phomai và hỏi sao ít phomai ăn kèm vậy vì bánh em là bánh mì nướng phomai, có phomai ăn kèm 6000₫ thì bạn nhân Viên trả lời rất chợ búa, phomai nhà em không đáng bao nhiêu chị ạ mà em có hỏi kiểu tranh cãi không ? Mà đồ ăn không như trên tờ quảng cáo theo đúng thực tế như các nơi uy tín khác Lúc đó tôi đang bận nên chỉ kịp lấy bánh rồi về luôn nhưng cũng kịp chụp lại tên hiệu cửa hàng. Ở đây khách vào rất đông, kể cả khách nước ngoài, ở đây cũng có cả Trip Advisor các bác. Mà không ko hiểu kiểu gì mà bánh vẫn bán đc đông khách. Có bác nào lên đây gặp trường hợp như không không ạ.
+Trên phố Đinh Tiên Hoàng, Bờ Hồ. Tôi ức không chịu được. Ăn vào đi bệnh viện không biết lúc nào không hay..... Bh mạng người coi như không có, khách hàng coi như ko là gì. Tiền là trên hết các bác. Cửa hàng để đồ ăn mà ruồi muỗi bâu đầy. Cạch.",NEG,NEG,NEG,
+264,"Hôm vừa rồi mình đi qua, thấy khách sạn này đã mở cửa lại. Trước hay ăn ở đây, thấy rất thích, nên muốn quay lại ăn xem sao. Nằm ngay đầu Bà Triệu, cách hồ Hoàn Kiếm vài bước chân, nên chỗ này rất dễ tìm. Nhà hàng sửa lại trông sang trọng và thoáng hơn trước, thích hợp cho các cặp đôi. Đồ ăn rất ngon, đồ uống rất đặc sắc. Thực đơn nhiều món đa dạng, đặc biệt là các món ăn Ý theo kiểu truyển thống như Lasagne, các loại mì Penne, Ravioli..., Nếu muốn tư vấn thêm, hãy hỏi nhân viên ở đây. Các bạn rất nhiệt tình giúp đỡ, tư vấn cho mình. Phở rất ngon, giá hợp lý, chỉ 75k (Mình gọi thêm rau sống như trong ảnh để ăn kèm, được miễn phí ^^). Đồ uống tầm 70k cho ly sinh tố hoặc nước ép hoa quả (Điểm hay là các bạn có thể tự do lựa chọn các loại hoa quả mình thích với cùng 1 giá duy nhất). Lần tới, mình chắc chắn sẽ quay lại thưởng thức các món khác.",POS,POS,POS,
+265,"Mình gọi combo 139k gồm kimbap + sườn phô mai, sốt chấm kimbap cứ bị ngọt quá. Sườn thì chán thôi rồi, bở bùng bục thịt bên trong cứ khô khô, nước sốt quá cay và mặn. Nói chung là rất dở. Ra món cũng lâu nữa",NEG,NEG,NEG,
+266,"Phở gà trộn tràng trứng full topping ăn no phè mà hết có 45k nhé. 
+1 ngày chán cơm thèm phở liền tìm 1 quán trộn cho thanh mát thì gặp đúng quán ngon.. menu đa dạng nhiều món nhưng vẫn chốt ăn phở trộn để thử. Ship đến vẫn nóng hổi, 1 bát phở to y như bát phở ngoài hàng vậy. Bình thường gọi ship về toàn ít tí. Thịt và tràng trứng thì nhiều vô biên. Nêm nếm vừa miệng. Cộng thêm nước dùng đi kèm quá đẳng cấp. Thanh thanh ngọt ngọt, uống cái hết bay. Sau chắc đóng họ dài dài",NEU,NEU,POS,
+267,"Bánh cuốn phố hàng, quán nhỏ vừa xinh, sạch sẽ, ngồi rất thoải mái.
+Bánh cuốn đầy đủ có kèm chả, lạp xưởng, ruốc.",POS,POS,POS,
+268,"Ấn tượng ban đầu là để hộp nhìn cực sạch sẽ , nc chấm thịt tươi ngon. Nem cũng ngon lắm a, lần đầu đặt đô ăn trên phần mềm mà ưng như thế. Sẽ ủng hộ dài dài",POS,POS,POS,
+269,"Để nói một câu thật lòng thì các bạn hãy cứ đi thử đi... để biết rằng lời văn của mình là ko đủ :3 ( bởi chất lượng trong tầm giá này quá ok và hợp khẩu vị mình ) 
+Lưu ý là ý kiến cá nhân mình nha hihi
+.
+Về chất lượng: 
+Nước lẩu mình thấy rất tuyệt vời và vừa miệng, vị rất khác với những chỗ khác, nước rất ngọt và ngon, giá trị nhất bài review này là mình tâm đắc nước lẩu của quán, ăn 1 lần có thể khiến mình ghi nhớ luôn vị của nó chứ k như chỗ khác 😀 
+Đồ nhúng bao gồm: ba chỉ bò mỹ, má đùi gà, sườn sụn, gầu bò, rau, váng đậu, đậu phụ. 
+Thịt bò mình thấy tươi và không quá nạc cũng không quá mỡ, đại loại là vừa ăn 😀 Gà có độ dai và giòn chứ không bở như gà chỗ khác... đồ ăn rất ưng nhé. ( à mới thử món chân gà quái thú ngon lắm nha, giòn xong ngọt ngọt ăn bao phê)
+
+Về dịch vụ: 
+Mình khá dễ tính nên phục vụ mình cũng thấy ổn, quán cũng đông có hơi lúng túng, nhưng rất nhiệt tình và thân thiện. Đông khách cũng mệt nên các bạn không cười nổi, cũng đúng :))
+
+Chi phí: 98k/người, quan trọng nhất là được ưu ái giảm 10% cho người trong hội và mỗi người checkin được free một nước ngọt nữa, túm lại ngon bổ và rẻ nhỉ :))
+
+Thời gian từ 18h-23h thì phải
+
+Mình thử đi ăn ở đây từ những ngày đầu khi thấy bài đăng của anh chủ quán, tuy trước có bài review chê cách phục vụ nhưng mình vẫn quay lại mấy lần rồi và thấy mọi thứ được cải thiện rõ rệt,  chất lượng rất ok nhé. Rất kết cách tiếp thu ý kiến khách hàng của anh chủ quán và sự thân thiện nhiệt tình. Mong quán luôn giữ được phong độ để mình gửi gắm tấm thân này :3",POS,POS,POS,
+270,Cũng được thôi chứ vẫn hơi đắt với lại ko đủ đặc sắc. Kiểu đói quá thì xà vào ăn tạm thôii.u,NEU,NEU,NEU,
+271,"Chưa ở đâu ăn cánh gà ăn ngon như ở đây, thơm, giòn và có cả xì dầu (chắc là do cánh gà kiểu nhật) 
+Nói chung là ổn, nhân viên nhiệt tình ngoan ngoan",POS,POS,POS,
+272,"Bánh ngon, mềm, mịn, mình ăn lúc nguội ko làm nóng làm lạnh như mn nhưng cũng thấy khá ngon rồi, vị ngọt vừa hoà cùng vị mặn của kem cheese uống kèm cốc sữa. Hết nấc !
+
+P/s: Túi và hộp xinh quá đáng, tặng làm quà cũng okela 😍",POS,POS,POS,
+273,"Quán ở mặt đường, đối diện cái chè Malaysia nổi tiếng ấy. Có 1 tầng thôi nhưng có bàn ghế nên có thể ngồi lại ăn bánh đc.
+
+Mình từng ăn ở đây 2 lần. Lần đầu đến buổi chiều. Quán vẫn còn bánh su tươi, nghĩa là vừa làm xong, mình chọn bánh gì người ta bơm nhân vào bên trong. Lần đấy cực kì ấn tượng vì bánh rất ngon, topping hay nhân đều ngậy béo. Lần này đến lúc muộn (10pm kém) nên không có nhiều sự lựa chọn, chỉ còn su kem nhỏ nhân vani.
+
+Mình chọn topping là phomai sợi (ngon cực, hơi mặn ngậy), blueberries (chua, ngọt), kem vani (ngọt, vị nhẹ). Nhân là su kem có vị thơm vani và vị béo của bơ. Ngon lắm. Ở đây có 2 loại bánh là bánh nhỏ và to. Bánh to khoảng 25-28k/cái, bánh nhỏ thì bán theo hộp là 85k/10-12c. Mình thấy mức giá đó là trung bình cao nhưng chất lượng thì hoàn toàn xứng đáng.
+Miễn bàn.
+
+Một điểm cộng là dù mua bánh lúc khá muộn nhưng nhân viên vẫn rất vui vẻ và nhiệt tình.",POS,POS,POS,
+274,"Nhà hàng này quá sang trọng và đẳng cấp kinh luôn!
+Ai thích thưởng thức ẩm thực đúng chất Pháp, với không sang sang chảnh cao cấp kiểu 5 sao thì nên đến đây này. Nhà hàng này nằm ngay gần Tràng Tiền và thích hợp cho doanh nhân tiếp đãi đối tác nhất, theo mình là thế.
+Mình đến cùng ba mình và một người bạn nước ngoài của ba, đúng là chỉ có dịp như thế này mới đến được vì giá quá chat. Nhưng bù lại đồ ăn thì trên cả tuyệt vời. Các món ăn ở đây chủ yếu đánh vào chất chứ không phải lượng, món nào cũng có một ít, ăn như kiểu nếm thử tinh hoa ẩm thực vậy á. Thích mê từ khai vị đến tráng miệng.
+Không gian cực đẹp với các thiết kế bằng gỗ và vẫn giữ nguyên màu sắc nguyên bản của gỗ. Không gian bên trong được chia nhỏ nên có cả góc riêng tư dành cho những bàn 2-3 người và những góc lớn cho đông người. Đặc biệt là còn có một phần ngoài trời với kiểu bàn ghế cầu màu trắng nhìn rất hay ho để tổ chức tiệc nhẹ. Hôm mình đến thì đang có một văn phòng làm tiệc đứng ở đây, nhìn mê phết ạ.
+La Table Tu thật sự là nhà hàng đẳng cấp, đảm bảo đủ cả tiêu chí về không gian lẫn đồ ăn. Nhà hàng này nổi tiếng và thuộc hàng top cũng k phải là k có lý do của nó. Được đi ăn ở đây đúng là mở mang tầm mắt ra nhiều lắm. Có dịp mình lại theo đuôi ba mình đến mới được. Hiehie! :D",POS,POS,POS,
+275,"Bàn bẩn đầy dầu mỡ và thức ăn của khách trước, nhân viên mang bát sứt ra, bát bẩn, thái độ kém",NEG,NEG,NEG,
+276,"Bánh mì nướng muối ớt ngon , bánh tráng trộn cũng ngon nhưng không biết tại mình mua đang đc giảm giá hay như nào mà đc có 1 nhúm thế này, dải ra thì mỏng dính ăn 3 miếng thì hết chưa kịp tráng ruột. Cũng 16k/suất chứ có phải 10k đâu. Suất bt ko giảm giá ăn đầy hộp cũng có 20k chứ mấy. Chất lượng thì ổn nhưng số lượng thì ko thể tin nổi 🙂",POS,POS,NEG,
+277,"[NGAN CHÁY TỎI]
+Nghe đồn đã lâu nay mới chịu mò đi ăn. Quả không sai, ngon xuất sắc luôn, nhất là nước chấm, chấm bún không cũng được luôn 😢 Nhắc tới lại thèmmm
+2 người gọi nửa con là kèm theo bún, canh măng tiết và rau thơm ăn k hết luôn, không phụ đi xa xôi để ăn ))) Mà tổng thiệt hại có 270k cả mâm kia gồm nửa con ngan cháy tỏi + 2 trà quất, no lặc lè các mày ạ huhu, trên đường về ghé vào Chago chơi 2 cốc Thiết Quan Âm size L nữa (thiếu trân châu sợi thần thánh vì nay hết sớm 😢), no quên đường về )))
+______________________________
+61 Hàng Thiếc (Bán tối)
+71 Hàng Thiếc (Bán ngày)
+#ngancháytỏi #nganchaytoi #nganchaytoihangthiec #71hàngthiếc #71hangthiec #chago #trasuathietquanam #thietquanam",POS,POS,POS,
+278,"👍👍👍👍món ngon,nước chấm chuẩn ,rấ hợp với mình",POS,POS,POS,
+279,"Để mà nói thì cứ bước đến con phố Nhà Thờ , hoặc Ấu Triệu thì mọi người sẽ nghĩ ngay đến món nem nướng . Nhưng kì thật mình thấy nem nướng ở đây cũng chỉ dừng ở mức tạm được thôi chứ chưa thực sự xuất sắc . Cá nhân thì vẫn prefer nem rán hơn vì nó nhiều bì và thịt , cảm giác khi ăn cũng nóng hổi hơn là so với nem nướng . Ngoài ra mình còn hay gọi kèm cá bò nữa , để mà gọi ăn chơi thì cũng vui vuii . Một điểm cộng cho quán là tương ớt vị khá đặc trưng và cay 👍🏻. Ở Hà Nội mình còn hay ăn nem rán ở Ngõ Tạm Thương trên phố Hàng Bông nữa , tuy ớt không cay bằng nhưng vị nem cũng rất ngon và đáng để thử nha ^.^",NEU,NEU,NEU,
+280,"Chiều nay thèm caramen nên cả phòng đặt món caramen mít của quán về ăn chiều, nhìn 1 phần đầy ắp ly to như thế hỏi sao ko mê được món của quán chứ, giá rẻ đồ ngon lại giao nhanh chóng",POS,POS,POS,
+281,"Vị trí: gần trường THCS Ba Đình, cạnh MTP hay MPT gì đấy, theo mình thì quán cũng hơi khó nhìn.
+Decor: quán nhỏ, chỉ có 1 tầng. Bàn ghế gỗ nhìn cũng sạch sẽ.
+Nhân viên: được cái khá nhiệt tình.
+Đồ ăn: menu phong phú, đa dạng. Mình hay ăn gimbab chiên ở đây, với giá tiền thì ăn cũng ổn nhưng cuốn không chặt tay. Mình có thử gọi trà sữa, giá rẻ mà cốc to đùng. Nhưng mình không uống được hết vì không ngon và quá ngọt dù có khá nhiều đá. Có điểm trừ nữa là bàn ghế nhìn sạch sẽ thế thôi chứ đồ ăn không được sạch. Có lần mình nhìn thấy chai tương ớt bị kiến bu đầy, rồi làm thức ăn không dùng bao tay vệ sinh nữa.
+Giá cả: bán chủ yếu cho học sinh nên giá rất rẻ, 10k trà sữa, 15k gimbab.",NEU,NEU,NEU,
+282,"Nộm nổi tiếng nhất khu bờ hồ
+Bán xuyên tết, tết tăng giá 1 tí nhưng ngày bt thì chỉ 30k 1 đĩa nộm bò, 50k 10 bánh bột lọc
+Nộm bò ở đây có cả thịt bò tươi, thịt bò khô để mỏng dính mà đi cả hà nội này k đâu có :)), lá lách chiên hay phổi chiên gì đó, hôm hỏi mà bh quên mất 😛, gân bò nhai giòn sần sật ăn phê luôn
+Quán lúc nào cũng đông, nhưng tay nhân viên ở thoan thoắt nên k phải đợi chờ lâu 😝",POS,POS,POS,
+283,"Chắc do mình ăn nhiều nên hơi kĩ tính về món này,ở đây chỉ gọi la ăn tạm dc so vs giá nhưng k gian thì thấy cũng ổn,thấy có lẩu mà chưa ăn thử xem có ok hơn cháo k",NEU,NEU,NEU,
+284,"Mình đặt 16 cốc trà thạch trân châu mà quán làm 16 cốc tào phớ cho ship đến. Bảo là 1, 2 cốc nhầm còn được trong khi menu quán ko hề có món tào phớ, ko hiểu quán nhầm lẫn kiểu gì được với số lượng lớn mà vẫn sai sót như vậy. 
+Tào phớ bình thường như cốc 10k mua ngoài chợ.
+Sẽ không trải nghiệm lại lần nữa.",NEG,NEG,NEG,
+285,"Hơi thất vọng về quán . Mình gọi suất ăn trưa gồm một phần mì tương đen, một kimpap thường,  một tokbokki.  Kimpap đúng chán. Order về nguội ngắt, cơm khô, cứng  , không có bất cứ sốt gì cả ,cắn miếng bở vụn luôn.  Tokbokki được cái còn nóng , dẻo nhưng sốt quá ngọt lợ ,mình ăn đúng vài miếng bỏ dở. Có lẽ ổn nhất là mì tương đen nhưng vẫn có điểm trừ là vị hơi nhạt. Lần đầu tiên mình order đồ ăn về đúng ăn được vài miếng, còn lại không thể ăn nổi . Mong quán hãy cải thiện chất lượng đồ ăn",NEG,NEG,NEG,
+286,"Lần đầu ăn ở đây quán có 2 tầng, tầng trên có điều hoà nhưng hơi chật với lại có 1 cây đào để checkin 😂 món ăn có vẻ đầy đặn, giá khá ổn, phục vụ cũng khá nhanh. Sẽ quay lại",NEU,NEU,POS,
+287,"Không gian rộng rãi, nhân viên ngoan ngoãn nhiệt tình. Nhạc chủ yếu là nhạc hoà tấu, nhạc không lời. Nhạc sống có ngày biểu diễn cụ thể. Có cả bàn ghế ngồi và ngồi triệt, sân khấu biểu diễn nhạc sống. Phục vụ đẩy đủ ăn sáng, ăn trưa, ăn tối, dân văn phòng phù hợp với lựa chọn cho bữa trưa.",POS,POS,POS,
+288,Quán đồ ăn lèo tèo đặc biệt là nồi lẩu 400k có đúng 4 con tôm và 5 miếng bò mỏng. Thả đúng 1 lượt thì hết đồ. Món ăn thì chỉ là nguyên liệu xếp lên xong cho bát nước mắm chấm vào chứ ko phải ướp xốt như những quán Thái đúng điệu . Hoá đơn hơn 1 củ mà không ăn được 1 món ra hồn thậm chí cũng ko no. Tiền ăn thì không tiếc nhưng đây là quán đồ Thái tệ nhất từ trước đến giờ . KHUYẾN CÁO CÁC BẠN KO NÊN ĂN THỬ MẤT TIỀN OAN 😢,NEG,NEG,NEG,
+289,ngon,POS,POS,POS,
+290,"Bên này nghe nói món feature là tiệc trà kiểu Anh nhưng vì mình thèm cà phê nên gọi món lẻ gồm: 1 cappuccino cho mình, trà (quên tên rồi) cho bạn mình, bánh tart & tiramisu cup.
+- Về đồ uống, cappuccino uống ổn, tạo hình đẹp. Thấy có 1 bạn up lên được tạo hình thiên nga nữa, nhưng hôm mình tới thì tạo hình bình thường như các quán khác thôi. Trà của bạn mình thì mình có uống thử, vị trái cây khá thơm, dễ uống, rất sảng khoái. Giá nước uống khoảng 60k. Với 1 quán ngay ngã tư trung tâm thế này thì mức giá khá ổn.
+- Cả 2 loại bánh thì mình ăn thử cả 2 đều thấy ngon. Bánh tart có trái cây tươi, mà mình lại tín đồ trái cây nên xin phép chấm bánh ngọt ở đây 10 điểm. Tiramisu cup cũng ngon, đậm đà. Giá bánh khá ổn, 45k/chiếc. Quá ổn cho 1 cuộc tình. Với đứa hảo ngọt như mình chắc sẽ còn ghé quán dài dài để thử hết menu bánh.
+- À còn về không gian thì phải nói là vô cùng đẹp & nghệ thuật! Quán có 3 tầng, mỗi tầng được thiết kế với 1 tông màu khác nhau. Mình với bạn ngồi ở tầng 2 thì phải (cái tầng màu xanh ấy). Không gian không quá lớn nhưng có rất nhiều cửa sổ lớn view ra ngã 4 Phố Huế. Ngồi chill chill thích phết. Mình với đứa bạn ngồi ăn bánh thưởng trà, ngắm đường ngắm phố cả buổi chiều.
+Tóm lại, quán có không gian đẹp, thoáng. Bánh & đồ uống ngon. Chắc chắn có dịp sẽ ghé lại lần nữa!",NEU,NEU,POS,
+291,"Dạo này nhiều việc quá nên chẳng có thời gian qua ăn,ngồi buồn buồn thấy thèm đành lên đây review cho đỡ nhơ hihi 
+• Từ lúc biết đến phố phố Gầm Cầu thì gần như đã dành thời gian ăn thử hết các quán ở đây rồi vì mình cực nghiện món bò nầm nướng và  cảm thấy quán nướng Cô Quỳnh  ngon và ưng ý nhất từ trước đến nay 👍🏻👍🏻 Mình nhớ lần đầu tiên tìm đến quán này hôm đấy đầu tuần quán cũng vắng hơn mọi hôm,cũng hơi lo lo nửa muốn vào nửa k muốn vào.Suy nghĩ 1 lúc đành tặc lữoi cứ vào xem sao thì ai ngờ NGHIỆN quán đến tận bây giờ,k thể Cai được ahihi 😂
+•Vị trí:Các bạn có thể đi từ Hàng Giấy vào thì rẽ phải là quán thứ 2.Còn đi  từ phố Nguyễn thiệp vào thì các bạn tìm đến số 20 Gầm Cầu là thấy quán ngay ☺️
+•Không gian:Giống như các quán khác đều ngồi dọc dứoi cầu tàu hoả nhưng có đặc biệt ở quán này là trên tường treo đầy giỏ hoa,lá nhìn rất mát mắt và nhìn quán cũng xinh hơn🍀🍀.Không gian sáng sủa,sạch sẽ.
+•Đồ ăn :Mình  gọi suất thật cẩm bò,nầm,ba chỉ,lòng,sườn sụn.Phai nói thật đĩa mang ra rất đầy đặn,k độn tí nào.Thịt tẩm ướp rất là ngon,hợp với khẩu vị của mình.Giá cả thì rất phải chăng,ăn no căng rún chia ra mỗi ngừoi chỉ khoảng 120-150k thui
+•Phụ vụ:nói thật mình chưa thấy quán nào mà chủ quán tiếp khách nhiệt tình,xởi lởi như quan này.Lúc minh ăn xong chị chủ còn nhiệt tình ra hỏi han,rồi đích thân ra lấy xe cho mình.Thật sự rát rất THOẢ MÃN
+>>>> Các bạn hãy qua ăn thử thì sẽ thấy những điều mình nói và còn hơn cả thế nữa.Các bạn nghiện nướng như mình mà bỏ qua quán này thì thật sự là một điều nuối tiếc đấy ạ",NEU,NEU,POS,
+292,"Nằm trong khuôn viên của khách sạn Metropole
+Giá cả tuy hơi cao những so với không gian chất lượng đồ và phục vụ thì rất đáng
+Đồ uống ngon, rất thích các loại cocktail ở đây mính sẽ cố thưởng thức từng loại 1
+Phục vụ rất chuyên nghiệp và nhiêt tình
+Không gian cực đẹp, có cả hồ bơi :)",POS,POS,POS,
+293,"Chả biết ăn tại quán thế nào chứ đặt onl như này quá chán. Khoai chiên từ vàng đậm đến cháy xém, cuối buổi dầu chiên hỗn tạp các thứ mùi thì thôi đành chịu vậy còn khoai chiên như này nhìn mất cảm tình. Quán nên lưu ý.",NEG,NEG,NEG,
+294,"Ngõ Tự Do chuẩn là thiên đường ăn uống của sinh viên Kinh Tế Quốc Dân )))
+
+Chị em hôm nào đi học bù về muộn mà muốn sống cuộc sống sinh viên ăn uống hơi bẩn tí thì vào đây ăn cũng được. 
+
+Ở đây chỉ ghét ở cái là lúc vào các hàng tranh nhau khách hơi ghê mà mình ghét nhất bị sờ vào người. 
+
+Ở đây gì cx có lẩu có nướng có nhưng mình thấy mấy món linh tinh ăn vặt mới ngon 
+
+Bọn mình hay gọi chân gà cánh gà nướng ốc các loại nem chua rồi cút lộn xào me linh tinh đủ cả 
+
+Chia tiền ra thì cũng rẻ thôi",POS,POS,POS,
+295,"👍Vị nước dùng thơm và chua vừa phải, ăn rất thanh mát.
+Bê bề thịt chắc nịch, thơm và ngọt. Tô của mình có gạch bề bề ăn ngọt béo ngậy, cùng với 4 e bề tươi. Quán mới, nên sạch, mát vì có điều hoà. Nhân viên phục vụ nhanh nhẹn.
+
+
+👎Đậu phụ không được mướt, mình không thích đậu phụ quán này.",POS,POS,POS,
+296,"Khoai mềm oặt 40k, trà đào như ly nước cống ko đào 15k
+Quản vô đạo đức, lừa đảo người mua hàng online
+Mong quán sớm dẹp tiệm
+Lũ lừa đảo, quân bất lương",NEG,NEG,NEG,
+297,"Đồ ăn ngon,nhiều món nhúng lẩu,nhân viên nhiệt tình chu đáo,thân thiện😍",POS,POS,POS,
+298,"Thương hiệu lâu đời, vịt rất đậm đà, mùi thơm ngon
+Nước chấm rất đặc biệt",POS,POS,POS,
+299,Chương trình Ăn Tasting + uống Tasting Giá 1 triệu  Không Thể Bỏ Qua  1 Beef Steak ( 180gram ) + 1 cá hồi Nướng sốt chanh leo + 1 Mỳ Spaghetti + 1 salad + 1 chai Vang ngon ( Pháp hoặc Chile )  Đặt bàn trước tặng thêm 1 đĩa hoa quả trị giá 150K,NEU,NEU,,
+300,"Một trưa cuối tuần khám phá~ Mình với con bạn tự dưng thèm cồn cào bún mắm tôm nên 2 đứa chụm đầu tìm quán ăn và kiếm được quán này ở khu chùa láng gần nơi buổi sáng 2 đứa đang đi chơi. Quán khá dễ tìm vì ngay đầu ngõ và mặt đường. Không gian tuy hơi bé nhưng khá thoáng mát, sạch sẽ. Mình đi ăn hơi quá trưa may không đông nhưng đến nơi các bàn cũng có người hết rồi còn chừa 1 bàn trong cho 2 đứa đang đói hoa mắt vì nắng nóng :) . Gọi 2 xuất bún đậu đầy đủ nên chị chủ cho chung 1 mẹt, lên đồ rất nhanh, lúc đầu mình định gọi thêm dồi hoặc chả thêm bên ngoài vì sợ không đủ no nhưng sau đấy no thật sự khi chưa kịp gọi thêm đấy :D .Quán có nước chanh quất, sữa đậu nành, bia hoặc coca để gọi nha tầm 10k, còn đồ gọi thêm như dồi rán, chả ,lòng non..tùy xuất sẽ là thêm 10k hoặc 15k nhé~ Chắc do ăn đói nên thấy ngon lắm~ Một điểm trừ là quán sẽ không cho kẹo, nhưng thôi không sao, ăn ngon là được :)",POS,POS,POS,
+301,"Đợt lâu lắm rồi đi cùng với anh trai sang tận đây ăn mà lúc đấy mới đi ăn tối xong, đến tầm 9h hơn mà quán đã khá vắng và đóng cửa trong, ngồi vỉa hè. Lần này thì đi tầm giờ chiều, mọi người đến rất đông. Mình đi cùng bạn đi mua ít đồ ăn vặt ở Xuân Thuỷ xong lên đây ăn tào phớ, tào phớ đầy đủ mix n topping có 7k 1 bát thôi, ổn. Với mình thế là rẻ rồi, cũng ngon nữa. Cho hơi ít đá, nhưng quán đông và nhân viên chạy đi chạy lại nên ngại gọi thêm.",POS,POS,POS,
+302,"Gần cty nên đi ăn thôi chứ không thích chỗ này lắm.
+Mình thích ăn ngọt nên có xin thêm ít đường mà họ không cho, thái độ cũng không thân thiện nữa.
+Ăn không có gì đặc biệt lắm, chả miếng khá to, khá dày, mà có vẻ hơi nạc hoặc suất mình bị bốc hơi nạc. Mình thích ăn ba chỉ cháy cạnh hơn.
+Đĩa bún thì hơi bé, dân văn phòng ăn ít như mình còn ăn đc hết thì mấy anh con trai chắc phải chén 2 đĩa. Ở đây trưa bán cả cơm suất nữa. 
+Bún chả 1 suất 30k nha.",NEU,NEU,NEG,
+303,"Biết Catlat trên insta lâu rồi nhưng đây là lần đầu mua của shop. Mẹ bảo thích ăn bltm nên đến mua thử ở đây xem ngon k :)) Trong ảnh là hộp to 80k thì phải, hôm ấy mình định đến mua hộp bé nhưng hết mất r :( Nhìn hộp xinh xinh thích lắm, trước h t k ấn tượng với bltm lắm nên chưa thử bh. Nhưng mà ăn thử thấy cũng ngon, sốt ngập ngụa ấy, bánh bông lan mềm. Mẹ t bảo ăn hơi ngán, chắc có thể do khẩu vị từng ng. T ăn lần đầu thì lại thấy ngon :))",POS,POS,POS,
+304,"Lần đầu thử đồ ăn Ấn, nói chung ngọt và cay 😂. Ăn khá lạ, cà ri cừu không bị mùi như mình nghĩ. Quán này thấy khách chủ yếu là người Ấn Độ, từ cửa vào đã thấy mùi gia vị Ấn rồi, nên đi ăn ở đây xong là người toàn mùi đồ ăn nhé. Ăn món nấm chay khá ngon, đồ uống và tráng miệng rất ngọt nên các bạn nhớ bảo nhân viên cho thêm đá nhé. Giá cả phù hợp không quá cao. Đáng để thử!",POS,POS,POS,
+305,"Như tiêu đề luôn, không gian ngồi vỉa hè nên cực thoáng, đi đôi hay đi nhóm đều hợp cả. Bên đường có cả chỗ trông xe miễn phí, 2 người trông luôn nên thoải mái, yên tâm mà ăn nha các bạn. Lẩu ngon, có 2 loại lẩu chính là riêu cua sườn sụn và lẩu ếch, một vài món ăn kèm như ếch tẩm bột, ếch rang muối, gà rang muối, kgoai tây lang chiên. Nưóc lẩu ngon, đậm đà tuy nhiên 2 người ăn nồi này thì vừa, chứ tầm 3 người chác chắn phải gọi thêm đồ. Giá cả thì cứ 200 1 phát, đồ ăn kèm thì 30k đến 90k tùy loại nhé.",POS,POS,POS,
+306,"Hôm trước vì có công việc ở dưới khu Hà Đông đầu giờ chiều luôn nên mình ngại về trên phố quá, thèm nướng nên tìm trên mạng, rủ bà chị gái qua măm cùng nhau.
+Với cảm nhận của mình thì nhân viên khá chu đáo, nước chấm hợp vị của mình.
+Đồ ăn hôm đó 2 chị em gọi 6 món nướng, salat và ngô chiên và 3 chai khoáng lạnh.
+Đồ lên rất nhanh, các bạn nhân viên khá tinh ý nhìn thấy là ra nướng thịt rồi lật thịt, cắt miếng cho mình, thay vỉ nướng.
+Mình thanh toán hết 518k thì phải.
+Và với mình thì chi phí như thế là rẻ vì 2 chị em ăn quá no hic, ngồi cố ăn mãi cho đỡ lãng phí  mà ko hết và phải bỏ lại .
+Hôm ấy lại chỉ quay video là chủ yếu. Ảnh ko có đầy đủ nhưng sẽ quay lại nếu xg khu đó.",NEU,NEU,POS,
+307,Đây là lần đầu tiên mình order mà ko hài lòng như vậy. Nhân viên gọi điện hỏi rõ ràng mình bảo lấy đùi gà rán giòn cay vậy mà lại mang đến 1 miếng thịt trắng. Mình ko kiểm lại đồ vì nghĩ đồ ăn còn nóng với cửa hàng cũng đã gọi điện lại rồi. Vậy mà ko hiểu tai các bạn bị nghễnh hay là cố tình. Lần sau mình chả muốn gọi nữa. Làm ăn vớ vẩn,NEG,NEG,NEG,
+308,"Nghe danh bánh mì này lâu rồi nên được hôm zẩy khuya e nhất định phải mua ăn thử. Tuy bán 3, 4h sáng nhưng quán khá đông, phải xếp hàng mới ăn được. 
+E gọi 2 cái đầy đủ tổng thiệt hại là 50k, nhân bên trong thì là hổ lốn của pate rồi rau rồi gì gì đó tối quá e không thấy. Lúc mới ăn thì hơi dị dị tại nó cứ nhão nhoét kiểu gì ấy ăn ngượng hết cả mồm, nhưng được 1 lúc quen rồi thì lại thấy khá ngon. 
+Túm lại là cũng ổn. Các chế nên thử 1 lần. Quán ngay ngã 3 Cao Thắng Trần Nhật Duật nên dễ tìm lắm",POS,POS,POS,
+309,"Có vẻ như bên Anh Béo đang trong chiến dịch bảo vệ mtrg hay sao mà thay đũa dùng 1 lần bằg đũa nhựa nè. Đũa nhựa và hộp, hòan toàn tái sử dụng được nha mn 🤗
+Nếu mn thấy ngại rửa vì mỡ thì mn chịu khó dùng giấy ăn/giấy vsinh lau hộp trc r rửa nha 😉 Sẽ tiện hơn rất nh ạ 😊
+
+Về đồ ăn thì ăn rất ngon nè. Đây là lần thứ 2 mình ăn và mình vẫn rất hài lòng với chất lượng và giá cả 👍👍👍 💯",POS,POS,POS,
+310,"Dân Lạng Sơn chính hiệu đây ạ. Quán ngay gần nhà mình mỗi khi nhớ nhà là lại mò đến ăn. Nước chấm, hay nước dùng đều rất ưng ❤️ nước phở rất nóng và giữ nóng được lâu đúng như ở ls, ăn hết r mà nước vẫn nóng hổi. Bên cạnh đó còn có măng ở chuẩn vị nữa 👍🏻👍🏻👍🏻 Chỉ có cái là phở lườn mình muốn miếng thịt được thái dày hơn chứ ở đây thái mỏng dính à, ăn miếng thịt k đc đẫm 😂😂 xôi và phở chua mình chưa thử nhưng có lẽ sẽ quay lại k lâu nữa thôi",POS,POS,POS,
+311,"Mình gọi 1 cơm gà Hội An + 1 nước cam sả đào. Về cơm thì rất ngon, thơm, dẻo. Gà thì so với lần trước thì không ngon bằng, tẩm ướp hơi quá tay nên chua quá. Canh bí ngon, vừa miệng. Góp ý quán nếu có cho rau luộc, thì thêm kèm gia vị chấm như nước mắm, bột canh...Nước cam sả đào hơi ngọt, nhưng uống cũng rất ngon. Mùi sả, cam thơm, có cả thêm 3 miếng đào nữa. Nói chung với giá cả và chất lượng như vậy cũng rất hài lòng. Nhất định sẽ tiếp tục ủng hộ quán nữa.",NEU,NEU,POS,
+312,"Địa điểm: ở tầng 5 số 63 Cầu Gỗ, bên dưới là siêu thị nhé. Thang máy hơi khuất, cứ đi hết siêu thị, quẹo tay phải là thấy. Thang hình như lên tầng 4 rồi phải đi bộ lên tầng 5.
+Không gian thoáng, nhìn ra hồ gươm. Tầng trên trang trí cũng khá đẹp. 
+Mình uống cam sả, hơi ngọt so với bình thường. Mình vốn không phải người hảo ngọt nên hơi thất vọng chút. Giá cả cũng kha khá. 
+Ở đây chiều thứ 7 có xem bản đồ sao và tarot của Tada nhé. Vừa ngồi ngắm cảnh, uống nước rồi nghe các reader nói về cuộc sống rất tuyệt☺☺☺☺
+Ảnh mình chụp từ tầng trên của quán.",NEU,NEU,POS,
+313,"Popcorn ở đây khá ngon, hạt to, trông tương đối sạch sẽ, với lại  lần chơi minigame của shop thì đều có quà, lần sau sẽ tiếp tục ủng hộ shop :))",POS,POS,POS,
+314,"Hải sản tươi ngon, không gian đẹp, phục vụ ok. Đáng đi, đáng tiền.",POS,POS,POS,
+315,"Mình rất thích vị ở đây, pate ngon và ớt siêu siêu cay",POS,POS,POS,
+316,"Không gian đẹp, lịch sự, phù hợp để tiếp khách quan trọng. Giá thành tương đối cao, trung bình 1,5tr / người. Riêng đĩa salat rẻ nhất cũng 170k. Chất lượng hải sản ngon nhưng cách chế biến không có gì nổi bật. Phục vụ cũng chỉ được đánh giá trung bình so với tiêu chuẩn của 1 nhà hàng 5 sao",POS,POS,NEG,
+317,"chiều chiều chỉ cần một bát cháo trai only 15k là đủ ấm bụng. Cháo sánh mịn, nhiều trai lắm mỗi tội hơi nhạt 😂 Trai nhiều mà lại dai dai ngọt ngọt, quá ô kê luôn 🔥 .
+cháo trai 15k/bát
+trứng vịt lộn 7k/quả 💲
+.
+A15 Nghĩa Tân (hàng trong)📍
+.
+Bây h mùa đông nên quán mở từ 11h trưa đến tầm 6,7h tối (hôm nào hết nhanh là 5h hơn đã đóng rùi) ⏰",POS,POS,POS,
+318,"quán này ở gần nhà nhưng hôm nay nhà mình mới có dịp qua ăn tối. thực đơn khá phong phú, món lẩu bông đơn giản nhưng rất thanh mát, cá lăng và các loại rau đặc trưng miền tây đều ngon. gỏi bồn bồn tôm thịt ăn chơi khá ok, bánh tráng thì bình thường dù có mắm chấm ngon, bánh xèo “Nắng miền tây” ấn tượng với kích thước khá vĩ đại nhưng hương vị cũng không phải đặc biệt. Vị trí nhà hàng ở trung tâm, nhưng tầng 1 hơi nóng, mình có đề nghị bôt sung quạt, nhân viên vâng dạ nhưng chẳng thấy đâu. Hôm nay order cũng bị thiếu mấy món, nhân viên không có thái độ lồi lõm nhưng có vẻ hơi mất tập trung, mong các bạn chú ý hơn nhé",POS,POS,POS,
+319,"Mình đi ngày cuối tuần nên chắc không bị đông như trong tuần. Lòng ngon, ăn không bị khô. Đậu rán ngon, mềm. Các bác phục vụ dễ chịu, nhanh nhẹn. Hai vợ chồng gọi đĩa lòng đôi. Một bát cháo, một suất bún đậu mà no kềnh càng. Tổng 160k, quá rẹ cho một cuộc tềnh 😂",POS,POS,POS,
+320,"Hôm ghé quán được thưởng thức món trứng đáng kem cà phê, món này mình ăn từ hồi bé, lâu lâu có ăn lại, ở Hà Nội rất ít quán có, mà ngon thì lại càng hiếm. Mọi người nên thử món này nha.",POS,POS,POS,
+321,"Quán này ở gần nhà nên thỉnh thoảng thì qua đi về cũng muốn thử. nhân một hôm có nhiều thời gian mình vào thì thấy không gian bên trong cũng không rộng lắm nhưng có nhiều tầng. như thường lệ vào Ding Tea bình thường order 1 Trà Đào có miếng đào to tướng mà giá cả lại rất ok. Còn bạn mình thử 1 trà sữa thêm Thạch nhìn chung đồ uống giống những quán Ding Tea khác. Tuy nhiên phục vụ ở đây không được nhanh nhẹn lắm. Không gian cung hơi bí, bàn ghế Kê sát nhau.",POS,POS,NEU,
+322,"Cảm giác đầu tiên là quán rất đẹp, rộng, thoáng, nhân viên rất lễ phép. Charge 5% phí phục vụ, 10% VAT.
+
+Tôi ăn ở đây 3 lần, gọi món chính giống hệt nhau: bò cuốn lá cải, thịt rang cháy cạnh, khoai tây chiên, cơm, canh ngao. Nhân viên ở đây rất thụ động, dường như chỉ biết việc của mình là bưng bê và lễ phép với khách hàng, đầu óc như để ở trên mây, hoặc là bị sếp xét nét quá nên không có sự nhạy bén.
+
+Lần 1, bò cuốn lá cải thì nấm có vài miếng thối, ăn phải nhả ra; canh thì con ngao rất tanh, chắc đông lạnh lâu quá, mình ăn đúng 1 miếng nhả ra và báo nhân viên, nhân viên bảo đổi bát khác nhưng mình không dám ăn nữa và trả lại bát canh đó, không đổi không thêm.
+
+Lần 2, rút kinh nghiệm không gọi canh gì. Thịt rang cháy cạnh thấy không đầy đặn như lần 1, ít rau sống đi kèm hơn, không có nước như lần 1. Quái lạ, chắc đầu bếp khác hoặc đầu bếp không đều tay ))
+
+Vì rút kinh nghiệm nên tạm ổn, tôi quyết định ăn lần thứ 3. Lần này là lần quyết định không bao giờ quay lại nữa.
+
+Lần 3, vẫn các món như lần 2, tuy nhiên lần này dặn NGAY TỪ ĐẦU là thịt bò làm chín hẳn (2 lần trước quên dặn từ đầu nên nhân viên mang ra là tái). OK lượt 1 bưng ra thịt bò vẫn tái, bên trong đỏ, có tiết, tôi gọi nhân viên yêu cầu làm chín. OK bưng ra lượt 2 vẫn tái!!!!! Lại phải gọi nhân viên ra lượt 3, lần này mang ra ơn giời thịt bò khói nghi ngút chín thật. Vậy là để có món bò CHÍN (không tái) cuốn lá cải tôi phải gặp nhân viên 4 lần!
+
+Tiếp tục thịt rang cháy cạnh tôi hỏi nhân viên sao lần trước tôi ăn có nước mà lần này không có nước, nhân viên bưng ra hỏi bếp, bếp bảo món này không có nước. 1 món đơn giản như vậy, có hay không có nước thì nhân viên tối thiểu phải biết chứ nhỉ, hay là mới đi làm hoặc đào tạo không kĩ hoặc quá cẩn thận hoặc quá chiều khách? charge 5% phí dịch vụ đâu phải cứ lễ phép là khách vui đâu.
+
+Mà 3 lần đều phải gọi tăm và gọi giấy ăn khô, không để sẵn đầy đủ trên bàn cho khách, ảnh chụp là sau khi gọi giấy ăn.
+
+Lần 3 chán không chụp ảnh.",POS,POS,NEG,
+323,"Giữa tháng 1 vừa qua công ty mình có tổ chức tiệc tất niên ở Laca. Toàn thể anh chị em đều rất hài lòng với Laca.
+Không gian khá rộng và rất thích hợp để tổ chức các bữa tiệc gia đình, tiệc sinh nhật... quán có sân khấu khá rộng để thoả sức hát hò hay vui chơi
+Đồ ăn thì khá ổn và đầy đặn.
+Chất lượng phục vụ thì mình thấy rất được. Từ chủ quán đến nhân viên phục vụ, nhân viên âm thanh ánh sáng đều rất nhiệt tình và chu đáo.",POS,POS,POS,
+324,"Ngay gần trường nên cố đi học sớm ra mua
+Bánh bé xinh lắm,  thơm,  ngon miệng nữa
+1 hộp 4 cái. Mình đưa 50k,  bạn bán hàng trả lại 37k> 13k/hộp ạ
+Sáng nay chủ nhật ra lại không thấy bán. Hiu hiu",NEU,NEU,POS,
+325,"Lâu lắm mới ăn được quán ốc thấy hài lòng về vị.
+
+Ăn ở đây thấy ốc tươi. Hấp mắm hay xào bơ tỏi hay xào dừa đều thấy rất vừa miệng.
+
+Hôm nọ đồ ăn ngon nên an nhanh ko kip chụp up fooody. 
+
+Nhà mình ăn ốc bông. Ốc nhảy. Ốc móng tay. Ốc điếu. Cá nhân mình thấy ốc Điếu không ngon. Không biết do mùa hay vị của con này nó thế.
+
+Bánh mì giòn lại nóng nữa. Rất ưng.
+
+Quán ngay trung tâm thành phố lại khá rộng rãi. Tiếc là chỉ mở từ 4h chiều trở đi",POS,POS,POS,
+326,"Nước dùng đặm đà đúng vị, cá rô rán vừa mềm ko bị khô, chị chủ trung niên khá vui tính. Mình ăn bát đặc biệt 50K cá ăn no luôn,  bình thường hình như 40K. Quán bé đối diện chéo chô Vincom bà triệu, đi qua ngã tư tầm 30m",POS,POS,POS,
+327,"Ăn hai lần. Cực kì ngon và nhiều. Giá siêu yêu ❤️️. Không gian thì rộng vì là vỉa hè, nhưng cũng là vỉa hè nên bị tối. Nhiều khu vực bàn ko có đủ ánh sáng. Anh chủ quán tốt bụng, tích cực chạy đồ cho khách mặc dù có nv. Vì nguyên thuỷ đây là một juice bar nên nc ở đây thì ngon miễn chê. Giá cũng rẻ. Mọi người có tgian nên qua thử",POS,POS,POS,
+328,"Bún ở đây rất ngon và rẻ, 30k một bát đầy tú hụ cả thịt chân giò, viên mọc và 3 miếng móng giò to đùng, ăn xong ngồi thở vì quá no. Bún lưỡi của quán nghe đồn cũng ngon nhưng chỉ có buổi sáng, đến muộn một chút là hết nên mình chưa được ăn bao giờ. Nếu còn bụng có thể gọi thêm đĩa quẩy, quả trứng chần, cốc sữa đậu nành... (riêng mình gặm xong 3 miếng móng là hết muốn ăn thêm nữa rồi).
+
+Quán hơi nhỏ quá, nhưng các quán trên phố cổ thì phải chịu vậy thôi, khó khăn nhất chắc là rất thiếu thốn chỗ để xe. Hôm trước qua ăn thấy 1 chậu dọc mùng ngâm, để dưới đất cạnh bàn, muốn ngồi vào bàn phải bước chân ngang qua chậu luôn, mình thì đi vòng để tránh không bước qua, nhưng các khách khác thì không biết thế nào, nên hôm đó ăn dọc mùng thấy hơi ngần ngại.",POS,POS,NEG,
+329,"Con phố ko có khái niệm thời gian. Cứ khi nào cảm thấy stress, phi lên đây làm chai bia vs ít đồ nhắm hiệu quả lắm nhé. Ngồi nhâm nhi chai bia, ngắm mọi người qua lại, cảm thấy cuộc sống khá là thi vị. 😅. Cả con phố này la liệt hàng bia, bar, pub,.. nhưng mình hay ngồi quán này nhất. Đồ ăn rẻ, ko chặt chém nhiều. 60/đĩa nem chua rán. 20k/chai bia và 15k/cốc tra chanh. Chưa tới 100k cho 1 buổi tối thú vị. Must try bạn nhé",POS,POS,POS,
+330,"👉Không gian: rộng rãi thoáng, ngồi tầng 2 sẽ ok hơn đó
+👉 Phục vụ: nhanh nhẹn, tận tình, chu đáo với khách hàng
+
+👉Đồ ăn: mình đi 2 người gọi suất 2××/ng. Full combo lẩu nướng )) hết tầm 700k
++ Dimsum: ăn khá ok, bánh bao ăn ngon🍻
++ Nướng: thịt lợn, bò tẩm ướp k có gì đặc biệt, nhạt nhẽo, k ấn tượng🥢
++ Hải sản: tẩm ướp quá nhiều gia vị nên khá ngán và không đặc sắc. Có món hàu nướng phomai là ngon thôi 🦀🦞🦐🦑
++ Lẩu: nước lẩu không đặc biệt, nhiều mỡ, không ngon 👎🏿
++ Trang miệng: có kem, hoa quả, caramen 
+
+🙂 Anyway: Nhiều đồ ăn, đa dạng món nên k có món nào đặc sắc để lại ấn tượng. Được cái phục vụ ok nhất
+Có lẽ mình sẽ không quay lại
+
+------2/5------",POS,POS,NEG,
+331,"Quán nằm cuối ngõ 1194 đường láng, nếu đi vào từ phía đường Chùa Láng thì gần hơn nhiều 
+Đợt đấy đi bạn mình mua đem về cho cả lũ 😂 mình nhớ k nhầm thì giá là 160k 1 con, mà 1 con hơi bé )) có kèm rau thơm và nước chấm rồi ạ
+Mình ăn thấy bình thường cơ mà so với vịt quay ở Lò Đúc thì thấy ko bằng ạ 😂 cơ mà giá thì rẻ hơn nhiều 😂😂😂 thấy bạn mình bảo quanh khu này thì vịt pwr quán này ăn ổn nhất r ạ 😂",NEU,NEU,NEU,
+332,"Luôn được ăn đồ tươi ngon đúng nghĩa. 
+Xuất 25k mà nhiều xôi thịt trứng . Phù hợp với các bạn sinh viên như mình .",POS,POS,POS,
+333,"Thề luôn suất này ăn 45k quá đắt. Hình trên app là cơm gạo đen, nhận đc là 1 cái hộp cơm trắng > bực mình lần 1. Oki vì mình k để ý kĩ cứ tưởng hình với món tương đương > lỗi do mình 😂😂😂
+
+K bao giờ đặt lại nữa",NEG,NEG,NEG,
+334,"tối hôm nay mình có ghé quán ăn buffet nướng . 
+ấn tượng đầu tiên lúc xem menu ở trang page mình thấy quá trời nhiều món luôn mà giá cực vừa túi tiền lun nên mình quyết định đi ăn ngay cho nóng .
+- nhìn chung quán tạm ổn có mỗi 1 tầng , trời mát thì không sao chứ trời nóng thì ngộp thở khói trong quán luôn 🥵😓
+- đồ ăn phong phú tẩm ướp vừa miệng :3 mình thích nhất là nước chấm chua ngọt của quán :v
+- phục vụ hơi chậm xíu 😓chắc có lẽ do quán cũng đông nên cũng tạm chấp nhận 🤣
+> mình kêu 2 suất buffet nướng và 3 chai coca , tổng thiệt hại là 315k và được quán tặng thêm voucher nữa",NEU,NEU,POS,
+335,"Trời ơi lướt qua shoppefood thấy món mới lạ nên mua ăn thử mà ai ngờ nem chua ngon ko tưởng, thêm cái nước chấm cay xè lưỡi muốn xỉu lên xỉu xuống. Mình ăn phần chà bá lửa 180k được 30 nem chất lượng với tokbokki. Nên thử ko chỉ 1 lần á mọi người.",POS,POS,POS,
+336,"Người bán hàng tận tình lắm. Ai cũng tận tình. Mình gọi một suất có 20k mà rõ nhiều, chẳng bù chỗ mình ăn gần Phố Huế vừa bán vừa mắng :))) Đồ ăn cũng ngon và sạch sẽ đầy đặn.",POS,POS,POS,
+337,Món Ngon,POS,POS,POS,
+338,"Đã thử gần hết đồ ăn ở đây rồi và khá ưng. Bánh gối tuy ko có trứng cút như mình thích nhưng nhân đầy đặn, lạp xưởng thơm. Gọi về cho bố mẹ ăn thử thì bố mẹ cũng khen là ko bị ngấy, ăn được :)). Nộm với nem cuốn ăn vừa miệng, trong nộm có thêm thịt xíu ăn hay ho phết. Nhưng ngôi sao thì phải là phomai que ))) lần nào đến cũng phải gọi chục cái ăn cho đã. Mặc dù sắp thành lợn 😀 nói chung hôm nào mát giời ngồi lai rai ăn uống nhẹ nhàng khá hợp lý. Sẽ ủng hộ dài dài.",POS,POS,POS,
+339,"Lần đầu tiên ăn cái Bánh mì que bé như này, bánh thì khô khốc, cứng nhắc, như kiểu bánh mì cũ từ hôm trước đem bắn lò vi sóng ý, nhân thì ít, nói chung bán kiểu này thì bảo sao ít khách",NEG,NEG,NEG,
+340,"Quán nằm trên đường NGUYỄN KHUYẾN -HÀ ĐÔNG, đoạn đường đối diện Hồ Gươm Plaza. Buổi tối quán có đèn lung linh, đẹp phết. 
+
+Quán chuyên về dừa nhưng vẫn có bán các loại đồ uống như cà phê và nước ép,...
+
+Kem trái dừa đặc biệt 48k/quả. Siêu nhiều kem. Đầy ú ụ. Kem mát, thơm ngon. Chắc do đẹp trai nên được cô chủ free cốc nước dừa. Khuyên các bạn nên uống nước dừa trước thì sẽ cảm nhận được vị kem dừa đậm hơn. 
+
+Nhân viên nhanh nhẹn. Chỗ để xe và chỗ ngồi thoải mái. Không gian khá đẹp.",NEU,NEU,POS,
+341,"Kimbab ăn tạm được,khoai thì chả có gì đánh giá rồi. Trà thái xanh nhạt quá nhạt, tok nát và rất chán,sốt loãng và chỉ có 1 vị cay, ko có gì đặc biệt. Nem chua ko ngon, bánh mì nem khoai cũng bt, bánh gà thì chán nốt 😪😪😪 nguyên buổi ko biết có món gì cứu vãn lại được",NEU,NEU,NEG,
+342,"Trước tiên thì phải nói là mẫu mã bên ngoài rất đẹp :))) chưa biết đồ uống bên trong ntn. Nhưng khi uống rồi thì rất ưng: đồ uống ngon, tươi mát. Được cả bề ngoài và chất lượng nên sẽ ủng hộ nhiều lần nữa 😊😊😊",NEU,NEU,POS,
+343,"ở đây các loại trà quất, trà chanh.. chỉ 10k , các loại cafe, sữa ngô .. là 15k thôi ạ. Siêu rẻ siêu rẻ luôn ý. Ngồi ngoài trời cực kì thoáng mát, wifi đầy đủ và đặc biệt là cực thích cực ưng tính thân thiện, hài hước của chị chủ quán 😚",POS,POS,POS,
+344,"Ăn 1 lần ghiền luôn, giờ cũng có đầy ở sài gòn.
+Mình vẫn thích vị origional nhất, matcha vs socola syrup hơi ghê nên không thích lắm. Trân châu ấm ấm thơm lừng rất ngon. Nên thêm dừa khô nếu ai thích",POS,POS,POS,
+345,"Quán Lẩu Gật Đầu mình thấy là nơi lý tưởng để anh em tụ họp, liên hoan tiệc tùng công ty vì tính đa-zi-năng của quán và độ chiều khách hết sảy của ông bà chủ.
+Không gian không quá sang trọng, không quá cầu kỳ mà nghiêng về phần dân dã, bàn ghế xếp đặt ngay ngắn, sạch sẽ thoải mái. Nhân viên thân thiện, nhiệt tình, lễ phép.
+Các món ăn ở Lẩu Gật Đầu khá ổn, lẩu ngon, đồ nhúng đầy đặn. Các món gọi riêng phần lớn là các món nhắm, đồ nhậu, trong đó ổn nhất phải kể đến món cá om.
+Đến với Lẩu Gật Đầu có cái thích thú riêng là bởi vừa ăn xong lại được karaoke miễn phí. Chủ quán rất biết cách đánh vào nhu cầu của khách hàng, rất biết chiều khách luôn. Anh em mình ăn uống xong là được nhân viên hướng dẫn chọn phòng karaoke để hát miễn phí cho giải rượu. Tuyệt quá còn gì?! :))
+Note lại quán này sau này chắc chắn còn dẫn anh em đến nhiều để ủng hộ ông bà chủ.",POS,POS,POS,
+346,"Mình order khoai dẻo truyền thống và ngũ sắc. Chè rất ngon, khoai dẻo mềm và thơm. Mình từng ăn khoai dẻo ở nhiều quán online khác nhưng rất dai và ko thơm như ở đây. Ngũ sắc vừa miệng, có trân châu dai dai, phô mai cũng rất thơm béo.
+Sẽ ủng hộ tiếp 😍",POS,POS,POS,
+347,"Đồ ăn ngon,tươi đặc biệt là sushi quấn rất chặt và vừa vặn😋😋nhưng mà mù tạp k cay lắm ăn chưa phê mong lần sau quay lại sẽ đc thưởng thức mù tạp thật cay và ngon",POS,POS,POS,
+348,"Nhìn bát bún chả được 3 miếng thịt, bỏ ra chán ko buồn ăn",NEG,NEG,NEG,
+349,"Cháo ăn khá ngon và đúng vị, Lòng mới không bị hôi đã ăn cả đặt online và ăn tại quán, ăn tại quán thì đc giá rẻ vì không bị tính tiền hộp, chủ quán thân thiện, quán sạch sẽ phục vụ nhanh",POS,POS,POS,
+350,"Cơm ngon, đầy đủ canh rau nưoecs chấm",POS,POS,POS,
+351,"Quán đối diện vincom nên dễ tìm,vị trí đẹp,có cả ngồi trong nhà lẫn ngoài trời.
+M thích phong cách vintage nên rất thích quán này :)) trang trí nhìn rất ưng mắt
+Ngồi trong nhà có điều hoà rất mát mẻ,nhưng ban đêm or ban ngày trời k nắng thì ngồi bên ngoài cũng rất thích,nhìn rộng rãi r nhìn ng qa lại ngoài đg hihi
+Giá cả đồ uống cũng phải chăng,k qá đắt mà cũng k rẻ,đồ uống cũng khá ngon nữa.
+Ở đây còn có bánh nữa,cả 1 tủ to luôn,nhưng m đi vào ban đêm mới ăn xog nên cũng k thử bánh đc,nhưng nhìn đẹp mắt ^^",NEU,NEU,POS,
+352,Chủ quán thân thiện dễ mến món ăn rất lạ nhưng cũng rất ngooonn rất hợp khẩu vị của mìnhhhh ❤️ Hy vọng quá mở rộnggg hơnnn về menu và khônggg giannn chắc chắn mình sẽ quay lại 🥰🥰😍😍,NEU,NEU,POS,
+353,"Update menu quán hàn yêu thích ❤️
+Đồ ăn ngon mà giá siêu rẻ nữa, mng nên thử nha",POS,POS,POS,
+354,"Hôm nay là tối thứ 6, mình và các đồng nghiệp có đi ăn tại quán ở 47 Nguyên Hồng. Mình có đặt bàn từ thứ 5 và đã nhắn là cho mình ngồi bàn có view đẹp, cạnh cửa kính. Kết quả là ngồi cạnh cửa kính thật nhưng toàn mặt kính đã bị dán quảng cáo nên chả nhìn được cái gì (điểm trừ 1). Trong quán bố trí không gian thoáng nhưng ánh sáng thì khá âm u, mặc dù từ ngoài nhìn vào quán rất bắt mắt (điểm trừ 2). Về mảng phục vụ thì mình thấy không ổn chút nào, cuối tuần khách đông trong khi nhân viên bàn chỉ có 3-4 bạn, lại còn kiêm cả thu ngân. Đây là nhà hàng buffet nên phải chạy thay vỉ nướng và tiếp đồ ăn cho khách liên tục, trước mình cũng từng làm bàn nên thấy rất thông cảm nếu các bạn ấy mệt, nhưng không thể để khách chờ đồ ăn dài cổ và gọi thanh toán đến 3 lần mới đưa bill được. Các bạn nv nữ cũng lịch sự dạ vâng nhưng nv nam thì lạnh lùng quá, khách gọi món với đưa tiền mà mặt cứ lạnh tanh (điểm trừ 3). Cuối cùng là món ăn, so với set buffet 199k thì món khá đa dạng, nhưng thực sự mình thấy hải sản không tươi, đặc biệt là hàu (điểm trừ 4). Thực ra có nhiều bình luận đi ăn bị tức, mình thì thấy không đến mức đấy, mà chỉ là không muốn quay lại lần 2 thôi.",NEU,NEU,NEG,
+355,"Nếu muốn hẹn hò hay gặp đối tác khách hàng, hay đơn giản là đưa cả gia đình đi dạo phố cuối tuần, tìm một không gian rộng rãi thoáng mát, bạn có thể chọn Coffee Club.
+Ngoài menu đồ uống thì còn có cả menu đồ Âu cho bạn thêm lựa chọn. So với vị trí trung tâm phố cổ, đối diện hàm cá mập thì giá cả ở Coffee Club khá dễ chịu.",POS,POS,POS,
+356,"Bánh ngọt Hải Hà có bánh mousse miếng nhiều vị ăn rất là ổn mà giá chỉ từ 10-20k.Su kem thì hộp 6 cái nhưng khá to,chất lượng hơn hẳn bánh gia công 10k.Mình cũng thích cả bánh bao nhân đậu đỏ để ăn sáng.Chất lượng bánh ko quá xuất sắc,nhưng phù hợp vs giá cả.",POS,POS,POS,
+357,"Quán có phở bò, cơm rang ăn khá ngon. Giá cả bình dân phù hợp với dân văn phòng ăn trưa.
+Điểm trừ nhỏ là đôi khi phục vụ hơi lâu, phải ngồi chờ",POS,POS,POS,
+358,"Thích ăn từ hồi ở Lý Thái Tổ hồi còn 35k 1 suất cơ. Gà ở đây hồi xưa ăn còn bị đen đen ở trong cũng bẵng 1 tgian ko ăn vì sợ nhưng từ hồi mở ở Châu Long mình ăn thấy ổn 👍 đùi gà to đầy dã man ấy
+Sốt gà đậm đà, phục vụ nhanh gọn. Menu đồ ăn phong phú rất nhiều món, nói chung mình sẽ quay lại nhiều!",POS,POS,POS,
+359,"T đặt mua bánh dày ngọt, xôi cốm, bánh khúc, chả cốm. Các món còn lại ổn, trừ xôi cốm. Đây ko phải là cốm, mà là gạo nhuộm màu xanh. Xôi cốm cứng như để mấy ngày rồi chứ ko phải làm trong ngày, bị lại gạo, vị ngọt hắc. Quán để đồ như vậy vẫn cố tình bán cho khách mua ship.",NEU,NEU,NEG,
+361,Mình ăn ở quán từ hồi còn ờ Lý Thái Tổ. Gần đây mới biết quán đổi địa chỉ ra đây nên tìm qua măm lại. Giá rất rẻ và gà cũng ngon tuy nhiên hôm mình ăn thì tokbokki trong món Chảo gà hơi sống. Ở ngoài thì mềm nhưng bên trong cứng đơ. Chắc lúc xào bánh chưa kĩ. Ngoài điểm đó ra thì tất cả đều ngon rẻ và vừa miệng. Nhiều nữa chứ! Trà quất cũng ngon và mát. Không gian sạch sẽ mát mẻ. Chị chủ thân thiện.,POS,POS,POS,
+362,"Trưa tiện đường ghé quán ăn vì thấy rv trên Foody cx khá ổn. Cá nhân mình thấy đồ ăn đầy đặn, nóng nảy, không gian cũng khá thoải mái, đồ đi kèm đầy đủ.",POS,POS,POS,
+363,"Ăn bát xôi chất lượng và giá cả ấm lòng 😍
+Chúng mình ăn 1 bát trứng, chả, thịt
+1 bát trứng  pate",POS,POS,POS,
+364,"Mình có gọi 1 pizza sồi đỏ sz s, 1 steak sốt bbq, 1 mì hồng. 
+Pizza khá mặn, do thịt nguội mặn, ít chée. Được cái vỏ bánh giòn, nói chung ăn cũng tạm so với giá
+Mì hồng đc review nhiều nên mình gọi thử. Ăn hơi thất vọng vì mì khô quá, được cái mì thơm mùi cheese
+Steak là món ưng nhất của quán, mình gọi chín 90%. Thịt mềm, ngọt, chín tới. Sốt ngon. Vị vừa vặn. Giá ổn
+> tóm lại quán được view đẹp, phục vụ nhiệt tình, đồ ăn tạm ổn. Có thể quay lại vì món steak
+Chấm 8/10 vì không gian, phục vụ và steak",POS,POS,POS,
+365,"Bánh khá ngon nhưng ngọt quá, shop nên giảm độ ngọt của nhân vì topping đã ngọt rồi",NEU,NEU,NEU,
+366,"quán ướp lạnh với giá rẻ ở giữa phố bia nổi tiếng nếu họ không có sự kiện đặc biệt nào, bạn chỉ cần trả 100 000 cho vé vào cửa bao gồm một đồ uống
+không gian khá nhỏ nhưng thường đông đúc tự hỏi tại sao có rất nhiều người Hàn Quốc xung quanh mỗi khi đến đây, có vẻ như quán bar này là nơi yêu thích của những người Hàn Quốc đến Hà Nội haha",NEU,NEU,NEU,
+367,"Hay gọi gà về để liên hoan. Gà luộc ở đây rất ngon, thơm, ngọt. Món xôi cũng ok, rau xào ổn. Gà nướng hay gà quay đều ok. Lẩu thì tạm, ko đặc sắc lắm nhưng nói chung giá thành và chỗ ngồi như vậy thì quá là ok so với mặt bằng chung rồi.  Ủng hộ thường xuyên",POS,POS,POS,
+368,"Bạn đi vào ngõ 215 tầm vài chục mét, nhìn bên phải sẽ thấy quán. Quán có một tầng thôi nhưng khá rộng rãi, ngay trước cửa đi vào là quầy bánh và quầy pha chế + order. Bánh chủ yếu là bánh ngọt (bánh mì hoa cúc thơm và không ngọt quá, tuy để lâu thì bị khô do chỗ mình ngồi điều hòa quá lạnh), đồ uống có các loại cà phê, sinh tố, nước ép, đá xay etc. nói chung là hơi cơ bản chút nhưng phong phú, đủ lựa chọn cho bạn dù bạn là nhân viên văn phòng, học sinh hay gia đình kèm con nhỏ tới quán. Giá cũng rất phải chăng.
+
+Quán có cả bàn thấp để ngồi nói chuyện và bàn cao để ngồi làm việc hoặc ngồi học. Tuy nhiên mình recommend vẫn nên làm việc/ngồi học ở bàn thấp hơn. Bàn cao thì tiện để laptop/sách vở hơn thật, nhưng ghế ở bàn cao quán dùng lại là loại không có đệm tựa lưng mà thay vào đó là khung sắt tựa lưng, nên ngồi lâu lâu chút sẽ khá mỏi người mà không lại ngả lưng được. Quán đổi loại ghế khác được thì tốt quá...
+
+Một điều mình cực thích ở quán là cái vibe rất chill, thoải mái, thư giãn, nhất là nếu đi vào lúc vắng khách như buổi sáng. Chill từ cách chọn nhạc - chủ yếu là country, soft pop, instrumental, rất hợp với phong cách industrial của quán & làm khách thoải mái trò chuyện (mình cực ghét những quán nào bật nhạc ồn ào, tiếng nhạc át cả giọng). Chill tới cách quán chọn tranh treo tường trang trí nữa (xem ảnh ở review dưới). Mình không xem cận cảnh toàn bộ tranh, nhưng xem tranh chỗ mình ngồi thì có vẻ như tất cả tranh treo tường ở quán đều là tranh gốc chứ không chỉ là tranh in canvas. Nhìn thấy cả texture sơn luôn, nên là quán trông cứ như một mini gallery ấy :D
+
+Tổng kết lại là không gian thoải mái, đồ uống và bánh vừa miệng, nhân viên quán nhẹ nhàng và lịch sự, lại tiện đường mình nữa nên chắc mình sẽ ghé dài dài. Quán mà đổi ghế ngồi cho thoải mái hơn chút thì còn ghé nhiều nữa :D",POS,POS,POS,
+369,"+ Vị trí: ở ngay mặt tiền nên dễ thấy và chỗ để xe tương đối thoải mái
++ Không gian: quán có 2 tầng, trang trí khá ổn
++ Nhân viên: thái độ tốt
++ Đồ ăn: Định gọi pancake matcha nhưng hết nên chuyển sang xoài và hoa quả mix. Bánh mềm mịn xốp ăn với hoa quả cho đỡ ngấy, ưng nhất dâu với kiwi, xoài chua chua nhưng chuối cho vào hơi vô duyên. Ai thích ngọt nữa có thể rưới siro vào thêm. Nhẽ ra nên gọi 1 đĩa pancake thôi vì 1 đĩa được tận 3 cái, ăn sang đĩa thứ 2 dù có hoa quả nhưng vẫn bị ngấy và kem bị chảy hết )) Nói chung là cũng đáng chờ 30 phút cho 2 đĩa bánh. Matcha đá xay  ổn, hồng trà sữa nóng ổn.",NEU,NEU,POS,
+370,"Quán nằm ở vị trí không được đẹp lắm, biển font màu đỏ đen nên hơn khó nhìn, tuy nhiên bên trong bố trí bàn ghế, tranh ảnh khá đẹp mắt. 
+Các món Pizza và mỳ Ý đều ngon mà giá chỉ có hơn 100k đến dưới 200k. Pizza khi mình order bếp mới bắt đầu nặn đế, phủ phô mai rồi nướng, chỉ cần phục vụ bê pizza gần đến là mùi phô mai đã thơm nức mũi, mỳ Ý thì mình ngại quấn nên thích ăn mỳ ngắn như sợi Penne hơn.
+Quán cũng có salad, bò và thêm nhiều món Ý khác",NEU,NEU,POS,
+371,"Ly milo đầy nhỏ ko nắp mà buộc dây thun như này ng uống ko mở được là 1, mở đc thì nó xịt tung cmn toé đầy đệm luôn.... mấy lần trc ko phải để cái ly cao sao ????? má mới khen xong... thôi nữa ăn bánh mì thôi vứt mẹ cái ly r moá chán kinh.",NEG,NEG,NEG,
+372,"Quán khá đông khách vào giờ ăn sáng, giá cả cũng như mọi nơi: 30k/bát. 
+Mình thấy chỗ này tiện ghé qua ăn sáng cũng khá ok, nước dùng tuy không ngọt vị xương ninh lắm nhưng cũng đáp ứng được các tiêu chí của mình là ít mì chính + ko quá béo 😂, bánh phở thì bt ko có gì để nhận xét, còn thịt bò thì khá ngon 👍🏻",NEU,NEU,POS,
+373,"Đây là bánh tráng trộn sao? 
+Bé giờ chưa gặp hộp bánh tráng nào mà bánh tráng ướt phè phè như vậy cả, nhìn sợ quá
+Ko bao giờ có 1 lần nào nữa",NEG,NEG,NEG,
+374,"Ngon ạ, nước trộn lạ miệng, nhiều thịt, thịt mềm. Hành khô tự phi. Rất đáng thử ạ.",POS,POS,POS,
+375,"Quán này mình đến vài lần, vì cũng không gần nhà và cũng không tiện đường đi đâu đên thỉnh thoảng mới đến thui, chứ gần với tiện thì cũng sẽ đến nhiều. 
+Quán nằm ở trong ngõ, không sâu lắm, nhưng với đứa mù đường như mình thì chẳng bh tìm thấy nổi nếu không nhớ gần đấy có cái gì để định vị :(( ở đầu hẻm có một nhà bán hoa nhé, cho các bạn nào dễ lạc như mình hjc 
+Không gian của quán khá hẹp, nên mình thích gọi mang về hơn. Trong hình là hộp nhựa của mình thôi, chứ quán vẫn dùng hộp xốp mang về như bao quán khác. Xe mình thì xóc nữa nên đi lại một lúc sốt mỳ văng hết ra túi r 😑
+Đồ ăn của quán làm mình khá hài lòng. Giá phải chăng, mà sạch sẽ. Đồ ăn của so với các quán ăn vặt khác có vẻ phong phú hơn. Gà chiên không bị cứng, khô. Mỳ Ý sốt cà chua & mayo, cả mỳ tương đen HQ nữa thì không ấn tượng cho lắm. Có món gà cay phô mai ở đây được để trong tô nhỏ nhìn ciuu lắm ý 😱😱 mỗi tội gà cay nhưng mà hơi nhiều tok. Kimbap ở đây ăn cũng được. 
+Đồ uống ở đây có soda, trà đào, đá xay,.. như các quán khác. Nhưng theo mình thấy thì giá rẻ hơn. Chocomint đá xay ở đây ngonn 
+Giá tầm 50-75k cho 2 người",NEU,NEU,POS,
+376,"Mình đã ăn ở đây nhiều lần, mỗi lần gọi 1 món cho khác nhau nhưng mình đặc biệt thích mf vằn thắn. Thứ nhất là bát có con tôm , thứ 2 là nước dùng ngọt, đậm vị tôm khô. Thứ 3 là sợi mì dc trần vừa phải, vẫn còn độ dai chứ ko như nhiều hàng khát là hơi nát nát. Giá 35k trên phố theo mình như vậy là ổn. 
+Món bánh cuốn cũng khá ngon, tuy nhiên mình thấy hơi ít 😂😂
+Miến lươn cũng đc, nước dùng ok lươn giòn.",NEU,NEU,POS,
+377,"Chỉ thic ăn pizza ở đây thôi. Các vị bò rất ngon
+Bánh giòn, đóng hộp cẩn thận. Mỗi tội bánh hơi đắt, ăn giảm giá thấy đỡ sót tiền hơn",POS,POS,POS,
+378,"Chè bưởi làm không đúng vị. Cùi bưởi ăn kỳ.
+Sữa chua đậu đỏ thì đậu đỏ hỏng, chua lên men. Nhân viên không một lời xin lỗi hay giải thích, không có vẻ ăn năn hay gì :)
+Làm dịch vụ tệ vừa thôi quán ơi, quán nơi sinh viên nhưng cũng một vừa hai phải thôi, nghiệp đấy.",NEG,NEG,NEG,
+379,"Nhà hàng ok, có các phòng riêng cho khách tiện nhóm đi đông, gia đình hay họp mà cũng điểm trừ vì ko có bàn lẻ cho cặp đôi hay đi ít. Mình khuyên nên đi từ ít nhất 4 người là đẹp. 
+Sẽ còn quay lại",NEU,NEU,POS,
+380,"Ăn ở đây cũng khá nhiều lần, mình thích ăn cánh ở đây. Vị ô mai và muối tiêu cảm thấy ngon nhất. Cửa hàng bé nhưng sạch sẽ. Có lần gọi qua now về bị ỉu vs ướt, phản ánh lại chủ ch, hoá ra là a ship để ủ nhiệt. Gọi các lần sau đã được để ý hơn nên gà về ko bị thế nữa. Vote vì ngon hợp khẩu vị và chủ hàng tận tâm, chịu nghe ý kiến khách hàng!",POS,POS,POS,
+381,"Giá cả rất phải chăng, cơm ngon chuẩn phù hợp gọi cho cty hay theo team. Đặc biệt là có thể gọi món theo ngày quán sẽ giao ngẫu nhiên một món của quán rất thú vị",POS,POS,POS,
+382,"Lâu lâu mình mới quay lại quán Đán ngọc, để ăn món “ tờ rim “ quen thuộc. Giờ quán đã chuyển qua địa chỉ mới 25 phạm hồng thái, cảm nhận của mình là quán mới, sạch đẹp, yên tĩnh. Món ăn thì vẫn cổ truyền như vậy, vẫn ngon, vẫn sắc nét như xưa.
+Mình biết đến Đán ngọc từ khi mình học cấp 3 trường***trên phố*** cứ đến giờ trưa, đang ngồi trong lớp học thì mùi***quay bốc lên, ôi, nó thơm, nó quyến rũ làm sao, cái cảm giác chả bao giờ quên được của tuổi học trò.
+Cảm nhận về món ăn hôm nay là xuất sắc,giá cả phải chăng.
+Mình sẽ quay lại.",POS,POS,POS,
+383,"Hôm nhóm mình đi quán khá vắng nhưng phục vụ hơi lâu, đồ uống cũng tạm tạm. Trang trí cũng khá. Lối đi lên quán hơi tối tăm và mất vs nhưng phần đã các quán ven hồ này đều vậy hết. View nhìn ra hồ nhưng không được tốt lắm vì cây che hết rồi :)))",NEU,NEU,NEG,
+384,"Trên ảnh miếng gà nhìn còn to đấy, chứ chắc ko phải nói nhiều quá là thất vọng:((",NEG,NEG,NEG,
+385,"- Về hình thức, quán đóng gói đẹp, bọc giấy bạc cẩn thận và shipper giao nhanh nên lúc nhận đồ ăn còn nóng. 
+Tuy nhiên nước chấm được đổ đầy trong cái hộp nhựa nho nhỏ nên khá khó để mở ra. Mong quán sẽ lưu ý vấn đề này.
+- Về món ăn, mình thích trà lá dứa thơm thơm, ngọt nhẹ uống vừa miệng lắm. Món chính thì cơm dẻo, nộm chua ngọt ngon, gà hơi nhạt, chưa ngấm gia vị lắm nhưng có nước chấm nữa nên ăn ổn.
+Tổng kết lại thì món ăn ngon, đóng gói đẹp, rất đáng ăn nhé.",NEU,NEU,POS,
+386,"Đồ ăn ngon sạch sẽ đảm bảo vệ sinh. Món ăn đa dạng đầy đặn. Ăn hết cơm rồi mà đồ ăn vẫn còn nhiều. Nói chung là ngon và sạch sẽ, ủng hộ quán dàu dài. Ai k ăn phí cả thanh xuân :) 1like cho sự phục vụ và chất lượng",POS,POS,POS,
+387,"Tớ ăn quán này cũng khá lâu rồi hôm nay mới nhớ ra để review
+.
+📌Không gian: quán khá bé, có kê bàn ra ngoài vỉa hè ngồi nhưng khá chật chội, không được thoải mái. Nhìn quán có vẻ hơi lôi thôi nữa
+📌Đồ ăn: Hôm đó bọn tớ đi 3 người gọi 1 ốc nhỏ luộc, 1 củ lộn xào me, 1 đĩa nem chua rán và 1 đĩa khoai tây chiên (trên ảnh còn thiếu). Thật sự đồ ăn ở đây không có gì đặc sắc cả, tại thấy đông nên bọn tớ mới rẽ vào. Được cái bát ốc luộc nhiều, nem chua rán không bị bọc lớp dày bột như quán khác, khoai tây chiên cả nem đều khá ngấy mỡ 😢 sung thì nhũn không được giòn ý. Chắc ngon nhất đối vs tớ là cút lộn và nước mắm chấm ốc 😂. Chia ra tầm hơn 100k/ng bữa hôm đó nha",POS,POS,NEG,
+388,"Quán này gửi xe phía ngoài và mất phí nhé. Cửa vào cũng không có bảng biển gì cả. Vào trong không gian quán rất rộng và mình đi tầm giờ cũng khá đông nên hơi ồn. Nhân viên quán phục vụ rất nhiệt tình và nhanh, tư vấn món cũng ổn. Mình gọi nộm trâu rau muống, trâu om sấu và dồi trâu rán. Phải nói là ngon nhất trong những quán trâu mình từng ăn. Trâu xào ở nộm rau muống cực kỳ mềm, ăn kèm với rau muống tươi chẻ rất hợp, 2 người ăn loáng cái hết. Trâu om sấu là ninh mềm rồi nhé, nước dùng khá đậm đà. Dồi rán ngon, ăn không bị ngán. Về chi phí thì sẽ khá là cao 1 chút, 2 người mình ăn với thêm 2 lon bia là hơn 800k. Dù thế vẫn sẽ quay lại nếu có dịp.",NEU,NEU,POS,
+389,"Cứ Sinh nhật bọn trẻ là cứ lôi nhau ra đây ăn bufet 😝. Buffet tối giá 175k, nhớ đưa Cmnd hoặc giấy khai sinh để được giảm giá 25% nhân dịp sinh nhật nhé! Tôm rang muối ngon và tươi, mì ý hôm nay cứng và bị bọn trẻ con chê, không giữ được phong độ như ngày trước!",POS,POS,POS,
+390,"Chiều chủ nhật lượn lờ trên phố và  mình được 1 người bạn đưa đi ăn món này ở Ngõ Trung Yên. Vào gọi 2 bát miến trộn và bánh đa trộn. Cảm nhận đầu tiên là vị rất lạ, mình thích mực giòn ăn khá lạ miệng. Tuy nhiên 1 bát như này hơi ít với 1 đứa ăn thuồng luồng như mình :))) quán cũng khá sạch sẽ. Điểm trừ nữa là ngõ rất bé và chật làm mình loay hoay mãi mới tìm được chỗ để xe. Giá khoảng 40k/ bát khá yêu thương cho 1 bữa. Nhìn chung mình rất thích miến trộn và chắc chắn sẽ ủng hộ quán dài dài 😍",POS,POS,POS,
+391,"Đồ ăn ở đây thì khỏi phải chê rồi, rất ngon và chất lượng. Nhân viên phục thì rất tận tình. Tuy nhiên lại có vấn đề vệ sinh không chấp nhận được. Đang ăn thì thấy có tận 2 con gián to đùng ở trên bàn. Thực sự lúc thấy vô cùng mất ngon, bao nhiêu thiện cảm ở đây cũng chẳng còn nhiều nữa",POS,POS,NEG,
+392,"Hàng bánh bé tí trong chợ đồ lưu niệm của tôn thất tùng nên không gian hơi bí, nếu ngồi ăn trong quán sẽ vướng người qua lại nên tốt nhất là mua mang đi nhé. Mk vs bạn mua 2 vị vỏ matcha nhân sô cô la vs vỏ vani nhân bơ mặn. Mk khá ưng ý phần vỏ, đều giòn vs thơm ăn thích lắm, vỏ matcha thì thơm hơn nhé. Còn về nhân thì nên gọi nhân sô cô la nhé, nhân chảy vs nhiều ăn thích mồm lắm, đừng gọi nhân bơ mặn vì n giống như bơ tràng an mặn phết 1 ít vào trong ấy ăn ko ngon.
+Giá 14k 1 cái khá vừa vặn cho cơn đói tầm tan học chiều.
+Ncl sẽ quay lại và luôn tự nhắc bản thân mk gọi nhân sô cô la thôi. :)))",POS,POS,NEU,
+393,"Đã nhiều lần ghé quán và chưa lần nào thất vọng, nước chấm ngon nhất các quán mình từng ăn.
+🤤🤤🤤",POS,POS,POS,
+394,"gói đẹp,  giá tốt,  hộp đựng đồ sạch sẽ 👍👍",POS,POS,POS,
+395,"Sáng sớm đặt ăn còn đi làm mà quán nhận đơn rồi 30p sau hủy với lý do : QUÁN ĐÓNG CỬA
+Trong khi thời gian quán mở cửa là từ 7 giờ sáng tới 22h đêm???
+Xàm! ACE nào đặt thì né quán này ra",NEG,NEG,NEG,
+396,"Đầu tuần ra đây ăn cùng gấu, thích kiểu quán bụi bụi nên vào ăn!
+ - Địa điểm quán tại 35 Pháo Đài Láng khá dễ tìm, chủ quán cũng tintin như tên quán nên rất hiếu khách và biết tiếp thu.
+ - Nhìn sơ qua thực đơn thấy giá cả các món khá là vỉa hè mặc dù có cả hải sản, đồ ăn nhanh.
+ - Đồ ăn được phục vụ khá chu đáo mặc dù chỉ thấy ông chủ chạy qua chạy lại, set nướng mình gọi là combo 200k dc 1 đía khá đầy (ban đầu tưởng độn rau nhưng k phải) tất cả các món dc cho vào 1 đĩa, đồ chấm là xì dầu tỏi ớt, nướng bằng bếp cồn. Set lẩu cũng 200k cơ mà bàn hơi bé nên k có chỗ để nhiều rau. ^^
+ -  Vị thịt nướng đậm đà kèm theo sơ nên rất thơm nhưng thái hơi mỏng nên nướng hơi quá tý sẽ bị xác. Nước lẩu khá giống lẩu thái, thêm tý cay nữa là đẹp rất hợp ăn vs mì tôm @@",POS,POS,POS,
+397,"Ăn thử nhiều vị mà ưng nhất sữa chua dâu và rum nho. Có điều ở đây k nhiều vị như Tô Ngọc Vân. Sữa chua xoài lâu rồi k thấy ăn rất ngon. 
+Kem ở đây là ngon k ngọt quá k bột vị tự nhiên vừa miệng.",POS,POS,POS,
+398,"Mình có đặt ở quán này cơm đùi gà sốt cay 
+Đùi gà khá ngon
+Đặt trên app nên không biết không gian quán như nào
+Có mã km nên chỉ mất 15k cho suất cơm
+Cơm khá ổn nên đặt nhé mọi người ^^",NEU,NEU,POS,
+399,Nước ép lựu ngon tuyệt 😋,POS,POS,POS,
+400,"Mình uống ở Kho từ lâu rồi nhưng giờ mới nhớ ra mà review. Kho cũng nhiều người tới uống, lần mình tới là ở trong nhà hết sạch chỗ phải ra ngoài ngồi. Phong cách của Kho cổ điển, đối với mình thì không hợp cho lắm @@ Mình gọi 2 cốc cafe cốt dừa với tiramisu. Cafe cốt dừa rất ngon nhưng để lâu lâu thì lại có vị xăng? Biết là do cốt dừa nhưng mà cứ sao sao ấy, hơi khó uống nếu để lâu. Tiramisu thì rất ngọt, mình thích như vậy))) Giá cả cũng như những quán cafe khác thôi, tầm tầm, không đắt cũng không quá rẻ. Đồ uống làm cũng nhanh, không phải đợi lâu mấy. Lúc mình ngồi xuống thì anh nhân viên ra bật quạt cho, sau đấy bọn mình muốn chụp ảnh sống ảo nhưng gió quạt mà đi ra thì không biết tắt quạt thế nào nên đi qua bàn khác ngồi được tầm 5 phút thì anh nhân viên lại ra hỏi có cần bật quạt không))) Qua đó mình cũng thấy nhân viên làm việc rất được, nhiệt tình cả quan tâm khách))) Sẽ quay lại vào một ngày không xa.",POS,POS,POS,
+401,"Nay tết nhất dẫn bé con vs nhỏ em đi Vincom chơi. Phi thẳng vào King bbq vì là 1 fan cuồng của King. Tết nhất nhưng đồ ăn vẫn ngon lành và dịch vụ thì rất tốt. Khi ăn xong nhỏ em não cá của mình để luôn đt trên bàn. Mấy chị em đi mấy vòng, đi uống trà sữa mới phát hiện ra ko có đt. Mình gọi lại quán hỏi thì các bạn xác nhận đang giữ hộ em mình. Cảm ơn các bạn nhân viên ở quán rất nhiều. Em mình tưởng đầu năm đã đen rồi chứ. Ai ngờ vẫn tìm lại được đt. Đúng là ko gì vui hơn. Cảm ơn các bạn và quán rất nhiều!!!",POS,POS,POS,
+402,"QUÁN CHUYÊN ĐỒ TRỘN ""QUEN MẶT"" CỦA CÁC BẠN SINH VIÊN ĐẠI HỌC CÔNG ĐOÀN, TÍN ĐỒ CỦA MÓN TRỘN KHÔNG BÊN BỎ QUA :3
+___
+#JNinHaNoi
+#JNinHaNoi_food
+.
+👉Fanpage: fb/JNGTown
+👉Instagram: @jn.foodie
+___
+✒Quán nằm sâu trong ngõ ăn vặt của các bạn sinh viên ĐH Công Đoàn. Đường đi khá là vòng vèo, JN được một người bạn đưa đến giờ nếu bảo đi lại chắc cũng phải vòng mấy vòng 😂
+✒Quán chủ yếu mang đi. Ở quán chỉ có khoảng 4-5 cái bàn nhựa xanh để khách ăn ở đó thôi. Nếu đi đông sẽ phải ngồi chung hoặc ghép bàn.
+✒Đồ trộn khá vừa miệng, nước trộn ngòn ngọt, chua chua ăn kèm bò xào đậm thêm chút lạc nhai giòn rụm. Về đồ xào thì quán cho hơi nhiều dầu xíu nên hơi ngấy 😊 
+✒Chị chủ quán rất vui tính. Phục vụ nhanh.
+
+🛵 Chỗ để xe 
+✒Đến quán các bạn chỉ có thể đi xe máy thôi nha. 
+
+🔻Thông Tin Về Quán🔻
+🏠Phòng 112, 5A ngõ 167*** Hà Nội
+🕛 9h - 21h
+💲~30k/người
+#Menu hình cuối
+.
+🌟7/10
+.
+💓 Nhớ tag bạn bè đi khám phá quán ngay nào !!!
+...
+👉 Khám phá thêm nhiều địa điểm ăn uống ở Quận Ba Đình theo hastag này nhé #JNinBaDinh",POS,POS,POS,
+403,"Đã đặt nhiều lần ở quán và ăn cũng khá ngon, nhưng hôm nay đặt thì thịt trông khắc hẳn, bị chua và có mùi ôi, nếu của quán thật thì thật thất vọng",NEG,NEG,NEG,
+404,"Ko uống nổi sữa tươi trân châu caramel vì TRÂN CHÂU SỐNG :) cứng ko nhai nổi phải bỏ đi hết. Sữa chua trân châu, sữa chua rau má ok. Mình mua sữa chua trân châu ở quán rất rất nhiều lần r nhưbg chưa bao h thấy có món trân châu sống như vậy!",NEG,NEG,NEG,
+405,"Mình là khách ruột luôn ghé quán thường xuyên 1 tuần cũng phải vài ngày. Rất ưng nước dùng và vị, cá chiên ngon rất vừa miệng,bạn chủ lại rất vui tính và tốt bụng, nhớ mặt khách hàng và nhớ khẩu vị của khách muốn ăn theo kiểu gì luôn. Có lần mình dẫn vài người bạn nước ngoài qua ăn mà ai cũng tấm tắc khen ngon. Lần nào qua khu mình chơi cũng đòi qua đây ăn bún cá. Có hôm thì 1 bạn còn gọi ăn liền 1 lúc 2 bát. Đều khen ""very cheap and so tasty"". Chúc quán buôn bán phát đạt và ngày càng đông khách!",POS,POS,POS,
+406,"Bánh cuốn nóng
+thích nhất hành phi ở đây, hai Cô tiết lộ là hai cô tự làm mới giữ được mùi thươm tự nhiên và đọ giòn như thế. nói không với hành cân.
+Bánh mềm, dai, thơm. được cuốn tại chỗ nên giữ được độ tươi, bột bánh không bị chua, bánh có độ trong, nước chấm vừa.
+đã thế giá cả phải chăng, ăn một suất mà no mất.
+ngoài ra hai Cô chủ còn rất dễ mến, tận tình, chu đáo.",POS,POS,POS,
+407,"📍Bún Ngan bà Yên- Số 304 Đê La Thành nhỏ-Đống Đa-Hà Nội
+💰30-35k/người
+⏰15-23h
+
+Bạn nào có cùng chung sở thích ăn Bún giống mình, có thể tham khảo các quán bún ngon mà mình đã ăn tại: #BúnDelicieuxinHN ✌️
+
+-Điểm cộng:
++Quán sạch sẽ dễ tìm. Chỗ ngồi vừa đủ với lượng khách
++Ngan ngon, thịt mềm, k bị bở với hôi. Tràng,trứng, tim, cật tươi ngon.
++Nước dùng ngọt, đậm vị. Măng ngâm ngon
+
+-Điểm trừ:
++Trước giá 25k thì thấy ổn, nhưng giờ tăng 30k thì thấy hơi ít so với giá
++chỗ để xe còn chật
+
+->Vẫn luôn là 1 trong những quán bún Ngan ruột trong lòng mình 😍😋",NEU,NEU,POS,
+408,"Cơm ngon, gà ngon, đầy đặn. Mình đặt qua Baemin. Mỗi tội rõ rành mình có note cho quán cho mình thật nhiều rau nhé, kết quả là hộp cơm chả có tí rau nào. Dỗi thế!",POS,POS,POS,
+409,Mình order 1 kimbap chiên với 1 nem chua rán. Nem chua nóng với kimbap khá nhiều cho 1s 30k. Nhưng mà kimbap nhiều cơm quá mà nhân thì ít.,NEG,NEG,NEG,
+410,"Yakisoba làm từ mì gạo.
+rất rẻ. ",NEU,NEU,NEU,
+411,"Mình là con nghiện đồ nướng nên gần như đã ăn thử hết tất cả các quán ở phố Gầm Cầu này.Đây là làn đầu tiên ăn thử quán nay thấy  cực kỳ ấn tượng ❤️
+
+🍀 Vị trí:Đi từ Hàng Giấy rẽ phải vào thấy biển Lẩu & Nướng Cô Quỳnh luôn. là hàng thứ 2 nha ở ngoài là quán khác chèo kéo khách kinh lắm, phải mạnh tay ga mới vào đc phía trong :)) .Chỗ để xe rộng,thoải mái.Không gian sạch sẽ
+🍀 Đồ ăn: Đây là xuất 2 người mình gọi bò,nầm,ba chỉ,lòng,sườn sụn.Đĩa mang ra rất đầy đặn k độn tí nào.Vị ướp cũng ngon hơn và khác các quán khác.Đặc biệt có nước chấm rieng của quán nên ăn cùng với rau song cũng ngon miệng và đỡ ngấy hơn.Đặc biệt nữa là ở đây bơ ăn thoải mái tẹt ga k mất tiền như những quán khác.
+🍀 Phục vụ:Nhiệt tình cực kỳ nhiệt tình,phải nói chẳng thấy quán nào mà chủ gần và thân thiện với khách như quán này.
+🍀Giá cả:Ăn no đẫy bụng đứng dậy mỗi người hết 140k mà đầy đủ tù thịt,bánh mỳ,khoai thì chắc chắn phải quay lại nhiều nhiều nữa 
+>>>Chốt lại:Từ bây h cắm chốt quán này luôn,phục vụ nhiệt tình mà giá cả phải chăng,đồ ăn ngon thì việc gì phải đi đâu xa hè hè 😂😂😂",NEU,NEU,POS,
+412,"Thường mình chỉ order take a way chứ ko ngồi lại quán trà sữa vì rất ồn ào
+
+Tuy nhiên hnay đợi đến giờ hẹn bạn nên có ghé qua Ngô Quyền ngồi vì đi qua thấy khá đẹp.
+
+Nhân viên mình thấy ok, ko có gì để phàn nàn
+
+Không gian khá là đẹp, sáng sủa vừa phải
+
+Đồ uống cũng bình thường như bao quán royal tea khác
+
+TUY NHIÊN
+
+Đây là quán trà sữa HÔI nhất mà mình từng ngồi, cảm giác như đang ngồi uống trà sữa trong cái nhà vệ sinh vậy đó, hôi thối khai kinh ko chịu được :| mình ko hiểu chủ quán nghĩ gì mà vẫn tiếp tục tình trạng này?
+
+Nhân viên rất nhiều nhưng ko thấy dọn cốc bẩn.
+
+Muốn ói ra luôn khi uống trà sữa ở môi trường thế này, ko biết liệu cốc trà sữa này uống xong có ngộ độc ko..
+
+Và đương nhiên KHÔNG CÓ LẦN THỨ 2 NỘP TIỀN VÀO ĐỊA CHỈ NÀY!",NEU,NEU,NEG,
+413,"Thấy bạn bè check in quán này ăn ngon, kéo thử mấy ông bạn đến đây nhậu, cảm nhận như này:
+- thứ nhất đồ ăn ngon rất hợp khẩu vị với đội mình, quan trọng là tươi.
+- thứ 2 là giá oke, 8 thằng ăn uống bét nhè, cả ăn và uống bia hết 855k
+- thứ 3 là phục vụ mình cảm thấy rất thích cách phục vụ tại đây, nv dạ vâng liên tục luôn, bàn bên cạnh có sinh nhật mà tất cả nhân viên quán tặng bánh đứng hát cmsn luôn, vui vãi
+- thứ 4 là ... chốt chỗ này để tụ tập luôn keke",NEU,NEU,POS,
+414,"Đi chơi ở khách sạn gần đấy nên ăn 2 ngày vì ngon
+Gọi 2 bát 20k đầy đủ, rắc thêm tiêu, bột ớt nữa thì ăn miễn bàn
+Chị chủ rất thân thiện :)",POS,POS,POS,
+415,"Chân gà tẩm ướp ngon,vừa miệng thích nhất tương ở đây:))) chya chua ngọt ngọt
+Bánh mỳ nướng giòn ngon ăn vừa miệng
+Nhân viên phục vụ nhanh,tận tình 
+Điểm trừ là chân gà nhìn to chứ k có j,xương nó to thôi :))) hơi đắt 
+Dưa muối ngon mà rẻ ;)))
+Vị trí đẹp ,dễ kiếm",POS,POS,POS,
+416,"Vừa qua, nhà mình có biết đến và sử dụng dịch vụ của vela để tổ chức sau đám hỏi cho 60 người. Địa điểm phải nói là rất đẹp. Thêm vào đó, đồ ăn rất ngon và giá cả rất phải chăng so với một địa điểm nằm tại trung tâm Hà Nội. Vì tổ chức sự kiện nên mình làm việc với chủ quán. Cô chủ rất tâm lý, tư vấn menu cũng như trực tiếp dặn dò nhân viên để tiệc sau ăn hỏi của mình suôn sẻ.
+Một địa điểm rất đáng cân nhắc nếu bạn đang tìm một nhà hàng ấm cúng, đẹp đẽ để tổ chức tiệc gia đình, cá nhân, công ty.",NEU,NEU,POS,
+417,"Đây là lần đầu ăn của mình
+Vịt k bị hôi 
+Rau canh cơm rất vừa
+Hy vọng ủng hộ quán thêm nhiều
+9,5/10",NEU,NEU,POS,
+418,"Nửa đêm đọc review 1 số bạn phản hồi nhầm và 1 số bạn complaint về thái độ nên phải vào bào chữa cho vợ chồng anh chị chủ quán )). Mình ăn ở đây từ lúc còn đi học đại học 2013 tức là mình ăn ở quán này 6 năm đủ để review chi tiết cho các bạn từ lúc chị chủ quán chưa lấy chồng đến khi con chị 2 tuổi. 
+
+Bạn nào chụp có mực thì chia buồn ăn nhầm ở hàng 86 hoặc 90 rồi nhé, ở đây KHÔNG BAO GIỜ có mực cả. Quán nằm ở cạnh cửa hàng bán đồ lưu niệm cho tây nhé. Về thái độ thì mình tiếp xúc với chị 6 năm rồi thì thấy ko vấn đề, chị ấy mặt lạnh và hay nói câu ngắn nên cảm giác ko thân thiện thôi chứ rất tốt tính và nhớ khách. Mình bẵng đi nửa năm ko ăn mà quay lại chị ấy vẫn nhớ và hỏi thăm, chị ấy ko cười vì chuyên tâm vào trộn bánh và không để bị ùn tắc đơn hàng, ăn xong mình gửi tiền còn hay hỏi mình mấy câu bâng quơ kiểu em hay đi làm về muộn thế hoặc là em mặc đồng phục công ty ah. Các chế đừng vì chị ấy ko cười mà ko quay lại là thiệt đọ
+
+Mình và đặc biệt là nyc kén ăn mà hắn cũng gật gù khen ngon. Ở đây để bánh tầm 2 3 phút sẽ mềm và dai dai, trộn rất vừa vị và ngon. Nếu bạn ko may mắn mà thưởng thức tay nghề anh chồng thì bánh sẽ đóng tảng còn chị gái trộn thì xức xắt. Có thời gian chỉ nghỉ sinh bé, vã quá nên đi ăn ở 86 hay 90, 1 lần và bye luôn. Chị ấy trộn rất có tâm nên sẽ ko làm hàng loạt xong đóng hộp đợi khách order đem ra đâu nên mọi ng chờ hơi lâu thì thông cảm chúc chíu. Mình khuyên các bạn ghé qua lúc có chị gái ở đọ thì ăn xong sẽ lại gọi thêm cho xem. Các bạn có đk thì ghé trực tiếp quán ăn ngon ×2 so với gọi mang về vì vận chuyển mất time nên bánh đã ko đc như lúc mới trộn mà dính thành 1 tảng nên có vài chiếc cmt chê tả tơi là vậy đọ",POS,POS,POS,
+419,"Yukssam BBQ - 66 Ô Chợ Dừa
+chất lượng đồ ăn khá ngon, các loại thịt đều tươi, tẩm ướp đậm đà, miếng to đầy đặn, trang trí đẹp mắt, rau cũng tươi và nhiều, đồ ăn kèm cũng nhiều mà ngon, bọn mình có gọi cả mì lạnh, trứng hấp, cơm trộn các thứ nữa thì ăn cũng đều vừa miệng cả. Nói chung về chất lượng đồ ăn đây là quán mình thích. Hầu hết là nhân viên nướng cho, tụi mình chỉ việc ngồi ăn thô á.  Panchan ngon, sốt chấm ổn nhưng cá nhân mình vẫn ưng nước mắm ớt nhất thui à :))",NEU,NEU,POS,
+420,"Lần đầu mình đến NKC là một ngày đẹp trời. Gió nhẹ, nắng vàng, thời gian thích hợp để đi cafe. Lúc đến thì quán khá vắng, chỉ tầm 2, 3 bàn gì đó. Quán có 4 tầng. Tầng trên cùng là k gian ngoài trời. Đồ uống và bánh ở đây k có gì khác biệt lắm. Mình gọi một cốc cafe cốt dừa uống khá ổn. Nhưng ấn tượng nhất về quán chắc là k gian. Cả 3 tầng dưới đều đc làm bằng cửa kính to để nhìn bao quát ra bên ngoài. Quán còn đặc biệt decor những chiếc bàn vs ghế sofa hướng ra cửa sổ vô cùng thoải mái. Tầng 4 ngoài trời bàn ghế đã cũ, và vẫn còn chỗ ngổn ngang đống bàn ghế hỏng vứt ở đấy, nhưng nói chung vẫn rất tuyệt. Chỉ tiếc là quán hơi xa trung tâm nên k ghé thường xuyên đc. Ngoài ra quán còn có mấy loại boardgame đơn giản như cờ cá ngựa, bài...",POS,POS,POS,
+421,"Hôm nay mới nịnh được ông xã cho đi mum kiêm trông trẻ cho mềnh tự sướng :)
+Tuần nào cũng phải mum mấy lần phải công nhận rất hợp khẩu vị với mình vị sữa thơm mà k quá ngọt rất dễ nghiền.
+Toping đa dạng nhưng mình chỉ khoái trân châu đường đen :)
+Không gian quán cực thoáng rộng, các bé tha hồ chạy nhẩy rất an toàn không sợ va chạm đồ. Đặc biệt quán rất sạch sẽ, có hệ thống máy lọc không khí trong quán.",POS,POS,POS,
+422,"Vì gần ngay nhà mình nhưng lại hông có biết, nhưng lại được bạn giới thiệu cho nên cũng muốn thử cho biết nhưng ko thất vọng!!
+Quán cô chủ và bác chủ vô cùng nhiệt tình, lúc nào cũng niềm nở.
+Vì trong ngõ nên ngồi ăn uống cũng thoải mái và mát mẻ.
+Về đồ ăn thì có bao nhiêu món mình gọi gần hết haha
+Có cháo sườn, trứng ngải cứu, xôi các loại... à xôi xúc xich rán và ruốc ngon cực kỳ.
+Ngoài ra quán còn có đồ uống nữa nha. Các bạn nên thử chanh leo ở đây. Tuyệt vời, ko chua quá đâu, ngọt vừa, rất thích hợp cho mùa hè siêu nóng này .‘’",NEU,NEU,POS,
+423,"Trà sữa trân châu đường đen ở Mr Good Tea luôn luôn là đỉnh của đỉnh 👌🏼. Mình đã uống TSTTĐĐ ở nhiều nơi nhưng cuối cùng vẫn là về quán này 😂. Mặc dù nếu không giảm đường hay tăng đá thì hơi bị ngọt quá, nhưng vị thì tuyệt vời.
+
+Tuy nhiên mình thích design cốc cũ hơn, nhìn đế tròn tròn đáng yêu. Giờ Mr Good Tea lại quay về design cũ hồi xửa hồi xưa rồi. 😔",POS,POS,POS,
+424,"Mình ko hiểu sao quán này nổi tiếng, m đã thử và kbh có lần sau đó.
+Về quán thì trông khá chật chội và ko đc vệ sinh.
+Còn về xôi, thì phải xếp hàng để mua 1 hộp xôi giá đắt hơn bình thường (tầm 35k) và phải nói là ăn vào thấy phí cả mồm, nộm thì chua như dấm, pate trông kém vệ sinh, xôi thì cứng, eo ôi chỉ muốn bỏ đi. Khuyên thật đừng ăn, mình ko hiểu họ chạy quảng cáo hay gì mà nổi tiếng được chứ chất lượng đó ko bằng nổi 1 quán xôi bình thường bán đầu ngõ hay ven đường bất kỳ.",NEG,NEG,NEG,
+425,"Koi Thé về Hà Nội từ bao lâu rồi mà hôm nay mới có cơ hội đi, cơ sở này mình thấy khá ok, nằm trong Vincom nên mát mẻ, nhiều chỗ ngồi phết mỗi tội tối hơi đông khách quá. Mình gọi 1 lục trà sữa thạch dừa size S giá là 55K. Phần lục trà khá đậm đà, thơm mùi sữa, thạch dừa ngon cực, nhai ngọt ngọt mát mát thích lắm. Ở đây mình sẽ ord rồi khi nào nhân viên gọi đến số thì ra lấy đồ nha, wifi phải nhập code dùng được 2 tiếng, nói chung khá ổn.",POS,POS,POS,
+426,"Tìm chỗ ăn tối thấy quán giảm 20%, buffet lẩu 198k còn 158k (chưa vat). Thấy có review chê nhưng quán mới khai trương nên vẫn cứ đến thôi, kết quả là ăn rất đã :3
+1. Về không gian, nếu như ăn ở mấy quán nổi tiếng kiểu King BBQ, Hu Tong hay Food House Food Center gì đó thì buffet giá tầm 250k, nếu 100k 99k thì là mấy quán đường phố, ven sông, nhưng ở shabu thì 158k mà quán sạch sẽ đàng hoàng, tòa discovery mới khai trương (tầng dưới có lotte, daiso, miniso, rạp chiếu phim, khu vui chơi, yves, kính mắt...), có khu ngồi bệt city view, khách đến ăn cũng rất lịch sự. Lúc mình ăn có 5 6 khách là người nhật đến quán
+2. Đồ ăn tươi, ngon, mỗi người một nồi lẩu xinh xinh, tự gọi loại nước lẩu mong muốn. Mình thích đun chín hẳn nên cũng không lo lắng gì cả. Mặc dù là buffet nhưng nên gọi từ từ, lúc cuối no quá còn một chút không ăn hết, rất tiếc :( 158k không bao gồm đồ uống, thế là gọi 1 chai dasani với 2 cốc đá, vậy là được 2 cốc nước để uống hạ nhiệt, còn 1 ít, về cuối thấy nước lẩu có vẻ hơi mặn nên đổ nốt vào nồi lẩu :""> tráng miệng có thể gọi kem (trong gói buffet) hoặc lấy hoa quả ở quầy buffet
+3. Có một bạn nhân viên dễ thương, rất để ý mỗi lúc mình cần sự giúp đỡ, mà lại không biết tên bạn ý
+Nhiệt liệt đề cử :3
+Ảnh ăn gần xong mới chụp",NEU,NEU,POS,
+427,"Bún đậu đây ngon, phục vụ tốt, khu phố cổ nên khách đi du lịch nên ăn ở đây, có cả dịch vụ mua chả cốm mang về 12k/ 1 miếng.",POS,POS,POS,
+428,Được,POS,POS,POS,
+429,"25k/10 quả. Mình thấy hơi đắt. Một quả trứng thứ hai cuối cùng bị hỏng làm mình đang nhai thì phải nhổ( cái này là kể thôi chứ cái sự trứng ung thì cũng khó tránh) 
+Còn nem lụi thì cũng k đến nỗi",NEG,NEG,NEU,
+430,"Các con rất đáng yêu, ngoan, dễ gần và sạch sẽ. Quán nhỏ nhưng không bị mùi. Giá đồ uống và chất lượng khá ok. Chỉ có điều quán hơi chật, và mình không thích mấy cái bàn ghế sắt lắm.",POS,POS,POS,
+431,"Quán rộng, biển to đùng. Hôm đi là cuối tuần quán rất đông, may quá lại vẫn có bàn trống. Đặt 1 suất lẩu thập cẩm 350k được cũng rất nhiều, đầy đủ từ rau đến thịt, hải sản, bún 🍜🍜 nước dùng vừa miệng. Nhân viên rất chu đáo nhiệt tình 😂",POS,POS,POS,
+432,"cơm trộn ngon, đồ ăn đến vẫn còn nóng ! lần sau mình sẽ gọi cay hơn 1 chút",POS,POS,POS,
+433,"Mới order 2 hộp xôi ở cơ sở Bà Triệu, xôi ăn bình thường, mà không hiểu sao toàn tóc, ở cả hai hộp luôn, lẫn cả vào xôi mới tởm. Bình thường ăn thấy 1 sợi thì ko sao đâu nhưng thấy sợi thứ 2 thứ 3 thì ghê bỏ mẹ. Mà cả hai hộp đều dính chứ. MẤT CẢ NGON! PHÍ TIỀN!",POS,POS,NEG,
+434,"Quán hơi bé nhưng trang trí đẹp và sạch sẽ 
+Quán nằm ngay mặt đường gần ngã tư Trần Hưng Đạo với Quang Trung nên khá là dễ tìm 
+Giá cả ok so với các hãng trà sữa lớn khác
+Mình uống trà bí đao pha ngon đậm tiếc là không giảm được lượng đường nên hơi ngọt :(((
+Còn trà sữa thiết âm thì tuyệt vời lun với mùi vị trà đậm đà
+Trân châu thì dẻo ngon, pudding mềm thơm phức ❤️❤️",POS,POS,POS,
+435,"Tối mà code sắp hết hạn nên chọn đại leetee uống. Mình thấy món này nhiều người uống nên cũng thử xem sao.
+Nhận hàng mình thấy cốc to, lượng khá nhiều.
+Mà kem trứng trên bề mặt mỏng dính à, không đáng gọi là kem trứng luôn. Kiểu phớt phớt cho có.
+Cacao hơi giống milo haha. Nhưng phân biệt được vì nó đắng hơn milo.
+Trân châu đen bị hơi nhão á. Pudding trứng không thấy đâu. Gọi nha đam chắc được ba bốn hạt. Trân châu trắng được tẹo.
+Đồ uống tàm tạm. Topping chưa ưng. Được cái quán xác nhận và làm đồ khá nhanh.
+Shipper ship khá siêu tốc.
+Đánh giá 6/10
+#reviewfoody",NEU,NEU,NEG,
+436,"Lần đầu đến quán, bị thích không gian của quán. Cá hồi ngon, thích nhất món cá hồi nướng của quán, lẩu cá hồi cũng rất ngon
+Thêm cả món về Trâu nữa, giá cả rất ổn
+Nói chung, chắc chắn sẽ quay lại ăn tiếp",POS,POS,POS,
+437,"Địa điểm: mặt đường Phạm Ngọc Thạch, dễ tìm. 
+Mấy bạn phục vụ nhiệt tình mặc dù quán hết khá nhiều thứ. Do bạn mình không ăn được hải sản nên các bạn ấy cũng hỏi han, với chiều lòng khách cho bọn mình lẩu 2 ngăn. Mang loại bánh nào ra cũng giớ thiệu đủ là cái này không có hay có tôm. 
+Về nước lẩu, mình chọn là lẩu chua cay và nó đúng ý như vị của mì tôm Omi😁😁
+Đồ tráng miệng cũng không phong phú lắm.",NEU,NEU,POS,
+438,Đang ngồi trong Highland ở Hồ Gươm plaza Bigc Hà Đông và gọi 1 Americano size nhỏ và phin sữa đá cũng size nhỏ nhưng công nhận phin sữa đá nhiều đá thật. Mình vào thử cho biết thôi chứ chắc không đến lần nữa. Không phải vì không ngon mà chắc do không hợp khẩu vị.,POS,POS,POS,
+439,"Đã ăn chè ở đây từ rất lâu và cực kì thích luôn!!! Chè ăn rất ngon, thơm, ngậy mà lại ko bị ngọt quá. Mình hay ăn chè thập cẩm để ăn đủ các vị. Thích nhất trân châu có vị hoa nhài rất thơm. Giá cả cx phải chăng, nhân viên thì cx ok. Điểm trừ duy nhất là quán hơi bé so vs lg ng ăn, lại còn ở trên đg bé mà đông nữa nên lại càng hay tắc. Chiều tầm 4-5h thì ko còn chỗ mà ngồi. Nchg là vẫn sẽ ủng hộ dài dài",POS,POS,POS,
+440,"Cơm quán đóng gói cực kì cẩn thận đầy đủ thìa đũa ống hút.
+Sẽ còn ủng hộ nhiềuu",POS,POS,POS,
+441,"Mình đã ăn lâu năm ở nhiều qán nổi như bún riêu hàng bạc, quang trung, nguyễn siêu, bạch mai ...cho đến khi vô tình tạt vào chỗ này và nghiện luôn. Mình chỉ ăn bún riêu thôi nhưng nc đậm đà kinh khủng, càng ăn về cuối bát lại càng ngon chỉ ước gì bụng to húp đc hết nc ấy. Thật sự là Ngon. Quán sạch sẽ. Giá hợp lý. Hnay mò vào đây xem có ship ko vì trời mưa mà thèm qá 😂😂",POS,POS,POS,
+442,- đồ uống ngon không gian hoài niệm mình rất thích . sẽ là khách quen :),POS,POS,POS,
+443,"Hnay m và lũ bạn kéo nhau thử uống nc ở đâyy. Bm order: 
+- Trà thái xanh: thơm và ngọt vừa phải, hơi chát chát m thích uống thế ý ☺️ 30k
+- Trà đào, trà táo, trà dâu: trà đào và táo có miếg đào và táo ở trong, uống thơm nói chung là đc. Còn trà dâu thì thôi, ghê ghê ý, bạn m uống bỏ lại hơn nửa :)) kiểu như siro dâu ý kinh lắm :)) 30-35k 
+- Sinh tố 3 màu kia là bơ, xoài và dâu tạo thành 3 tầng. Nhưng mà 3 tầng k  nhau :)) dâu ngon thì cho ít nhất 😂 nhưng mà bạn m khen lắm. Ngon 👍🏻 55k thì phải
+Nhân viên phục vụ đc, wifi ok 
+M ngồi ở t1 uống nên k bt lên t2 và t3 ntn :)) lúc lên ngó thử thì hơi ồn. Chắc sẽ quay lại ☺️",POS,POS,POS,
+444,"Trước mình order một combo các loại: nhìn chung món ăn dành cho học sinh và giá cả vừa phải mà lại có nhiều món đủ kiểu vậy cũng tạm ổn. Nhưng không đến mức muốn ăn lại.
+Bù lại mình bị nghiện sữa chua thạch lá nếp ở đây: thạch thơm, sữa chua có độ ngậy vừa phải, ăn đánh đá quá ngon luôn. Một hộp lại to và nhiều, đựng trong hộp giấy cũng tạo cảm giác vệ sinh. Cứ một tuần mình lại phải order trên Now sữa chua ở đây 2 lần đều đặn 2 hộp 😆",POS,POS,POS,
+445,"Lần đầu mình ăn tại King BBQ buffet - Mipec Tower.
+Vừa vào cửa hàng thì thấy không gian đẹp, nhà mình đi vào có 3 người lớn và 2 bé nhỏ. 
+Vừa ngồi chọn suất ăn và món bị tắt đèn bụp 1 cái xong có đội ngũ nhân viên ra mang theo bánh chúc sinh nhật khách. Đứng cương vị khách tổ chức sinh nhật thì cảm thấy rất vui mừng. Tiếp đó món ăn vừa ra, mới cho đồ vào khay nướng. Lại 1 lần bụp phát tắt đèn có nhạc nổi lên và nhân viên lại mang bánh sinh nhật ra. Mình thấy hơi khó chịu, nhưng vẫn cảm thấy vui cho người được tổ chức sinh nhật. Tiếp sau khi tắt đèn bật đèn lên thịt hơi có tí cháy, vì tối quá không nhìn thấy gì để có thể nướng. Và được khoảng 5' sau, lại bụp phát tắt đèn và tiếp diễn như trước. Đèn chưa sáng nhà mình đã có kinh nghiệm, gắp thật nhanh đồ đang nướng ra khỏi vỉ nướng. Bật đèn lên may hơi có chút cháy thịt. Mình gọi nhân viên và góp ý, các em tổ chức cho khách hàng sinh nhật, nếu là chị, chị cũng rất vui. Nhưng chị là bàn không tổ chức sẽ rất khó chịu luôn. Vì lý do, khi e tổ chức tắt đèn không nói làm phiền các bàn khác, mà bụp cái tắt tối om. Chị cảm thấy khó chịu rồi đấy. Nhân viên hiểu và xin lỗi ngay. Và mình cũng bảo nhân viên là hôm nay tắt đèn 3 lần rồi. Nếu có 1 lần cho bữa ăn này nữa chị sẽ bắt bồi thường. Nhân viên bảo không còn sinh nhật đâu ạ. Rồi sau 1 lúc nghĩ an toàn các nhân viên báo với nhau còn sinh nhật nữa của bàn ... Mình dặn người nhà lại chuẩn bị, nhưng cũng nói nhân viên không được tắt hết đèn, vẫn để chút đèn. Họ tắt và để lại đèn. Mình thấy rất đẹp lung linh và ấm cúng cũng không ảnh hưởng khách khác. Và trước khi tắt họ cũng có xin phép để mọi người thông cảm. Cuối giờ ăn xong có quản lý ra cám ơn vì đã góp ý. Mình cảm thấy thoải mái, và sẽ quay lại để thưởng thức ở các điểm của hệ thống của King BBQ bufet.
+Đồ ăn tươi ngon, loại chất lượng luôn đó. Ăn thoải mái cả nướng và lẩu.",POS,POS,POS,
+446,"Nhạc hay, đồ uống tuyệt vời",POS,POS,POS,
+447,"Suất bún đầy đặn, bỏ ra được một tô lớn. Nước trộn hơi nhạt, thịt bò hơi dai, nhưng nhìn chung cũng khá ổn. Chỉ có điều mình đặt bên Now là 59k/ suất, có mã giảm 20% nhưng mình ko dùng mà dùng mã giảm ship 15k, giảm thêm 7k airpay, mất thêm 20k ship đến nhà mình, tổng là 57k. Nhưng mình nhìn giá ở menu foody có 30k/ suất. Sang bên grab giá 35k/ suất, còn có mã giảm 50% :(  ko biết các suất mua ở các bên khác nhau thì có gì khác nhau ko nữa, hay mình đã bị mua đắt rồi :(",POS,POS,POS,
+448,Cơm đóng hộp gọn gàng đẹp mắt,POS,POS,POS,
+449,"Sau nhiều năm vắng bóng
+
+Quán Bún Đậu Mắm Tôm Cô Thủy Thương Mại đã trở lại 
+
+Mọi người qua quán của Cô nhé",NEU,NEU,POS,
+450,"Mình rất ít uống toco, hôm nay đi qua mới ghé vào thử.
+Các anh chị rất tốt.
+Trà sữa cũng rất ngon :3",NEU,NEU,POS,
+451,"Thời tiết chớm lạnh ăn lẩu là hợp lý. Nay mới qua ăn thử lẩu băng chuyền xem quảng cáo đã lâu nay mới có cơ hội đến ăn. Đồ ăn quá trời nhiều mình đi 4 người ngồi ở bàn riêng mình rất hài lòng, nhân viên  quá ưu nhiệt tình sẽ lui tới thường xuyên:))",POS,POS,POS,
+452,"Ghé qua quán trong một buổi trưa mát mẻ, menu đồ ăn khá đa dạng. Quán làm đồ nhanh, ngon mắt ngon miệng + giá cả rất hợp lý 👍🏻
+Vote 5 sao sẽ quay lại lần nữa ❤️",POS,POS,POS,
+453,"Quá đắt so với chất lượng và số lượng.
+Sụn gà không có sụn, chiên gà quá khô.
+Thịt nướng khô mặn, chân gà mặn.",NEG,NEG,,
+454,"Tuy ở địa điểm không được bắt mắt như các thương hiệu lớn, nhưng tôi nghĩ rằng Gtea rất phù hợp với xu thế trà sữa hiện giờ, trà sữa đậm đà, tóm lại là rất ngon, giá quá tốt",POS,POS,POS,
+455,"Dạo này ""thị trường các món ăn sáng"" đang bão hòa chỗ nào cũng vị một màu, như nhau nên cũng chả biết ăn gì cho đổi mới bữa ăn cả nhà ạ 😂😂 Mà tớ thì cũng sành ăn và khó tính trong khẩu vị lắm, sẵn sáng nay có cô bạn giới thiệu và order hai bát bún bò đầy đủ ở quán này về ăn, khen tấm tắc ngon lắm mà cũng tặc lưỡi đưa chân order. Đến lúc shipper mang đến tận cửa thì ấn tượng đầu tiên là mùi thơm và mang cảm giác đúng chuẩn ngọt và thơm rất riêng của bún huế, đóng gói cẩn thận và sạch sẽ quy củ chứ không lộn tùng phèo lên như mấy quán mình order đợt dịch vừa rồi. Rất đầy đủ cả cái cả nước không thiếu bất kì một yếu tố nào của bún huế: móng giò, thịt bò,... ăn rất đã và nịnh lưỡi kinh khủng luôn. Tóm lại là yêu ngay từ lần ăn đầu tiên",NEU,NEU,POS,
+456,"CẢNH BÁO🚫‼️
+TRONG CHÁO CÓ ĐẤT CÁT BẨN VÀ DỊ VẬT
+THÁI ĐỘ NHÂN VIÊN CỢT NHẢ KHÔNG HỢP TÁC
+mng tránh quán này ra nhé🙏🏻🙏🏻🙏🏻",NEU,NEU,NEG,
+457,Mình gọi deli bình thường giảm 70 đường nhưng hôm nay gọi ở cơ sở này bị nhạt 😂. Phải bỏ thêm sữa. Nhưng vẫn ngonnnn 😘,POS,POS,POS,
+458,"Quán nằm ngay trong trung tâm phố cổ Hà Nội và sát cạnh nhà thờ lớn . Mình ấn tượng nhất ở đây là cốc cà phê trứng ngon tuyệt vời kết hợp với không gian yên tĩnh của quán phải gọi là hết sẩy , chưa kể các nhân viên ở đây phục vụ cực kỳ chu đáo và thân thiện luôn thêm 1 điểm cộng cho quán .",POS,POS,POS,
+459,"Đã ăn ở Lạc Trung và Cầu Gỗ. Miến lươn rất ngon, súp cũng ngon. Giá thành hợp lý. Thích nhất lươn giòn. Cô chủ trẻ chiều khách lắm.",POS,POS,POS,
+460,"Kb có phải đúng địa chỉ này k vì ngõ này lắm quán bún đậu dã man. Mình dk bạn dẫn đi nên cx k để ý số nhà. 
+Nghe danh quán này cx khá lâu :))))) bún đậu thần thánh của ae chùa láng, của ae ngoại thương, ngoại giao, hlu các kiểu :))) h ms có cơ hội được dân trong địa bàn dẫn đi thưởng thức :))) .
+.
+Mình đến quán vào lúc quá bữa r. Tầm 1h nên k đông, nhìn quán cx khá sạch sẽ. . .
+🌽Đậu ở đây rán già, nóng hổi, mình thích ăn đậu giòn bên ngoài và mềm, nóng bên trong nt. Ăn tham quá tí bỏng mồm :))) .
+.
+🌽Chả cốm ở đây cx ngon nữa, nhưng lại k thấy rõ mùi thơm vs dẻo của cốm
+.
+🌽Nem thì độn nhiều miến vs su hào các thứ lắm, rán cx k vàng nx, dồi thì toàn tiết thôi, cắt còn bé tí nữa à :( Thịt luộc ăn oke, k bị mỡ.
+.
+🌽Mắm tôm mình thấy hơi mặn, phải vắt tận 3 quả quất luôn ý 😰
+.
+.
+🌽Được cái quán khá đông nên chak hết đồ nhanh nên k có trường hợp bún để lâu ý, ăn k bị chua. .
+.
+. $ Giá thì khá rẻ: .
+- Đầy đủ : 30k .
+- Bún đậu chả cốm: 25k 
+À ở đây còn được trà đá free, nhưng tự phục vụ nhé :))) .",POS,POS,POS,
+461,"Mình đặt 2 quay 1 nem lụi về nhà chén, 
+Ôi trời, rau xanh cuốn thì bị đè bởi hộp thịt, hoa quả, đại khái là cho tất cả vào một túi, nhìn phản cảm 
+Tiếp mở hộp hoa qua thì hỗn độn, như cho lợn ăn, hay nhất là miếng dứa còn nguyên mắt - Ẩu - Cực Ẩu 
+Rau bị dính đất hay sạn ấy 
+Mắm thì ngọt sắc đỏ au, okey fine - vkck con cái không ăn đồ cuốn, mà gắp thịt ăn tạm vì tiếc 
+Nem lụi không bọc xả, nhiều tiêu cay trẻ con ko ăn đc, hơi nhiều tỏi 
+Nói chung tiếc tiền thì ít mà tiếc công chờ thì nhiều, thất vọng và hứa không đặt lại, không như mong đợi",NEU,NEU,NEG,
+462,"Tranh thủ có mã giảm giá Airpay nên gọi thử cháo ếch, kèm 1 phần da ếch chiên giòn. Thịt ếch mình thấy ngon, đậm đà, cháo hương lá dứa cũng thơm, nhưng không thấy ngon đặc sắc lắm. Với giá niêm yết thì hơi đắt cho một phần nhỏ  như vậy. Da ếch chiên thì ngon, giòn tan nóng hổi. Shipper nhanh nhẹn, giao hàng thậm chí còn sớm hơn cả giờ hẹn nữa. Nói chung ổn, không có ấn tượng xấu nào. Lần sau có dịp mình sẽ đến quán để xem không gian như thế nào, nhìn ảnh cũng khá đẹp",POS,POS,POS,
+463,"10/10. Tuyệt không có gì để chê. Vừa healthy lại vừa ngon. Mình đặt 1 cơm sườn cốt lết và 1 trà quất. Cơm mềm, vừa ăn, không bị khô, sườn chín tới, ăn không bị dai. Rau củ ăn ngon, nấu chín mềm. Nước mắm chua mặn ngọt chấm kèm rau củ với sườn rất vừa miệng, hợp với khẩu vị mình. Trà quất uống cũng rất OK. Nói chung đây là một trong những suất cơm ngon nhất mình từng đặt. Đã vậy quán mở tới 11h đêm nên rất tiện nhé chứ nhiều quán cơm 8-9h đã đóng rồi mà mình thì hay ăn muộn nên sẽ ủng hộ quán nhiều nữa ^^",POS,POS,POS,
+464,"Trong con phố nhỏ xíu với những bar Tây lại có hàng bún mọc bán từ sáng đến tối muộn thế này. Mình đi qua quán bà nhiều, mỗi lần lại thấy dáng bà ngồi co lại cạnh nồi nước dùng trong thời tiết lạnh lẽo của mùa đông, nhìn ấm áp gì đâu.
+📍Quán rộng bên trong nhỏ vỉa hè nhưng bà cũng kê thêm 2-3 bàn bên ngoài. Mà làm vậy thì hơi vướng đường đi lẫn việc để xe, quán bà mà có không nhận khách nữa chắc chỉ do không có chỗ để xe mà bàn vẫn còn mất 😅
+🍜Ở cái đất phố cổ vẫn còn một hàng bún đầy đủ 25k/bát đấy. Bát bún tình thương, bà cho nhiều mọc hơn thịt. Thịt quán bà không bã nhưng cũng không thể gọi là mềm đúng ý mình, chắc do lát vừa không mỏng hay dày. Mọc được nắn đúng kiểu mình thích, rõ vị mộc nhĩ bên trong mà còn vàng ươm giống nước dùng. Vị nước dùng vừa miệng, còn hơi mỡ so với mình. Gần chỗ làm lại còn giá yêu thương thế này thì mình tới suốt thôi.",POS,POS,POS,
+465,"Cuối tuần mình cùng nhóm bạn lên Tạ Hiện chơi và sau đó khám phá được quán bún miến ngan ngay chỗ phố đi bộ. Cửa hàng vỉa hè, mà mình đi qua thấy đông mà cũng đang đói bụng nên vào ăn luôn thì phải công nhận chất lượng hơn cả giá tiền. Thực sự đây là bát miến ngan cực chất lượng mà mình ăn ở con phố quanh hồ Gươm. Một bát đầy ụ thịt, gan tiết tim măng các thứ mà chỉ có 40k. Chỗ ngồi cũng sạch sẽ thoáng mát mà bà chủ vui tính thoải mái. Nói chung so với các quán ăn ở con phố sát hồ thì mình thấy quán này rẻ nhất vì đồ ăn rất nhiều 👌🏻👌🏻",POS,POS,POS,
+466,"Không gian đẹp , đồ uống ngon 👌
+Nhân viên nhiệt tình vui tính 😍😍😍",POS,POS,POS,
+467,"Mình đặt cho bạn mình 4 5 lần ở đây rồi, 2 lần đầu còn thấy ngon bắt mắt, càng về sau chất lượng càng kém! Người ta đã ăn đồ healthy thì ko tiếc tiền ăn mắc 1 chút nào đâu quán, nhưng chất lượng mỗi lần mỗi khác ai mà lường được. Đặt 1 phần cá mà lèo tèo 3 miếng cá bé tẹo chán ko buồn nói luôn!",NEG,NEG,NEG,
+468,"Rất gần chỗ mình, mong quán sẽ có thêm nhiều món hơn. Cơm gà có mùi gì thơm quen lắm mà ko biết là mùi gì 🤭",POS,POS,POS,
+469,"- Địa điểm ngay trung tâm thành phố, rất dễ tìm, có chỗ gửi xe ( tính phí 10k nha)
+- Trang trí xinh xắn có 3 tầng chắc đi đông 10-20 người vẫn ok, quán sạch sẽ từ khu buffet, bàn ghế, chén bát cho đến chỗ phân loại đồ bẩn và***cũng sạch lắm, mình thấy ấn tượng về độ sạch sẽ của quán ! 
+- Nhân viên cũng tạm gọi là nhiệt tình 
+- Đồ ăn: đồ ăn thuần chay và chay, có nhiều lựa chọn, mình thấy đồ ăn ngon và có sự đầu tư về menu hơn các quán buffet chay khác. Món nào cũng ngon luôn ý. Mấy cái bát đĩa xinh thôi rồi nữa chớ. Tuy nhiên mình thường chỉ dùng 1 bát 1 đĩa khi ăn món chính chứ ko dùng nhiều mất công các bạn dọn mệt
+- Có cơm chay take away và nước uống giá tầm 45k/ suất cơm, nước 20-30k thì phải. 
+- Giá cả hợp lý 100k/ suất",POS,POS,POS,
+470,"Tạt qua quán đúng hôm mưa gió. Thấy quán chè có cả trái cây tươi. Tò mò nên gọi đĩa nhỏ ăn thử. Đĩa hoa quả như trong ảnh 55k, gồm dưa lưới xanh, táo, ổi, nho Ninh Thuận. Hoa quả tươi rói, ăn rất đã. Chưa bao giờ ăn dưa lưới thơm ngon như thế luôn. Bình thường dưa lưới màu vàng cơ, nhưng shop bảo mùa này có dưa lưới xanh thui. Vote trái cây 10đ
+
+Chè thì ăn quen rồi nên thấy cũng bt. Tàu hũ sâm dứa được thử của mỗi con bạn 1 thìa ăn ngob vãi!!! Lần sau sẽ ăn sâm dứa và tàu hũ hihi
+
+Quán đúng hôm mưa nên hơi đông. Được cái ấm cúng, nhiều góc sống ảo tha hồ chụp ảnh hí hí",POS,POS,POS,
+471,"Bún chả ngon, thịt và chả đều mềm, đậm vị.
+Giá lại còn rẻ nữa.
+Mình thích ăn bún chả nên đi ăn khá nhiều quán rồi, nhưng mình thấy nước chấm, chả và thịt ở đây ăn vừa miệng nhất.
+Và giá thì lại quá rẻ.",POS,POS,POS,
+472,"Dc hôm có mã giảm giá 50% nên thử.
+
+Mình gọi trà xoài kem cheese tưởng là xoài xay ai dè là siro . nc lởn cởn tép xoài . 
+kem cheese thì ko có gì đặc biệt. cũng chả rõ mùi vị là kem tươi hay kem mặn :3
+Chị mình đi gọi trà sữa tươi topping là kem sữa. uống cảm giác toàn mùi hoá học là sao .!
+Quán nhỏ có 3 tầng. trang trí cũng dễ thương
+
+Nói chung đồ uống khá rẻ nhưng cá nhân mình ko hợp khẩu vị. chắc đây là lần cuối",NEU,NEU,NEG,
+473,"Gà thơm bơ tỏi, mềm hơn ổn hơn lần đầu mình mua gà siêu khô. Bánh mì cũng mềm thơm. Giá hơi mắc hơn mặt bằng chung chút. Nên thêm topping các loại đạm cho những người cần nhiều đạm như mình",NEU,NEU,NEU,
+474,"các bạn ạ đây là tiệm bánh mì đầu tiên mà tớ không tìm được bất kì một lí do gì để chê í :( từ bác chủ quán có ti tỉ người bạn trải quanh thế giới đáng yêu cực nhá không tin cứ đến mà xem 💕
+bánh mì CỰC KÌ ĐẦY ĐẶN và tất nhiên là ngon rồi 🥙 có khá nhiều loại để các b thử như thịt viên nấm, xá xíu paté, chả rim này những loại cơ bản như paté trứng các thứ này có cả bánh mỳ chay là salad với phomai chỉ 15k mà đủ no không lo chết đói 💯 nhưng must try đáng thử là bò tiêu đen, ngan nướng và gà nướng. thịt được tẩm ướp đậm đà và vừa miệng, ăn kèm tương ớt nhà làm đánh bật vị giác luôn ⚠️ nhưng tương ớt rất cay đấy ạ các bạn có thể nhắc bác cho ít hoặc không cho mà vẫn ngon như thường ⚠️ 
+nói qua thì ban đầu tớ ấn tượng nhất là bò tiêu đen kiểu gần như lần nào ăn cũng chỉ gọi mỗi loại này thôi í lol nhưng tết vừa rồi đi xỏ lỗ tai nên phải kiêng bò và gà thì tớ đánh sang các loại khác bao gồm cả ngannn, tớ thì không thích ngan lắm nhưng tớ hoàn toàn bị thuyết phục luôn kiểu ngọt thịt mà gia vị ướp cũng hợp nên ăn vèo cái hết luôn 😟 xong hôm qua đánh liều ăn gà nướng thì bị quật phát nữa, thịt gà rất mềm mà không bị bở hay khô đâu ạ thêm cái mùi smoky kiểu thịt hun khói tây tây í không biết tả sao luôn 🤐
+nói không ngoa chứ ngày nào bữa trưa của tớ cũng tọa lạc ở đây và thật sự là không có điểm nào để chê í :< à mà SALAD SIÊU SIÊU NGON 🥗 và bánh mì các bạn gọi đến đâu bác làm xong cho vào lò tầm 2 3 phút nên nóng cả bánh cả nhân và giòn tan, không lo bánh ỉu hay dai đâu ạ 💯
+quán không rộng lắm nhưng nếu các bạn đi nhóm 10 người vẫn ngồi được ở trong nhà đấy, còn không thì ngồi vỉa hè ngắm đường phố cũng vui mà hi :3 ngoài ra nhà bác còn có 2 em puppy xinh nhắm và mến khách cực í 🐶 với cả gian bên trong là quán Bubble Yogurt của con trai bác chủ quán nên mọi người ăn bánh mì xong tráng miệng bằng sữa chua cũng được đấy ạ. có 2 loại sữa chua là light yogurt và greek yogurt. tớ sẽ viết thêm 1 bài ở BUBBLE YOGURT nên các bạn qua đó xem và có thể tham khảo trước menu đóooo 💖💚
+TỔNG KẾT:
+♡ quán ở ngay mặt đường số 14 Hàng Buồm nhưng hơi nhỏ nên dễ đi qua mất, hoặc có thể tìm bánh mỳ P và nhìn sang bên trái hihi, ở cửa có cả biển bánh mỳ 14 hình tròn hoặc dòng chữ yogurt bar thì đấy là quán đấy ạ
+♡ chất lượng xuất sắc, dịch vụ thì mình chưa thử bao giờ vì toàn đến quán ăn để chơi với 2 em cúnnn
+♡ không gian tạm ổn, khá bé nếu lượng khách trên 10 người
+♡ tốc độ làm đồ ăn không quá lâu nhưng nếu lúc bạn đến mà đông khách thì vẫn sẽ phải đợi (tất nhiên) và nếu không muốn chờ thì tớ sẽ đi lòng vòng hoặc ra circle k mua nước rồi quay lại là vừa xinh luôn vì bác xử lí đơn hàng rất nhanh và gọn ;) 
+♡ giá cả giao động từ 15k ~ 35k, tớ thấy đáng đồng tiền bỏ ra luôn vì CỰC KÌ NHIỀU NHÂN, lúc ăn còn có mấy miếng cắn toàn nhân không có bánh cơ mà :<
+mong các bạn ghé quán và enjoy your bánh mì hihi không hối hận đâuuuuu btw xin lỗi vì tớ viết dài quá hic và không có ảnh cho bánh mì vì mải ăn và chơi",POS,POS,POS,
+475,"Quán nằm ngay gần ngã 4 nguyễn khánh toàn >< nguyễn văn huyên. Rộng rãi, sạch sẽ hơn rất nhiều quán + khác
+Do đường Nguyễn Văn Huyên kéo dài mới mở nên đường cũng vắng, chỗ đỗ xe tạm thời thoải mái
+Bên trong thiết kế theo phong cách thời bao cấp, vào đây thấy ""tuổi thơ dữ dội"" tràn về
+Đồ uống thì như các quán + khác, chỉ thích đến hơn vì mấy cái + đã kể ở trên",NEU,NEU,NEU,
+476,"Ôi ngon thôi rồi ý, ăn xong bữa nướng no nê vô cùng tận, thịt mềm mại mỡ màng, chủ là người hàn nên hoàn toàn có thể tin tưởng đây là nướng hàn quốc chuẩn vị nhé, trứng hình như là có trong combo không nhớ nữa nhg chắc hàn ăn nhạt nên ăn không quen lắm nhg rất ngậy và ngon, đã thế chủ còn cute nữa, thận thiện vô cùng",POS,POS,POS,
+477,"Không biết mng khen thế nào nhưng cá nhân mình thấy bánh ăn khá là bình thường mà còn kiểu nhạt nhẽo sao ý :)) . Mình ord qua now được giảm giá thì thấy còn ok chứ nếu giá gốc thấy không đáng đồng tiền chút nào . Mình ăn thử 2 loại ( dân tổ + thập cẩm ) đều thấy na ná nhau cũng kco gì đặc biệt . Với mức giá này có thể ăn được nhiều loại bánh mì khác ngon hơn . Ncl thử cho biết thì dc .
+* Vừa lên đọc rv và xem ảnh thấy bánh mì có trứng nhưng bánh hnay mình ord lại không có trứng ?? Haizzz",NEU,NEU,NEG,
+478,Quá đắt lèo tèo mà 136k,NEG,NEG,NEG,
+479,"Hôm nay mình có đi ăn với gia đình và gọi món gà phô mai , sau khi ăn gần xong miếng gà thì mình phát hiện có 1 con gián bị miếng gà đè lên ở mặt dưới . Mình định gọi quản lý nhưng không muốn ảnh hưởng đến bữa ăn gia đình nên thôi lên đây viết review vậy. thực sự thất vọng quán thì ăn chán hơn hẳn so với chỗ khác nhưng vì gần nên mình vẫn xuống ủng hộ không ngờ lại gặp phải tình huống này , mong các bạn rút kinh nghiệm dù mình là khách thường xuyên nhưng sau vụ này chẳng bao giờ dám quay lại đây nữa :)",POS,POS,NEG,
+480,"Bún khá đầy đặn nhưng thịt khô và ko ngon. Suất lẫn đc 2 miếng chả băm đen thui ăn cứng quèo, một lần duy nhất không quay lại :(",NEG,NEG,NEG,
+481,"Tiệc tất niên cuối năm lúc nào cũng cứ phải đẫm thịt 😍 1 tuần liền rồi ngày nào cũng buffet đến sợ thịt quá rùii 😩
+Lần này lựa chọn tú chef cơ sở nguyễn văn lộc cho gần nhà và lại còn mới khai trương nên đc giảm giá buffet nướng chỉ còn 149k cả nướng và lẩu còn 179k.
+Khai vị ở đây có kimbap, salat, thịt chiên, khoai chiên, bánh xèo ăn cũng ok. 
+Đồ nướng ở đây cũng đa dạng :ba chỉ lợn, ba chỉ bò, nầm, mực, bạch tuộc, cá, .... tẩm ướp bình thường k đặc sắc lắm 😭 đặc biệt là bạch tuộc thì mặn thé cổ nhóm mình đi ăn chục người mà ai cũng kêu mặn :(( Ở đây phục vụ siêu chậm bọn mình đến ngồi chờ 30 phút vẫn chưa thấy đồ ăn lên đợi gần 1 tiếng thì có đồ nhưng than vẫn chưa lên 😩 
+Chấm điểm: 6/10.
+- 🏠: suchef 20 nguyễn văn lộc- hà đông( ngay gần siêu thị coopmart)
+#food #foody #foodyhanoi #foodyhadong #foodie #foodblogger #foodblog #foodbloggers #instagood #instadaily #instagram #l4l #l4f #followme #follow4follow #lovemylife #mylife❤️ #daily #photodaily #hanoi #hanoifood #vietnamese #vietnamesefood",POS,POS,NEG,
+482,"Nước chấm của nem lụi cũng bình thường k đậm vị lắm.nhưng mình thấy bánh xèo ở đây khá ngon.chuẩn vị,vỏ bánh giòn và nhân bánh rát nhiều thịt đặc biệt là thịt bò ))",POS,POS,POS,
+483,"Ngon, nhiều topping nhất trong các hàng mình từng ăn. Đầy đặn, giá cả hợp lí mỗi tội hơi xa mình 😑",POS,POS,POS,
+484,"Địa chỉ đồ Nhật có chất lượng, đặc biệt về sashimi, đồ ăn ở đây cũng ngon miệng, phù hợp khẩu vị. Về giá cả cũng cạnh tranh.
+
+Nhân viên phục vụ tận tình, chỗ để xe không nhiều, chắc phục vụ chủ yếu cho dân văn phòng quanh khu Bùi Thị Xuân. 
+
+Không gian đúng theo phong cách ẩm thực Nhật, có mấy phòng riêng, máy lạnh đầy đủ.",POS,POS,POS,
+485,"Quán nhỏ nhưng  trang trí cũng đẹp, thấy chị chủ quán rất chịu đầu tư hoa tươi, buổi tối còn có thể xếp ghế ngồi ngoài vỉa hè Nguyễn Hữu Huân, chất lượng đồ uống khá là ok, giá thì cũng same same các hàng cafe take away khác.",POS,POS,POS,
+486,"Lần đầu ăn ở quán, phải nói là ngập tràn đồ ăn, lại rất là ngon. Mình đi có 2 ng nên gọi chân giò 0,5 cân, 1 bát canh đậu phụ hải sản mà lúc lên đồ ngoài gần chục patchan, có được khuyến mãi thêm 1 bát canh thịt bò (do hóa đơn đã 500k), 1 bát canh rong biển (đi kèm vs món chân giò). 2 Ce cố mãi mà ko ăn hết được phải gói về. Hôm nay quán còn đk giảm giá 10% khi check-in nữa.
+Như phần ăn tn này tầm 4ng cũng đủ, mà càng nhiều ng càng rẻ.
+Nhân viên phục vụ rất tốt, nhanh nhẹn, thái độ tốt. 
+Điểm trừ duy nhất là mình ở trần duy hưng nên khi tìm trên bản đồ thì quán rất gần. Nhưng đời ko như mơ, nó nằm tận dưới cuối NTĐ đầu***hại 2ce mình đi bộ đến cuối đường luôn, mất tận 15p. Mấy lần định bỏ cuộc rồi may mà vẫn đến đích.",POS,POS,POS,
+487,"Đã thử cơm sườn và lần này là cơm gà chiên mắm 
+Đùi gà thơm ngon gia vị đậm đà , cơm mềm
+, rau hơi ít 😛 đóng gói cẩn thận 💯",POS,POS,POS,
+488,"Đồ ăn ngon, phục vụ tốt. <3",POS,POS,POS,
+489,"Thích nhất cơm gà ở đây
+mình rủ mấy bà chị đồng nghiệp ra đây mà thành con nghiện của quán luôn ấy
+ăn cơm mà ngon, nhìn sạch sẽ",POS,POS,POS,
+490,Mình và bạn mình đac thử món kiều mạch sữa và matcha sữa ở đây. Cả 2 món đều ngon đặc biệt là vị kiều mạch rất lạ và khác biệt. Trân châu rất mềm và dai! Không gian quán buổi tối cực đẹp ( rất thích mùi hương ở quán). Sẽ quay lại nhiều!!! 😋😋😋,POS,POS,POS,
+491,Cái gì cx hết trà earl grey hết 3 đồ uống đợt đông năm nay cx hết nvien order sai mình order trà dâu kem matcha nhưng làm thành trà matcha kem dâu😀,NEG,NEG,NEG,
+492,"Tết ra đây ăn xôi rán, không hiểu sao sợ bánh chưng ngấy mà lại đi ăn món còn ngấy hơn )) xôi nóng dẻo thơm phết, xôi rán cũng giòn, ổn nhưng không ăn nổi hết suất. 2 suất của mình có thịt kho, trứng kho, lạp xưởng với pa tê, 50k - 55k/ suất, có vẻ chỉ đắt hơn 5k so với ngày thường thui. Phục vụ có 1 chị và 1 cô thôi nên hơi lâu nhưng nhiệt tình, chị chủ xinh mà dễ thương lắm.
+Quán ngay đoạn ngã tư nha, ngồi vỉa hè nhưng có bàn ghế cao thoải mái.",POS,POS,POS,
+493,Đã đặt hàng ở đây rất nhiều lần! Đồ uống rất ngon <3,POS,POS,POS,
+494,"- quán nên đổi sang hành khác.quán nên tự làm hành n sẽ ok hơn là hành trung quốc như này. Hoặc mua hành chỗ nào ổn hơn ấy. Hành này hồi cấp 2 mình mua 4k 1 lạng nhưng sau ngần ấy năm mình ghét ăn hành này kinh khủng , n ỉu mà n chán vchg.
+- lạp xưởng bị rán quá kỹ, là đây k phải lạp xưởng lạng sơn nhé, đây là lạp xưởng hải dương thì có.
+- đổi lại xôi và pate ổn",POS,POS,POS,
+495,"Ra đây chơi nên được bạn dắt ra đây nhậu. Quán này có khá nhiều chi nhánh đó chứ. Quán có không gian vừa phải nhưng cũng thoáng lắm. Nhân viên vui vẻ, khá ổn. Ở đây có khăn lạnh khá độc đáo. Cầm lên hết hồn. Mình chỉ gọi vài món để nhâm nhi nhậu thôi. Món ăn ổn, ăn khá ngon. Có dịp ra đây sẽ ghé lại.",POS,POS,POS,
+496,"Đi vào lúc chiều tối quán đông dã man ấy các***ạ. Nhưng được cái là phục vụ nhanh nhẹn  🤣
+
+🍜 Món ăn: Đây là lần đầu tiên mình ăn món này và không có ấn tượng cho lắm. Nước dùng ngọt, đậm vị. 1 bát mì khá đầy đặn bao gồm: tôm, sủi cảo, bong bóng...
+💸 45k/bát
+
+----- 3/5----",POS,POS,NEG,
+497,"Ăn khá là hợp khẩu vị
+Đúng là quán ngon nha 
+Rất ưng ý luôn nhất là chất lượng đồ ăn",POS,POS,POS,
+498,"Mình ấn tượng với quán vì sơn tường màu vàng cam trông khá ấm áp và lãng mạn, nhất là trong những ngày mùa thu tình bể bình thế này :))
+Quán tuy khá nhỏ xinh nhưng nhân viên vẫn mặc đồng phục rất chuyên nghiệp, phục vụ nhanh và thân thiện với khách. 
+Menu ở đây được cái khá đa dang, nhất là mấy món nổi nổi như trà sữa trân châu đường đen cũng có luôn (mình fan trà sữa hihi). Đặc biệt là có cái máy tự order khá nhanh, nên bọn mình không phải chờ lâu. Mình dân công nghệ nên đánh giá cao sự hiện đại này :D Mà đồ uống so với các quán khác thì rẻ hơn, chỉ tầm trên dưới 30K, nên chất lượng so với giá mình thấy quá ổn. 
+Nghe nói mua đồ uống ở đây còn được tích điểm qua app alotrip thì phải. Mình có tải xuống thử thì thấy đây là app để đặt vé máy bay với khách sạn, và có phần tích điểm đồ uống, chắc là cộng tác với nhau :D Các bạn thử xem sao nhé!",POS,POS,POS,
+499,"❤ Vị trí : hàng này mới mở dạo gần đây. Nằm ngay mặt đường nguyễn an ninh nên cũng khá là dễ tìm, đối diện trường mầm non 10/10
+❤ Đồ ăn : ở đây bán đủ các loại bánh vs kẹo các loại luôn. Hôm ấy mình mua bánh cắt gato nhỏ mang về
+❤ Chất lượng : bánh ăn ngon, cốt bánh ăn mềm và mịn. Bánh ăn rõ vị
+❤ Dịch vụ : cô chủ quán khá nhiệt tình tư vấn về các loại bánh cho khách hàng. Phục vụ rất nhanh và nhiệt tình",POS,POS,POS,
+500,"Địa chỉ: 
+- Hơi khó tìm, vì locate trong 1 hẻm khá sâu, và biển chỉ dẫn cũng không quá nổi bật
+- Sân và ngõ khá nhỏ không biết có thể để xe máy hay không
+
+Chất lượng đồ ăn: 
+- Nhoms mình dùng thử 4 món: Sườn nướng, gà chiên bơ tỏi, cơm trộn chay và bò sốt tiêu đen
+- Sườn nướng có 4 miếng cho 1 suất 60k (bao gồm cơm 3 màu và salad đi kèm, không có canh). Sườn mềm và có sốt uớp khá ngon, ngọt và dề ăn
+- Gà nướng bơ tỏi: Hơi ít vị bơ tỏi, nguyên nhân vì có khá nhiều mật ong, dẫn đến vị hơi ngọt. Tuy nhiên điểm cộng là ăn rất mềm và ăn kèm rau thì sẽ không bị ngấy. Một suất 60k được 1 chiếc đùi góc tư rất to, còn thừa sau khi ăn cùng cơm.
+- Cơm trộn chay: hơi nhạt vì rau thiên về luộc. Có sốt ăn kèm nhưng bát đầy cơm nên khó trộn đều. Sốt giống sốt bibimbap, có phần cay hơn 1 chút. Trông đẹp mắt, ăn khá ngon và no.
+- Bò sốt tiêu đen - 60k: Lượng vừa đủ cho 1 suất ăn, không thừa. Bò mềm tuy nhiên hơi nhiều tiêu dẫn đến món ăn hơi đậm mùi tiêu. Sốt ăn với cơm vừa và khá đưa đẩy
+Dịch vụ: 
+- Phục vụ rất tận tình, chu đáo
+- Hoá đơn trên 400k được tặng kèm 2 bánh crepe (gồm có vị chuối và vị xoài). Bánh crepe cũng rất ngon, có kèm kem. Bánh vị chuối có chocolate dưới lên, bánh vị xoài thì có mật ong thì phải (vì mình ko ăn)
+- Toàn bộ ống hút là ông út tre, thân thiện với môi trường
+- Quán có nhận ship
+
+Không gian: 
+- Như đã nói ở trên, không gian khá nhỏ. Maximum capacity được khoảng 16 người. Chắc quán chủ yếu bán online và ship
+
+Lưu ý
+- Nếu đến ăn thì nên đi theo cặp 2 người hoặc nhóm từ 4 - 6 người là tối đa, không thì không ngồi đủ
+Tổng kết:
+- Chất lượng đồ ăn và chất lượng dịch vụ là 2 yếu tố nổi trội nhất. Với trải nghiệm tại quán thì mức giá bỏ ra như vậy là phù hợp, không rẻ, không đắt
+- Nhược điểm là vị trí địa lý và không gian: Có vẻ quá nhỏ để có thể scale được",NEU,NEU,POS,
+501,"Cơm gạo T25 ngon bá cháy , sườn mềm ngon lắm , rau nhiều canh cũng ngon. Mấy anh em công ty nghiện quán này mất rồi. Mọi người nên thường thức . Quán hơi khuất trong ngõ nhưng nếu biết cách đi thì cũng dễ tìm . Đi thẳng từ đầu ngõ 1***vào không ré đâu khoảng 100m là thấy. Dịch này mọi người đặt qua app cũng ok.",POS,POS,POS,
+502,39k/ly. Giá khá cao,NEU,NEU,NEG,

@@ -4,7 +4,9 @@ Demo chứng minh nhóm giải quyết được **(1) pipeline dữ liệu đị
 **(2) pipeline + đánh giá dữ liệu cảm xúc**, kèm bằng chứng chất lượng định lượng.
 Phạm vi: **12 quận nội thành Hà Nội**, ~500 địa điểm. Đây là **demo kỹ thuật**, không phải app hoàn chỉnh.
 
-> Trạng thái: **Phase 1 (pipeline địa điểm) đã xong.** Phase 2 (cảm xúc) & Phase 3 (planner) bổ sung sau.
+> Trạng thái: **Phase 1 (địa điểm) + Phase 2 (cảm xúc) đã xong**, có app Streamlit gói toàn bộ bằng chứng. Phase 3 (planner) tùy chọn.
+>
+> **Kết quả thật (chạy trên dữ liệu nhóm gán):** 500 POI · audit tọa độ **64%**, giờ mở cửa **48%** · Cohen's Kappa **0.611** (substantial) · ViSoBERT acc **86.4%** / macro-F1 **0.723** > PhoBERT acc 84.2% / F1 0.656.
 
 ## Yêu cầu
 - Python 3.10+ (đã test 3.12), có Internet để gọi Overpass (miễn phí, không cần API key).
@@ -142,6 +144,23 @@ python scripts/09_eval_models.py
 python scripts/10_aggregate_reviews.py    # -> reports/place_sentiment_demo.png
 ```
 
+> **Nhãn chốt (`label`) lấy theo `annotator2`.** Trong dự án này annotator1 là vòng rà soát nhanh,
+> annotator2 là người gán chính → gold truth tham chiếu annotator2 (script tự dựng khi tạo `gold.csv`).
+
+## Chạy app demo (Streamlit)
+Gói toàn bộ bằng chứng thành 1 giao diện 3 tab — dùng để trình bày trước hội đồng.
+```powershell
+streamlit run app.py
+```
+- **Tab 1 — Dữ liệu địa điểm & Chất lượng:** tổng quan 500 POI, phân bố loại hình, giờ mở cửa theo
+  nguồn, **accuracy audit** (tọa độ/giờ), bản đồ độ phủ, tra cứu địa điểm.
+- **Tab 2 — Gán nhãn & So sánh model:** phân bố nhãn, **Cohen's Kappa**, bảng so sánh ViSoBERT vs
+  PhoBERT + ma trận nhầm lẫn.
+- **Tab 3 — Demo cảm xúc:** gõ nhiều review → model chấm nhãn từng câu + tỷ lệ pos/neg/neu.
+
+> App đọc **trực tiếp** từ `data/wisetravel.db` + `data/audit_sample.csv` + `data/gold/gold.csv`
+> và các file trong `reports/`. Chạy đủ scripts 01→10 trước để mọi tab có dữ liệu.
+
 ### 📋 Quy trình gán nhãn cho cả nhóm (bàn giao teammate)
 Phần này dành cho **2 người gán nhãn** (annotator1 + annotator2) để tạo tập gold chất lượng.
 
@@ -176,17 +195,20 @@ Cả hai dùng nhãn `{0:NEG, 1:POS, 2:NEU}`; code tự đọc `id2label` thật
 
 ## KỊCH BẢN TRÌNH BÀY 5 PHÚT CHO GIẢNG VIÊN
 
-1. **Pipeline** (45s) — chạy `01_fetch_pois.py`: "Lấy POI thật từ OpenStreetMap qua Overpass,
-   chuẩn hóa về 4 loại hình, khử trùng lặp, lưu SQLite. Đây là dữ liệu thật, không bịa."
-2. **Thống kê độ phủ** (45s) — mở `reports/quality_report.md` + `coverage_map.html`:
-   "Bao nhiêu địa điểm mỗi loại, % trường nào đầy đủ. Bản đồ cho thấy phủ khắp nội đô."
-3. **Accuracy audit** (60s) — mở `audit_sample.csv` đã điền + `audit_result.md`:
-   "Nhóm tự kiểm tay 50 điểm ngẫu nhiên so với Google Maps → độ chính xác tọa độ X%, giờ mở cửa Y%.
-   Đây là bằng chứng định lượng, không nói suông."
-4. **Cohen's Kappa** (45s) — mở `reports/kappa_result.md`: "Hai người gán nhãn độc lập 300–500
-   review; Kappa = K → độ đồng thuận đáng tin, tập gold có chất lượng."
-5. **Bảng so sánh model** (45s) — mở `reports/model_comparison.md` + `confusion_*.png`:
-   "Chạy ViSoBERT và PhoBERT trên tập gold → accuracy / macro-F1 / ma trận nhầm lẫn. Chọn model tốt nhất."
-6. **Demo trực tiếp** (90s):
-   - `06_query_demo.py`: "Tìm quán cà phê mở cửa 20h, giá vừa phải."
-   - `10_aggregate_reviews.py` (hoặc gõ 1 review trong app Streamlit) → model trả nhãn cảm xúc + tỷ lệ pos/neg.
+Mở sẵn app: `streamlit run app.py`. Cả buổi bám theo 3 tab.
+
+1. **Đặt vấn đề** (30s) — "Đồ án giải một *bài toán dữ liệu*: thu thập địa điểm + đánh giá cảm xúc,
+   và **tự đo được chất lượng** dữ liệu chứ không tin suông."
+2. **Tab 1 — Dữ liệu thật** (60s) — "500 POI thật lấy từ OpenStreetMap qua Overpass (miễn phí),
+   chuẩn hóa về 4 loại hình, lưu SQLite. Bản đồ cho thấy phủ khắp nội đô. Giờ mở cửa **minh bạch theo
+   nguồn**: 17% từ OSM thật, còn lại heuristic — nhóm không tô hồng."
+3. **Tab 1 — Accuracy audit** (60s) — "Nhóm tự kiểm tay **50 điểm ngẫu nhiên** đối chiếu Google Maps:
+   tọa độ đúng **64%**, giờ mở cửa **48%**. Đây là bằng chứng định lượng — và cũng là *phát hiện* về
+   giới hạn của dữ liệu mở."
+4. **Tab 2 — Chất lượng nhãn** (45s) — "2 người gán nhãn 493 review; **Cohen's Kappa = 0.611**
+   (substantial) → tập gold đáng tin."
+5. **Tab 2 — Chọn model** (45s) — "So sánh **ViSoBERT vs PhoBERT** trên tập gold: ViSoBERT thắng
+   (acc **86.4%**, macro-F1 **0.723**). Ma trận nhầm lẫn cho thấy cả hai đều yếu ở **NEU** — vì NEU chỉ
+   40/493 mẫu, dữ liệu lệch. Đây là hạn chế nhóm hiểu rõ, không giấu."
+6. **Tab 3 — Demo trực tiếp** (60s) — gõ vài review Hà Nội thật → model trả nhãn từng câu + tỷ lệ
+   pos/neg/neu cho địa điểm. "Đây là cách kết quả được dùng trong app du lịch thật."

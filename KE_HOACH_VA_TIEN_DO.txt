@@ -1,0 +1,147 @@
+===============================================================================
+  WISETRAVEL — KẾ HOẠCH & TIẾN ĐỘ (bản tóm tắt để nắm lại)
+  Cập nhật: 11/07/2026
+===============================================================================
+
+-------------------------------------------------------------------------------
+0. ĐỒ ÁN NÀY LÀ GÌ (nói 1 câu)
+-------------------------------------------------------------------------------
+Đây là một DEMO KỸ THUẬT chứng minh nhóm giải được "BÀI TOÁN DỮ LIỆU" cho app
+du lịch WiseTravel. KHÔNG phải app hoàn chỉnh.
+
+Có 2 bài toán con:
+  (1) Dữ liệu ĐỊA ĐIỂM   : thu thập 500 quán/khách sạn ở Hà Nội + tự đo chất lượng.
+  (2) Dữ liệu CẢM XÚC    : gán nhãn review + chọn model AI đọc cảm xúc tiếng Việt.
+
+Điểm nhấn để bảo vệ: nhóm KHÔNG chỉ thu thập dữ liệu rồi tin, mà TỰ ĐO ĐƯỢC
+chất lượng dữ liệu bằng con số (audit, Kappa, so sánh model).
+
+
+-------------------------------------------------------------------------------
+1. RÀNG BUỘC / CÔNG NGHỆ ĐÃ CHỐT
+-------------------------------------------------------------------------------
+- Ngôn ngữ: Python. Chạy local, tự chứa, không cần server.
+- Lưu trữ: SQLite (file data/wisetravel.db).
+- Nguồn địa điểm: OpenStreetMap qua Overpass API (MIỄN PHÍ, không cần key).
+- Google Places: ĐÃ BỎ (xem mục 5). Demo không phụ thuộc Google.
+- Model cảm xúc: lấy sẵn từ HuggingFace (KHÔNG tự train). Dùng ViSoBERT & PhoBERT.
+- Giao diện: Streamlit (file app.py).
+- Phạm vi: 12 quận nội thành Hà Nội, ~500 địa điểm.
+- Cách làm việc: chạy TỪNG PHASE, dừng cho bạn kiểm thử trước khi sang phase sau.
+
+
+-------------------------------------------------------------------------------
+2. KẾ HOẠCH TỔNG (3 PHASE)
+-------------------------------------------------------------------------------
+PHASE 1 — Pipeline dữ liệu địa điểm ................... ĐÃ XONG ✅
+PHASE 2 — Pipeline + đánh giá dữ liệu cảm xúc ......... ĐÃ XONG ✅
+PHASE 3 — Lập lộ trình (TSP có khung giờ) ............. TÙY CHỌN, CHƯA LÀM ⏳
++ Đóng gói app Streamlit gói toàn bộ bằng chứng ....... ĐÃ XONG ✅
+
+
+-------------------------------------------------------------------------------
+3. ĐÃ LÀM ĐƯỢC GÌ (chi tiết + KẾT QUẢ THẬT)
+-------------------------------------------------------------------------------
+
+## PHASE 1 — ĐỊA ĐIỂM (đã xong)
+- Lấy về 500 địa điểm thật từ OpenStreetMap, chia 4 loại:
+      Ăn uống 223 | Cà phê 148 | Lưu trú 95 | Tham quan 34
+- Chuẩn hóa, khử trùng lặp, lưu vào SQLite.
+- Giờ mở cửa ghi rõ NGUỒN (cột hours_source):
+      osm (thật) = 83 điểm (17%)   |   heuristic (đoán theo loại) = 417 (83%)
+      -> Minh bạch, không tô hồng. Chỉ nguồn thật mới đem đi đo độ chính xác.
+- ACCURACY AUDIT: nhóm tự kiểm tay 50 điểm ngẫu nhiên, đối chiếu Google Maps:
+      >>> Tọa độ đúng     : 64.0%  (32/50)
+      >>> Giờ mở cửa đúng : 47.9%  (23/48)
+  (Con số thấp là PHÁT HIỆN về giới hạn dữ liệu mở — điểm mạnh là ĐO ĐƯỢC.)
+- Sinh báo cáo: reports/quality_report.md + bản đồ reports/coverage_map.html
+
+## PHASE 2 — CẢM XÚC (đã xong)
+- Bạn + teammate đã gán nhãn 493 review thật (POS/NEG/NEU) với 2 người gán:
+      annotator1 (rà soát nhanh) + annotator2 (gán chính).
+- NHÃN CHỐT (gold) = annotator2  <-- theo đúng yêu cầu của bạn.
+      Phân bố nhãn chốt: POS 319 | NEG 134 | NEU 40  (lệch mạnh về POS).
+- ĐỘ ĐỒNG THUẬN 2 người gán (Cohen's Kappa):
+      >>> Kappa = 0.611  (mức "substantial" = tốt; đồng ý 78.8%)
+- SO SÁNH 2 MODEL trên tập gold:
+      >>> ViSoBERT       : accuracy 86.4% | macro-F1 0.723   <-- TỐT NHẤT
+      >>> PhoBERT(wonrax): accuracy 84.2% | macro-F1 0.656
+      Cả hai đều YẾU ở nhãn NEU (F1 ~0.40 / 0.26) vì NEU chỉ có 40/493 mẫu.
+- Sinh báo cáo: reports/kappa_result.md, reports/model_comparison.md,
+                reports/confusion_visobert.png, reports/confusion_phobert.png
+
+## APP STREAMLIT (đã xong) — file app.py, 3 tab:
+  Tab 1 "Dữ liệu địa điểm & Chất lượng": 500 POI, biểu đồ loại hình, giờ theo
+        nguồn, kết quả audit, bản đồ, ô tra cứu địa điểm.
+  Tab 2 "Gán nhãn & So sánh model": phân bố nhãn, Kappa, bảng ViSoBERT vs
+        PhoBERT, ma trận nhầm lẫn.
+  Tab 3 "Demo cảm xúc": gõ nhiều review -> model chấm nhãn từng câu + tỷ lệ.
+  (Đã kiểm thử tự động: app chạy 0 lỗi, hiển thị đúng số liệu thật.)
+
+
+-------------------------------------------------------------------------------
+4. CÁCH CHẠY LẠI (khi cần trình bày)
+-------------------------------------------------------------------------------
+# Cài 1 lần:
+    python -m venv .venv
+    .\.venv\Scripts\Activate.ps1
+    pip install -r requirements.txt
+
+# Mở app (đủ dữ liệu vì DB + gold đã có trên máy bạn):
+    streamlit run app.py
+
+# Nếu muốn tạo lại từ đầu (máy mới / clone mới), chạy lần lượt:
+    python scripts/01_fetch_pois.py        # lấy địa điểm OSM -> SQLite
+    python scripts/03_build_reports.py     # báo cáo chất lượng + bản đồ
+    python scripts/05_score_audit.py       # chấm điểm audit (cần file audit đã điền)
+    python scripts/08_compute_kappa.py     # tính Kappa
+    python scripts/09_eval_models.py       # so sánh model (tải model ~vài trăm MB)
+    python scripts/10_aggregate_reviews.py # demo gộp cảm xúc
+
+
+-------------------------------------------------------------------------------
+5. GOOGLE PLACES — TẠI SAO ĐÃ BỎ
+-------------------------------------------------------------------------------
+Đã thử tích hợp Google để làm giàu địa chỉ/giờ mở cửa. Bị chặn ở CẤP TỔ CHỨC:
+tài khoản Google thuộc org "Học viện BCVT" cấm dùng API key -> lỗi
+"PERMISSION_DENIED" dù đã bật billing + thẻ Visa hợp lệ. Sinh viên KHÔNG sửa được.
+=> Quyết định: BỎ Google. Demo chạy tốt bằng OSM + heuristic. Code Google vẫn để
+   sẵn trong repo (đã viết chuẩn Places API New), chạy được nếu sau này dùng tài
+   khoản Google CÁ NHÂN không thuộc tổ chức.
+LƯU Ý BẢO MẬT: API key KHÔNG bao giờ đưa qua trợ lý AI. Nếu cần chạy, bạn tự đặt
+   biến môi trường và tự chạy trên máy mình.
+
+
+-------------------------------------------------------------------------------
+6. LỊCH SỬ COMMIT (mới nhất ở trên) — GitHub: EdenfromWISE/DATN_001
+-------------------------------------------------------------------------------
+d5b72bd  App Streamlit 3 tab + README (kịch bản trình bày, số liệu thật)
+a4509dc  Hoàn tất gán nhãn 493 review + audit 50 địa điểm
+aef2b26  Quy trình gán nhãn cho cả nhóm (hướng dẫn teammate)
+7829dc4  Chuyển Google enrichment sang Places API (New)
+6a4b55e  Bảo mật: gitignore .env/*.key/credentials
+4b40c70  Làm giàu địa chỉ Google + business_status
+4375fd8  Seed review từ HF/CSV vào tập gold
+
+
+-------------------------------------------------------------------------------
+7. GHI CHÚ QUAN TRỌNG KHI BẢO VỆ TRƯỚC HỘI ĐỒNG
+-------------------------------------------------------------------------------
+- audit 64%/48%: nói đây là PHÁT HIỆN về giới hạn dữ liệu mở, điểm mạnh là ĐO
+  ĐƯỢC bằng công cụ, không nói suông.
+- NEU yếu ở cả 2 model: do dữ liệu lệch (chỉ 40 mẫu NEU). Là hạn chế nhóm HIỂU
+  RÕ, không giấu; muốn cải thiện thì gán thêm review NEU.
+- Kappa 0.611: annotator1 là rà soát nhanh, annotator2 là người gán chính. Trình
+  bày trung thực như vậy, ĐỪNG khẳng định 2 người gán hoàn toàn độc lập.
+
+
+-------------------------------------------------------------------------------
+8. VIỆC CÒN LẠI (tùy bạn quyết)
+-------------------------------------------------------------------------------
+[ ] Phase 3 (tùy chọn): lập lộ trình tham quan tối ưu có khung giờ (thuật toán TSP).
+[ ] Tinh chỉnh giao diện app cho đẹp hơn khi trình bày.
+[ ] Tập dượt kịch bản 5 phút (đã có sẵn trong README, mục "KỊCH BẢN TRÌNH BÀY").
+
+===============================================================================
+Hết. File này chỉ để bạn nắm lại — không ảnh hưởng code.
+===============================================================================
